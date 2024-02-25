@@ -1,0 +1,44 @@
+@page
+@model ProjectSWP392.Pages.AdminPage.EditCategory
+@{
+     Layout = "~/Pages/Shared/_Layout_EditCate.cshtml";
+}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+<div class="regist-page">
+    <div class="container">
+        <h2>@ViewData["Title"]</h2>
+        <form method="post" class="form-container">
+            <div class="form-group">
+                <label>CategoryID:</label>
+                <input asp-for="Edit.CategoryId" class="form-control" readonly />
+                <span asp-validation-for="Edit.CategoryId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label>CategoryName:</label>
+                <input asp-for="Edit.CategoryName" type="text" class="form-control" />
+                <span asp-validation-for="Edit.CategoryName" class="text-danger"></span>
+            </div>
+            <button type="submit" class="btn btn-success">Edit</button>
+        </form>
+    </div>
+</div>
+
+<style>
+    .regist-page .container {
+        max-width: 400px;
+        margin: auto;
+        margin-top: 50px;
+    }
+
+    .regist-page .form-container {
+        padding: 20px;
+        background-color: #f8f9fa;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        width: auto;
+    }
+</style>

@@ -1,0 +1,121 @@
+@page
+@model ProjectSWP392.Pages.ProductDetailPage.Productdetail
+@{
+    ViewData["Title"] = "Productdetail";
+      Layout = "~/Pages/Shared/_Layout_ProductDetail.cshtml";
+}
+@using Microsoft.AspNetCore.Http
+@using Microsoft.AspNetCore.Http.Extensions
+@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
+@{
+    int userid = 0;
+    if (HttpContextAccessor.HttpContext.Session.GetInt32("UserID") != null)
+    {
+        userid = (int)HttpContextAccessor.HttpContext.Session.GetInt32("UserID");
+    }
+}
+<div class="all-pro">
+<section id="services" class="services section-bg">
+   <div class="container-fluid">
+      <div class="row row-sm">
+         <div class="col-md-6 _boxzoom">
+            <div class="_product-images">
+               <div class="picZoomer">
+                  <img class="my_img" src="~/image/@Model.product.ProductImage" alt="">
+               </div>
+            </div>
+         </div>
+         <div class="col-md-6">
+            <div class="_product-detail-content">
+               <h1 class="_p-name"> @Model.product.ProductName </h1>
+               <div class="_p-price-box">
+                  <div class="p-list">
+                     <span class="price">$@Model.product.ProductPrice </span>
+                  </div>
+                    <div class="pro-list">
+                        <div class="ele-pro">
+                            <img src="~/image/chipset.svg" alt="">
+                            <p>@Model.product.ProductChipset</p>
+                        </div>
+                         <div class="ele-pro">
+                            <img src="~/image/storageinternal.svg" alt="">
+                            <p>@Model.product.ProductStorageInternal</p>
+                        </div>
+                         <div class="ele-pro">
+                            <img src="~/image/externalstorage.svg" alt="">
+                            <p>@Model.product.ProductStorageExternal</p>
+                        </div>
+                         <div class="ele-pro">
+                            <img src="~/image/batterycapacity.svg" alt="">
+                            <p>@Model.product.ProductBatteryCapacity</p>
+                        </div>
+                         <div class="ele-pro">
+                            <img src="~/image/selfiecamera.svg" alt="">
+                            <p>@Model.product.ProductSelfieCamera</p>
+                        </div>
+                         <div class="ele-pro">
+                            <img src="~/image/maincamera.svg" alt="">
+                            <p>@Model.product.ProductMainCamera</p>
+                        </div>
+                    </div>
+                  <form action="" method="post" accept-charset="utf-8">
+                     <ul class="spe_ul"></ul>
+                     <div class="_p-qty-and-cart">
+                        <div class="_p-add-cart">
+
+                           @if (@Model.product.ProductQuantity > 0)
+                                    {
+                                        if(userid ==0){
+                                    <div class="mt-2">
+                                        <a class="btn-cart" onclick="showLoginWarning()">Add to Cart</a>
+                                    </div>
+                                        }
+                                        else{
+                                        <div class="mt-2">
+                                      <a class="btn-cart" asp-page="/CartPage/Index"
+                                                asp-page-handler="AddToCart" asp-route-proid="@Model.product.ProductID"
+                                                asp-route-userid="@userid">Add to Cart</a>
+                                    </div>
+                                        }
+                                    
+                                    }else
+                                    {
+                                        <div class="mb-2 text-center">
+                                            <a class="btn add-to-cart text-light bg-danger">SOLD OUT</a>
+                                        </div>
+                                    }
+                        </div>
+                     </div>
+                  </form>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+ <div class="card">
+                <div class="container-fluid">
+                    <h3>Description</h3>
+                    <div class="row">
+                        <div class="col">
+                            @Model.product.ProductDetailDescription
+                        </div>
+                    </div>
+                </div>
+            </div>
+</div>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+<script>
+    function showLoginWarning() {
+        Swal.fire({
+            title: 'Warning!',
+            text: 'Please login to buy this!',
+            icon: 'warning'
+        }).then((result) => {
+                    if (result.isConfirmed) {
+                        window.location.href = '/AccountPage/Login';
+                    }
+                });
+    }
+</script>

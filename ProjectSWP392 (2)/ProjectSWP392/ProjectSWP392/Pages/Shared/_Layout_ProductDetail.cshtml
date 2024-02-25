@@ -1,0 +1,116 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - ProjectSWP392</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+      <link rel="stylesheet" href="~/css/prodetail.css" />
+    @using Microsoft.AspNetCore.Http
+    @using Microsoft.AspNetCore.Http.Extensions
+    @inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
+    <link href="https://fonts.cdnfonts.com/css/grand-cru" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head> 
+
+<body>
+    <header class="header-main">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm border-bottom box-shadow mb-3"
+            style="background-color: #746c6b;margin-bottom: 0rem!important;">
+            <div class="container item-container">
+                <div class="ele-container"></div>
+                <a class="navbar-brand text-light" asp-area="" asp-page="/Index"><img src="/image/Logo-epics.svg"
+                        alt=""></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <div class="navbar-nav flex-grow-1 justify-content-center"
+                        style="display: flex; list-style: none; padding: 0;">
+                        <div class="menu-center">
+                            <div class="nav-item">
+                                <a class="nav-link text-light" asp-area="" asp-page="/Index">Home</a>
+                            </div>
+                            <div class="nav-item">
+                                <a class="nav-link text-light" asp-area="" asp-page="./ProductPage/Index">Shop</a>
+                            </div>
+                            <div class="nav-item">
+                                <a class="nav-link text-light" asp-area="" asp-page="">About</a>
+                            </div>
+                        </div>
+                    </div>
+                    @if (HttpContextAccessor.HttpContext.Session.GetString("FullName") != null)
+                    {
+                        <div class="all-item">
+
+                            <div class="nav-item dropdown">
+                                <a style="width: 20rem;   text-align: center;"class="nav-link text-light dropdown-toggle" id="navbarDropdown" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Welcome, @HttpContextAccessor.HttpContext.Session.GetString("FullName")
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="">
+                                    <div class="menu-header">
+                                        <a class="dropdown-item" asp-area="" asp-page="/AccountPage/Profile">Profile</a>
+                                        @if (HttpContextAccessor.HttpContext.Session.GetString("Admin") == "True")
+                                        {
+                                            <a class="dropdown-item" asp-area="" asp-page="/AdminPage/DashBoard">Management</a>
+                                        }
+                                        <a class="dropdown-item" asp-area="" asp-page="/OrderPage/OrderHistory">History</a>
+                                        <a class="dropdown-item" asp-area="" asp-page="/AccountPage/Login">Logout</a>
+                                    </div>
+
+                                </div>
+                                <div class="nav-item  icon-cart" style="">
+                                    <a style=" color: black; display: flex; justify-content: center;" class="nav-link text-light" asp-area=""
+                                        asp-page="./CartPage/Index"><i class="fa-solid fa-cart-shopping mx-2"></i>
+                                         <span style=" font-size: 10px;top: 3.5rem;position: absolute;left: 10.5rem;border-radius: 1rem;background: red;color: white;width: auto;text-align: center;padding: 0.1rem;" class="cart-item-count" id="cartItemCount">1</span></a>
+                                </div>
+                            </div>
+                        </div>
+
+                    }
+                    else
+                    {
+                        <div class="nav-two-item">
+                            <div class="nav-item item1" style="">
+                                <a class="nav-link text-light" asp-area="" asp-page="/AccountPage/Login">Login</a>
+                            </div>
+                            <div class="nav-item item1">
+                                <a class="nav-link text-light" asp-area="" asp-page="/AccountPage/Register">Register</a>
+                            </div>
+                        </div>
+
+                    }
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container" style="    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem">
+     
+            @RenderBody()
+     
+    </div>
+
+    <footer class="border-top footer text-muted" style="background-color: #333;height: 4rem;">
+        <div class="container text-light" style="display: flex;  justify-content: center;">
+     <img style="    width: 11rem;" src="/image/Logo-epics.svg"
+                        alt="">
+        </div>
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/js/prodetail.js" asp-append-version="true"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+.card {
+    border: none;
+    width: 31rem;
+    margin-left: 12rem;
+    margin-top: 5rem;
+}
+.btn-list1{
+    display: flex;
+    flex-direction: row;
+    gap: 8rem;
+    padding: 0.5rem;
+}
+
+.btn-list2 {
+    display: flex;
+    flex-direction: row;
+    gap: 12rem;
+    padding: 0.5rem;
+}
+.pb-5, .py-5 {
+    padding-bottom: 2rem!important;
+}
+
+.pt-5, .py-5 {
+    padding-top: 2rem!important;
+}
+
+.btn-secondary {
+    color: #fff;
+    background-color: #746c6b;
+    width: 8rem;
+    border-color: #746c6b;
+    border-radius: 2rem;
+    font-weight: 700;
+}
+input#exampleCheck1 {
+    margin-top: 0.5rem;
+}
+.card-body1.py-5.px-md-5 {
+    box-shadow: 15px 16px 9px rgba(116, 108, 107, 0.2);
+}
+
+body.swal2-shown.swal2-height-auto {
+    height: 97.8vh!important;
+}

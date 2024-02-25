@@ -1,0 +1,65 @@
+2024-02-26 00:06:52.981 +07:00 [INF] User profile is available. Using 'C:\Users\Joysing\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-02-26 00:06:53.112 +07:00 [INF] Creating key {6a501aba-919a-48c4-a89b-2ec080561627} with creation date 2024-02-25 17:06:53Z, activation date 2024-02-25 17:06:53Z, and expiration date 2024-05-25 17:06:53Z.
+2024-02-26 00:06:53.136 +07:00 [INF] Writing data to file 'C:\Users\Joysing\AppData\Local\ASP.NET\DataProtection-Keys\key-6a501aba-919a-48c4-a89b-2ec080561627.xml'.
+2024-02-26 00:06:53.324 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-26 00:06:53.328 +07:00 [INF] Hosting environment: Development
+2024-02-26 00:06:53.331 +07:00 [INF] Content root path: C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392
+2024-02-26 00:06:53.359 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44307/ - -
+2024-02-26 00:06:53.466 +07:00 [INF] Executing endpoint '/Index'
+2024-02-26 00:06:53.563 +07:00 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2024-02-26 00:06:53.757 +07:00 [INF] Executing handler method ProjectSWP392.Pages.IndexModel.OnGet - ModelState is "Valid"
+2024-02-26 00:06:54.402 +07:00 [INF] Entity Framework Core 5.0.17 initialized 'DBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2024-02-26 00:06:55.114 +07:00 [INF] Executed DbCommand (49ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ProductID], [p].[CategoryID], [p].[ProductBatteryCapacity], [p].[ProductChipset], [p].[ProductDetailDescription], [p].[ProductImage], [p].[ProductMainCamera], [p].[ProductName], [p].[ProductPrice], [p].[ProductQuantity], [p].[ProductSelfieCamera], [p].[ProductStatus], [p].[ProductStorageExternal], [p].[ProductStorageInternal]
+FROM [Products] AS [p]
+WHERE [p].[ProductStatus] = N'1'
+2024-02-26 00:06:55.215 +07:00 [INF] Executed handler method OnGet, returned result .
+2024-02-26 00:06:55.220 +07:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-02-26 00:06:55.221 +07:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-02-26 00:06:55.503 +07:00 [INF] Executed page /Index in 1932.7332ms
+2024-02-26 00:06:55.505 +07:00 [INF] Executed endpoint '/Index'
+2024-02-26 00:06:55.553 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44307/lib/bootstrap/dist/css/bootstrap.min.css - -
+2024-02-26 00:06:55.558 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44307/ - - - 200 - text/html;+charset=utf-8 2201.1452ms
+2024-02-26 00:06:55.602 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44307/css/site.css - -
+2024-02-26 00:06:55.616 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44307/image/Logo-epics.svg - -
+2024-02-26 00:06:55.640 +07:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\wwwroot\css\site.css'
+2024-02-26 00:06:55.652 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44307/css/site.css - - - 200 8784 text/css 49.9610ms
+2024-02-26 00:06:55.655 +07:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2024-02-26 00:06:55.658 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44307/lib/bootstrap/dist/css/bootstrap.min.css - - - 200 155764 text/css 105.4619ms
+2024-02-26 00:06:55.685 +07:00 [INF] Sending file. Request path: '/image/Logo-epics.svg'. Physical path: 'C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\wwwroot\image\Logo-epics.svg'
+2024-02-26 00:06:55.686 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44307/image/Logo-epics.svg - - - 200 37622 image/svg+xml 70.0699ms
+2024-02-26 00:06:55.899 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44307/lib/bootstrap/dist/js/script.js - -
+2024-02-26 00:06:55.899 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44307/image/sss.png - -
+2024-02-26 00:06:55.900 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44307/lib/jquery/dist/jquery.min.js - -
+2024-02-26 00:06:55.901 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44307/lib/bootstrap/dist/js/bootstrap.bundle.min.js - -
+2024-02-26 00:06:55.903 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44307/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - -
+2024-02-26 00:06:55.906 +07:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\wwwroot\js\site.js'
+2024-02-26 00:06:55.912 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44307/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - - 200 230 application/javascript 9.1159ms
+2024-02-26 00:06:55.914 +07:00 [INF] Sending file. Request path: '/image/sss.png'. Physical path: 'C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\wwwroot\image\sss.png'
+2024-02-26 00:06:55.915 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44307/image/sss.png - - - 200 44806 image/png 16.7530ms
+2024-02-26 00:06:55.923 +07:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/script.js'. Physical path: 'C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\wwwroot\lib\bootstrap\dist\js\script.js'
+2024-02-26 00:06:55.924 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44307/lib/bootstrap/dist/js/script.js - - - 200 357 application/javascript 25.2488ms
+2024-02-26 00:06:55.967 +07:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2024-02-26 00:06:55.969 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44307/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - - 200 78641 application/javascript 67.6925ms
+2024-02-26 00:06:55.978 +07:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\wwwroot\lib\jquery\dist\jquery.min.js'
+2024-02-26 00:06:55.980 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44307/lib/jquery/dist/jquery.min.js - - - 200 89476 application/javascript 80.2128ms
+2024-02-26 00:06:55.983 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44307/_vs/browserLink - -
+2024-02-26 00:06:56.019 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44307/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 36.4693ms
+2024-02-26 00:06:56.243 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44307/image/samsungs23.svg - -
+2024-02-26 00:06:56.243 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44307/image/fold5.svg - -
+2024-02-26 00:06:56.244 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44307/image/Iphone15.svg - -
+2024-02-26 00:06:56.271 +07:00 [INF] Sending file. Request path: '/image/samsungs23.svg'. Physical path: 'C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\wwwroot\image\samsungs23.svg'
+2024-02-26 00:06:56.272 +07:00 [INF] Sending file. Request path: '/image/fold5.svg'. Physical path: 'C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\wwwroot\image\fold5.svg'
+2024-02-26 00:06:56.275 +07:00 [INF] Sending file. Request path: '/image/Iphone15.svg'. Physical path: 'C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\wwwroot\image\Iphone15.svg'
+2024-02-26 00:06:56.282 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44307/image/samsungs23.svg - - - 200 1296786 image/svg+xml 38.2992ms
+2024-02-26 00:06:56.283 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44307/image/realme.svg - -
+2024-02-26 00:06:56.283 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44307/image/vivo.svg - -
+2024-02-26 00:06:56.300 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44307/image/fold5.svg - - - 200 1618960 image/svg+xml 55.6935ms
+2024-02-26 00:06:56.313 +07:00 [INF] Sending file. Request path: '/image/vivo.svg'. Physical path: 'C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\wwwroot\image\vivo.svg'
+2024-02-26 00:06:56.318 +07:00 [INF] Sending file. Request path: '/image/realme.svg'. Physical path: 'C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\wwwroot\image\realme.svg'
+2024-02-26 00:06:56.318 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44307/image/Iphone15.svg - - - 200 2325023 image/svg+xml 74.4330ms
+2024-02-26 00:06:56.332 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44307/image/vivo.svg - - - 200 2265723 image/svg+xml 48.5627ms
+2024-02-26 00:06:56.336 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44307/image/realme.svg - - - 200 2633131 image/svg+xml 52.1773ms
+2024-02-26 00:06:58.184 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44307/favicon.ico - -
+2024-02-26 00:06:58.202 +07:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\wwwroot\favicon.ico'
+2024-02-26 00:06:58.202 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44307/favicon.ico - - - 200 5430 image/x-icon 17.8603ms

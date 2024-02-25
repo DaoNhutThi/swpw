@@ -1,0 +1,62 @@
+.all-editPro {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: center;
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.Edit-page .container {
+    max-width: 1122px !important;
+    margin: auto;
+    margin-top: 50px;
+}
+.Edit-page .form-container {
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 70rem !important;
+}
+.form-group {
+    margin-bottom: 1rem;
+    width: 22rem;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 1.25rem !important;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+}
+
+nav.navbar.navbar-expand-sm.navbar-toggleable-sm.border-bottom.box-shadow.mb-3 {
+    background: linear-gradient(to right, #746c6b, #ffffff);
+    background-size: 200% 100%;
+    animation: backgroundAnimation 10s infinite linear;
+    padding-left: 8rem;
+    padding-right: 7rem;
+}
+td {
+    text-align: center;
+}
+th.sorting {
+    text-align: center !important;
+}

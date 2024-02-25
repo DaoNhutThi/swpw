@@ -1,0 +1,1167 @@
+D:\C#\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.csproj.AssemblyReference.cache
+D:\C#\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.AssemblyInfoInputs.cache
+D:\C#\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.AssemblyInfo.cs
+D:\C#\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.csproj.CoreCompileInputs.cache
+D:\C#\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.MvcApplicationPartsAssemblyInfo.cache
+D:\C#\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.RazorAssemblyInfo.cache
+D:\C#\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.RazorAssemblyInfo.cs
+D:\C#\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\appsettings.Development.json
+D:\C#\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\appsettings.json
+D:\C#\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\ProjectSWP392.exe
+D:\C#\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\ProjectSWP392.deps.json
+D:\C#\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\ProjectSWP392.runtimeconfig.json
+D:\C#\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\ProjectSWP392.runtimeconfig.dev.json
+D:\C#\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\ProjectSWP392.dll
+D:\C#\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\ref\ProjectSWP392.dll
+D:\C#\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\ProjectSWP392.pdb
+D:\C#\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\ProjectSWP392.Views.dll
+D:\C#\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\ProjectSWP392.Views.pdb
+D:\C#\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Humanizer.dll
+D:\C#\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+D:\C#\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+D:\C#\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\C#\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\C#\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\C#\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\C#\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+D:\C#\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+D:\C#\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\C#\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+D:\C#\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+D:\C#\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\C#\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+D:\C#\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Newtonsoft.Json.dll
+D:\C#\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+D:\C#\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+D:\C#\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+D:\C#\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\System.Runtime.Caching.dll
+D:\C#\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+D:\C#\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\C#\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\C#\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\C#\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\C#\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\C#\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\C#\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\C#\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\C#\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\C#\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\C#\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\C#\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\C#\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\staticwebassets\ProjectSWP392.StaticWebAssets.Manifest.cache
+D:\C#\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\staticwebassets\ProjectSWP392.StaticWebAssets.xml
+D:\C#\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\scopedcss\bundle\ProjectSWP392.styles.css
+D:\C#\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.TagHelpers.input.cache
+D:\C#\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.TagHelpers.output.cache
+D:\C#\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.RazorCoreGenerate.cache
+D:\C#\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Error.cshtml.g.cs
+D:\C#\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Index.cshtml.g.cs
+D:\C#\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Privacy.cshtml.g.cs
+D:\C#\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Shared\_Layout.cshtml.g.cs
+D:\C#\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\C#\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\_ViewImports.cshtml.g.cs
+D:\C#\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\_ViewStart.cshtml.g.cs
+D:\C#\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.RazorTargetAssemblyInfo.cache
+D:\C#\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.RazorTargetAssemblyInfo.cs
+D:\C#\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.Views.pdb
+D:\C#\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.csproj.CopyComplete
+D:\C#\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.dll
+D:\C#\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ref\ProjectSWP392.dll
+D:\C#\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.pdb
+D:\C#\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.genruntimeconfig.cache
+D:\C#\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\ProductPage\Index.cshtml.g.cs
+D:\C#\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AccountPage\Login.cshtml.g.cs
+D:\C#\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Shared\_Layout_Home.cshtml.g.cs
+D:\C#\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\BusinessObject.dll
+D:\C#\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\DataAccess.dll
+D:\C#\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\BusinessObject.pdb
+D:\C#\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\DataAccess.pdb
+D:\C#\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Repository.dll
+D:\C#\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Repository.pdb
+D:\C#\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AccountPage\Register.cshtml.g.cs
+D:\C#\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\C#\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.Extensions.Logging.dll
+D:\C#\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\C#\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+D:\C#\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+D:\C#\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Serilog.dll
+D:\C#\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Serilog.Extensions.Logging.dll
+D:\C#\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Serilog.Sinks.Console.dll
+D:\C#\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Serilog.Sinks.File.dll
+D:\C#\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+D:\C#\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Shared\_Layout_Product.cshtml.g.cs
+D:\C#\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\CartPage\Index.cshtml.g.cs
+D:\C#\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\BouncyCastle.Cryptography.dll
+D:\C#\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\MailKit.dll
+D:\C#\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\MimeKit.dll
+D:\C#\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\System.Formats.Asn1.dll
+D:\C#\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\System.Security.Cryptography.Pkcs.dll
+D:\C#\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\System.Text.Encoding.CodePages.dll
+D:\C#\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\OrderPage\CheckOut.cshtml.g.cs
+D:\C#\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\OrderPage\OrderHistory.cshtml.g.cs
+D:\C#\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Shared\_Layout_OrderHistory.cshtml.g.cs
+D:\C#\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\OrderPage\OrderDetailHistory.cshtml.g.cs
+D:\C#\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\DashBoard.cshtml.g.cs
+D:\C#\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Shared\_Layout_Admin.cshtml.g.cs
+D:\C#\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\AccountManagement.cshtml.g.cs
+D:\C#\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\CategoryManagement.cshtml.g.cs
+D:\C#\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\OrderManagement.cshtml.g.cs
+D:\C#\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\OrderDetailAdmin.cshtml.g.cs
+D:\C#\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\AddCategory.cshtml.g.cs
+D:\C#\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\EditCategory.cshtml.g.cs
+D:\C#\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\DeleteCategory.cshtml.g.cs
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\appsettings.json
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\ProjectSWP392.exe
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\ProjectSWP392.deps.json
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\ProjectSWP392.runtimeconfig.json
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\ProjectSWP392.runtimeconfig.dev.json
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\ProjectSWP392.dll
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\ref\ProjectSWP392.dll
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\ProjectSWP392.pdb
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\ProjectSWP392.Views.dll
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\ProjectSWP392.Views.pdb
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\BouncyCastle.Cryptography.dll
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Humanizer.dll
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\MailKit.dll
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.Extensions.Logging.dll
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\MimeKit.dll
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Serilog.dll
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Serilog.Extensions.Logging.dll
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Serilog.Sinks.Console.dll
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Serilog.Sinks.File.dll
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\System.Formats.Asn1.dll
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\System.Text.Encoding.CodePages.dll
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\BusinessObject.dll
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\DataAccess.dll
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Repository.dll
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\BusinessObject.pdb
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\DataAccess.pdb
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Repository.pdb
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.csproj.AssemblyReference.cache
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.AssemblyInfoInputs.cache
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.AssemblyInfo.cs
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.csproj.CoreCompileInputs.cache
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.RazorAssemblyInfo.cache
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.RazorAssemblyInfo.cs
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\staticwebassets\ProjectSWP392.StaticWebAssets.Manifest.cache
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\staticwebassets\ProjectSWP392.StaticWebAssets.xml
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\scopedcss\bundle\ProjectSWP392.styles.css
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.TagHelpers.input.cache
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.TagHelpers.output.cache
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.RazorCoreGenerate.cache
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AccountPage\Login.cshtml.g.cs
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AccountPage\Register.cshtml.g.cs
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\AccountManagement.cshtml.g.cs
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\AddCategory.cshtml.g.cs
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\CategoryManagement.cshtml.g.cs
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\DashBoard.cshtml.g.cs
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\DeleteCategory.cshtml.g.cs
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\EditCategory.cshtml.g.cs
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\OrderDetailAdmin.cshtml.g.cs
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\OrderManagement.cshtml.g.cs
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\CartPage\Index.cshtml.g.cs
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Error.cshtml.g.cs
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Index.cshtml.g.cs
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\OrderPage\CheckOut.cshtml.g.cs
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\OrderPage\OrderDetailHistory.cshtml.g.cs
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\OrderPage\OrderHistory.cshtml.g.cs
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Privacy.cshtml.g.cs
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\ProductPage\Index.cshtml.g.cs
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Shared\_Layout.cshtml.g.cs
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Shared\_Layout_Admin.cshtml.g.cs
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Shared\_Layout_Home.cshtml.g.cs
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Shared\_Layout_OrderHistory.cshtml.g.cs
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Shared\_Layout_Product.cshtml.g.cs
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\_ViewImports.cshtml.g.cs
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\_ViewStart.cshtml.g.cs
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.RazorTargetAssemblyInfo.cache
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.RazorTargetAssemblyInfo.cs
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.Views.pdb
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.csproj.CopyComplete
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.dll
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ref\ProjectSWP392.dll
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.pdb
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.genruntimeconfig.cache
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\ProductManagement.cshtml.g.cs
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\AddProduct.cshtml.g.cs
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\DeleteProduct.cshtml.g.cs
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\EditProduct.cshtml.g.cs
+C:\Users\Public\SWP391\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\DetailsProduct.cshtml.g.cs
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\appsettings.json
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\ProjectSWP392.exe
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\ProjectSWP392.deps.json
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\ProjectSWP392.runtimeconfig.json
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\ProjectSWP392.runtimeconfig.dev.json
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\ProjectSWP392.dll
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\ref\ProjectSWP392.dll
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\ProjectSWP392.pdb
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\ProjectSWP392.Views.dll
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\ProjectSWP392.Views.pdb
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\BouncyCastle.Cryptography.dll
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Humanizer.dll
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\MailKit.dll
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.Extensions.Logging.dll
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\MimeKit.dll
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Serilog.dll
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Serilog.Extensions.Logging.dll
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Serilog.Sinks.Console.dll
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Serilog.Sinks.File.dll
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\System.Formats.Asn1.dll
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\System.Text.Encoding.CodePages.dll
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\BusinessObject.dll
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\DataAccess.dll
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Repository.dll
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\BusinessObject.pdb
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\DataAccess.pdb
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Repository.pdb
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.csproj.AssemblyReference.cache
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.AssemblyInfoInputs.cache
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.AssemblyInfo.cs
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.RazorAssemblyInfo.cache
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.RazorAssemblyInfo.cs
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\staticwebassets\ProjectSWP392.StaticWebAssets.Manifest.cache
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\staticwebassets\ProjectSWP392.StaticWebAssets.xml
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\scopedcss\bundle\ProjectSWP392.styles.css
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.TagHelpers.input.cache
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.TagHelpers.output.cache
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.RazorCoreGenerate.cache
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AccountPage\Login.cshtml.g.cs
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AccountPage\Register.cshtml.g.cs
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\AccountManagement.cshtml.g.cs
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\AddCategory.cshtml.g.cs
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\AddProduct.cshtml.g.cs
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\CategoryManagement.cshtml.g.cs
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\DashBoard.cshtml.g.cs
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\DeleteCategory.cshtml.g.cs
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\DeleteProduct.cshtml.g.cs
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\DetailsProduct.cshtml.g.cs
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\EditCategory.cshtml.g.cs
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\EditProduct.cshtml.g.cs
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\OrderDetailAdmin.cshtml.g.cs
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\OrderManagement.cshtml.g.cs
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\ProductManagement.cshtml.g.cs
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\CartPage\Index.cshtml.g.cs
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Error.cshtml.g.cs
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Index.cshtml.g.cs
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\OrderPage\CheckOut.cshtml.g.cs
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\OrderPage\OrderDetailHistory.cshtml.g.cs
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\OrderPage\OrderHistory.cshtml.g.cs
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Privacy.cshtml.g.cs
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\ProductPage\Index.cshtml.g.cs
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Shared\_Layout.cshtml.g.cs
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Shared\_Layout_Admin.cshtml.g.cs
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Shared\_Layout_Home.cshtml.g.cs
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Shared\_Layout_OrderHistory.cshtml.g.cs
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Shared\_Layout_Product.cshtml.g.cs
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\_ViewImports.cshtml.g.cs
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\_ViewStart.cshtml.g.cs
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.RazorTargetAssemblyInfo.cache
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.RazorTargetAssemblyInfo.cs
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.Views.pdb
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.csproj.CopyComplete
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.dll
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ref\ProjectSWP392.dll
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.pdb
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.genruntimeconfig.cache
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\ConfirmOrder.cshtml.g.cs
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\BanAcc.cshtml.g.cs
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\ChangePermission.cshtml.g.cs
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AccountPage\Verified.cshtml.g.cs
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AccountPage\ForgotPassword.cshtml.g.cs
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AccountPage\Profile.cshtml.g.cs
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\Chart.cshtml.g.cs
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\appsettings.json
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\ProjectSWP392.exe
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\ProjectSWP392.deps.json
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\ProjectSWP392.runtimeconfig.json
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\ProjectSWP392.runtimeconfig.dev.json
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\ProjectSWP392.dll
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\ref\ProjectSWP392.dll
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\ProjectSWP392.pdb
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\ProjectSWP392.Views.dll
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\ProjectSWP392.Views.pdb
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\BouncyCastle.Cryptography.dll
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Humanizer.dll
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\MailKit.dll
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.Extensions.Logging.dll
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\MimeKit.dll
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Serilog.dll
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Serilog.Extensions.Logging.dll
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Serilog.Sinks.Console.dll
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Serilog.Sinks.File.dll
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\System.Formats.Asn1.dll
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\System.Text.Encoding.CodePages.dll
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\BusinessObject.dll
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\DataAccess.dll
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Repository.dll
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\BusinessObject.pdb
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\DataAccess.pdb
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Repository.pdb
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.csproj.AssemblyReference.cache
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.AssemblyInfoInputs.cache
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.AssemblyInfo.cs
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.csproj.CoreCompileInputs.cache
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.RazorAssemblyInfo.cache
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.RazorAssemblyInfo.cs
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\staticwebassets\ProjectSWP392.StaticWebAssets.Manifest.cache
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\staticwebassets\ProjectSWP392.StaticWebAssets.xml
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\scopedcss\bundle\ProjectSWP392.styles.css
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.TagHelpers.input.cache
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.TagHelpers.output.cache
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.RazorCoreGenerate.cache
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AccountPage\ForgotPassword.cshtml.g.cs
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AccountPage\Login.cshtml.g.cs
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AccountPage\Profile.cshtml.g.cs
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AccountPage\Register.cshtml.g.cs
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AccountPage\Verified.cshtml.g.cs
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\AccountManagement.cshtml.g.cs
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\AddCategory.cshtml.g.cs
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\AddProduct.cshtml.g.cs
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\BanAcc.cshtml.g.cs
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\CategoryManagement.cshtml.g.cs
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\ChangePermission.cshtml.g.cs
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\Chart.cshtml.g.cs
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\ConfirmOrder.cshtml.g.cs
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\DashBoard.cshtml.g.cs
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\DeleteCategory.cshtml.g.cs
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\DeleteProduct.cshtml.g.cs
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\DetailsProduct.cshtml.g.cs
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\EditCategory.cshtml.g.cs
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\EditProduct.cshtml.g.cs
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\OrderDetailAdmin.cshtml.g.cs
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\OrderManagement.cshtml.g.cs
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\ProductManagement.cshtml.g.cs
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\CartPage\Index.cshtml.g.cs
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Error.cshtml.g.cs
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Index.cshtml.g.cs
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\OrderPage\CheckOut.cshtml.g.cs
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\OrderPage\OrderDetailHistory.cshtml.g.cs
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\OrderPage\OrderHistory.cshtml.g.cs
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Privacy.cshtml.g.cs
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\ProductPage\Index.cshtml.g.cs
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Shared\_Layout.cshtml.g.cs
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Shared\_Layout_Admin.cshtml.g.cs
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Shared\_Layout_Home.cshtml.g.cs
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Shared\_Layout_OrderHistory.cshtml.g.cs
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Shared\_Layout_Product.cshtml.g.cs
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\_ViewImports.cshtml.g.cs
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\_ViewStart.cshtml.g.cs
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.RazorTargetAssemblyInfo.cache
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.RazorTargetAssemblyInfo.cs
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.Views.pdb
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.csproj.CopyComplete
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.dll
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ref\ProjectSWP392.dll
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.pdb
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.genruntimeconfig.cache
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Shared\_Layout_copy.cshtml.g.cs
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\appsettings.json
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\ProjectSWP392.exe
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\ProjectSWP392.deps.json
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\ProjectSWP392.runtimeconfig.json
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\ProjectSWP392.runtimeconfig.dev.json
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\ProjectSWP392.dll
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\ref\ProjectSWP392.dll
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\ProjectSWP392.pdb
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\ProjectSWP392.Views.dll
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\ProjectSWP392.Views.pdb
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\BouncyCastle.Cryptography.dll
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Humanizer.dll
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\MailKit.dll
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.Extensions.Logging.dll
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\MimeKit.dll
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Serilog.dll
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Serilog.Extensions.Logging.dll
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Serilog.Sinks.Console.dll
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Serilog.Sinks.File.dll
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\System.Formats.Asn1.dll
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\System.Text.Encoding.CodePages.dll
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\BusinessObject.dll
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\DataAccess.dll
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Repository.dll
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\BusinessObject.pdb
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\DataAccess.pdb
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Repository.pdb
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.csproj.AssemblyReference.cache
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.AssemblyInfoInputs.cache
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.AssemblyInfo.cs
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.csproj.CoreCompileInputs.cache
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.RazorAssemblyInfo.cache
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.RazorAssemblyInfo.cs
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\staticwebassets\ProjectSWP392.StaticWebAssets.Manifest.cache
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\staticwebassets\ProjectSWP392.StaticWebAssets.xml
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\scopedcss\bundle\ProjectSWP392.styles.css
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.TagHelpers.input.cache
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.TagHelpers.output.cache
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.RazorCoreGenerate.cache
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AccountPage\ForgotPassword.cshtml.g.cs
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AccountPage\Login.cshtml.g.cs
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AccountPage\Profile.cshtml.g.cs
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AccountPage\Register.cshtml.g.cs
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AccountPage\Verified.cshtml.g.cs
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\AccountManagement.cshtml.g.cs
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\AddCategory.cshtml.g.cs
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\AddProduct.cshtml.g.cs
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\BanAcc.cshtml.g.cs
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\CategoryManagement.cshtml.g.cs
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\ChangePermission.cshtml.g.cs
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\Chart.cshtml.g.cs
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\ConfirmOrder.cshtml.g.cs
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\DashBoard.cshtml.g.cs
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\DeleteCategory.cshtml.g.cs
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\DeleteProduct.cshtml.g.cs
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\DetailsProduct.cshtml.g.cs
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\EditCategory.cshtml.g.cs
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\EditProduct.cshtml.g.cs
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\OrderDetailAdmin.cshtml.g.cs
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\OrderManagement.cshtml.g.cs
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\ProductManagement.cshtml.g.cs
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\CartPage\Index.cshtml.g.cs
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Error.cshtml.g.cs
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Index.cshtml.g.cs
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\OrderPage\CheckOut.cshtml.g.cs
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\OrderPage\OrderDetailHistory.cshtml.g.cs
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\OrderPage\OrderHistory.cshtml.g.cs
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Privacy.cshtml.g.cs
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\ProductPage\Index.cshtml.g.cs
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Shared\_Layout.cshtml.g.cs
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Shared\_Layout_Admin.cshtml.g.cs
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Shared\_Layout_copy.cshtml.g.cs
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Shared\_Layout_Home.cshtml.g.cs
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Shared\_Layout_OrderHistory.cshtml.g.cs
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Shared\_Layout_Product.cshtml.g.cs
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\_ViewImports.cshtml.g.cs
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\_ViewStart.cshtml.g.cs
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.RazorTargetAssemblyInfo.cache
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.RazorTargetAssemblyInfo.cs
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.Views.pdb
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.csproj.CopyComplete
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.dll
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ref\ProjectSWP392.dll
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.pdb
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.genruntimeconfig.cache
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AccountPage\EditProfile.cshtml.g.cs
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\changePass.cshtml.g.cs
+C:\Users\LT028\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AccountPage\changePass.cshtml.g.cs
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.dll
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.pdb
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\appsettings.json
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\ProjectSWP392.exe
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\ProjectSWP392.deps.json
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\ProjectSWP392.runtimeconfig.json
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\ProjectSWP392.runtimeconfig.dev.json
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\ProjectSWP392.dll
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\ProjectSWP392.pdb
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\ProjectSWP392.Views.dll
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\ProjectSWP392.Views.pdb
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\BouncyCastle.Cryptography.dll
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Humanizer.dll
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\MailKit.dll
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.Extensions.Logging.dll
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\MimeKit.dll
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Serilog.dll
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Serilog.Extensions.Logging.dll
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Serilog.Sinks.Console.dll
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Serilog.Sinks.File.dll
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\System.Formats.Asn1.dll
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\System.Text.Encoding.CodePages.dll
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\BusinessObject.dll
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\DataAccess.dll
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Repository.dll
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\BusinessObject.pdb
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\DataAccess.pdb
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Repository.pdb
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.csproj.AssemblyReference.cache
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.AssemblyInfoInputs.cache
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.AssemblyInfo.cs
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.RazorAssemblyInfo.cache
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.RazorAssemblyInfo.cs
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.TagHelpers.input.cache
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.TagHelpers.output.cache
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.RazorCoreGenerate.cache
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\changePass.cshtml.g.cs
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AccountPage\changePass.cshtml.g.cs
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AccountPage\EditProfile.cshtml.g.cs
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AccountPage\ForgotPassword.cshtml.g.cs
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AccountPage\Login.cshtml.g.cs
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AccountPage\Profile.cshtml.g.cs
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AccountPage\Register.cshtml.g.cs
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AccountPage\Verified.cshtml.g.cs
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\AccountManagement.cshtml.g.cs
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\AddCategory.cshtml.g.cs
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\AddProduct.cshtml.g.cs
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\BanAcc.cshtml.g.cs
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\CategoryManagement.cshtml.g.cs
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\ChangePermission.cshtml.g.cs
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\Chart.cshtml.g.cs
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\ConfirmOrder.cshtml.g.cs
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\DashBoard.cshtml.g.cs
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\DeleteCategory.cshtml.g.cs
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\DeleteProduct.cshtml.g.cs
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\DetailsProduct.cshtml.g.cs
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\EditCategory.cshtml.g.cs
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\EditProduct.cshtml.g.cs
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\OrderDetailAdmin.cshtml.g.cs
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\OrderManagement.cshtml.g.cs
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\ProductManagement.cshtml.g.cs
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\CartPage\Index.cshtml.g.cs
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Error.cshtml.g.cs
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Index.cshtml.g.cs
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\OrderPage\CheckOut.cshtml.g.cs
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\OrderPage\OrderDetailHistory.cshtml.g.cs
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\OrderPage\OrderHistory.cshtml.g.cs
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Privacy.cshtml.g.cs
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\ProductPage\Index.cshtml.g.cs
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Shared\_Layout.cshtml.g.cs
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Shared\_Layout_Admin.cshtml.g.cs
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Shared\_Layout_copy.cshtml.g.cs
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Shared\_Layout_Home.cshtml.g.cs
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Shared\_Layout_OrderHistory.cshtml.g.cs
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Shared\_Layout_Product.cshtml.g.cs
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\_ViewImports.cshtml.g.cs
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\_ViewStart.cshtml.g.cs
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.RazorTargetAssemblyInfo.cache
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.RazorTargetAssemblyInfo.cs
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.Views.pdb
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\scopedcss\bundle\ProjectSWP392.styles.css
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\staticwebassets\ProjectSWP392.StaticWebAssets.Manifest.cache
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.csproj.CopyComplete
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.genruntimeconfig.cache
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ref\ProjectSWP392.dll
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\ref\ProjectSWP392.dll
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\staticwebassets\ProjectSWP392.StaticWebAssets.xml
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\ProductDetailPage\Productdetail.cshtml.g.cs
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Shared\_Layout_ProductDetail.cshtml.g.cs
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Shared\_Layout_Editprofile.cshtml.g.cs
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Shared\_Layout_Changepass.cshtml.g.cs
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Shared\_Layout_OrderHistory2.cshtml.g.cs
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Shared\_Layout_EditProduct.cshtml.g.cs
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Shared\_Layout_DetailProduct.cshtml.g.cs
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Shared\_Layout_CreateProduct.cshtml.g.cs
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Shared\_Layout_CreateCate.cshtml.g.cs
+C:\Users\Admin\Downloads\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Shared\_Layout_EditCate.cshtml.g.cs
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\appsettings.json
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\ProjectSWP392.exe
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\ProjectSWP392.deps.json
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\ProjectSWP392.runtimeconfig.json
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\ProjectSWP392.runtimeconfig.dev.json
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\ProjectSWP392.dll
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\ref\ProjectSWP392.dll
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\ProjectSWP392.pdb
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\ProjectSWP392.Views.dll
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\ProjectSWP392.Views.pdb
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\BouncyCastle.Cryptography.dll
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Humanizer.dll
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\MailKit.dll
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.Extensions.Logging.dll
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\MimeKit.dll
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Serilog.dll
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Serilog.Extensions.Logging.dll
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Serilog.Sinks.Console.dll
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Serilog.Sinks.File.dll
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\System.Formats.Asn1.dll
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\System.Text.Encoding.CodePages.dll
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\BusinessObject.dll
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\DataAccess.dll
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Repository.dll
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\BusinessObject.pdb
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\DataAccess.pdb
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Repository.pdb
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.csproj.AssemblyReference.cache
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.AssemblyInfoInputs.cache
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.AssemblyInfo.cs
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.csproj.CoreCompileInputs.cache
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.RazorAssemblyInfo.cache
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.RazorAssemblyInfo.cs
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\staticwebassets\ProjectSWP392.StaticWebAssets.Manifest.cache
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\staticwebassets\ProjectSWP392.StaticWebAssets.xml
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\scopedcss\bundle\ProjectSWP392.styles.css
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.TagHelpers.input.cache
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.TagHelpers.output.cache
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.RazorCoreGenerate.cache
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\changePass.cshtml.g.cs
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AccountPage\changePass.cshtml.g.cs
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AccountPage\EditProfile.cshtml.g.cs
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AccountPage\ForgotPassword.cshtml.g.cs
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AccountPage\Login.cshtml.g.cs
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AccountPage\Profile.cshtml.g.cs
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AccountPage\Register.cshtml.g.cs
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AccountPage\Verified.cshtml.g.cs
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\AccountManagement.cshtml.g.cs
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\AddCategory.cshtml.g.cs
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\AddProduct.cshtml.g.cs
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\BanAcc.cshtml.g.cs
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\CategoryManagement.cshtml.g.cs
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\ChangePermission.cshtml.g.cs
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\Chart.cshtml.g.cs
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\ConfirmOrder.cshtml.g.cs
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\DashBoard.cshtml.g.cs
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\DeleteCategory.cshtml.g.cs
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\DeleteProduct.cshtml.g.cs
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\DetailsProduct.cshtml.g.cs
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\EditCategory.cshtml.g.cs
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\EditProduct.cshtml.g.cs
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\OrderDetailAdmin.cshtml.g.cs
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\OrderManagement.cshtml.g.cs
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\ProductManagement.cshtml.g.cs
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\CartPage\Index.cshtml.g.cs
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Error.cshtml.g.cs
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Index.cshtml.g.cs
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\OrderPage\CheckOut.cshtml.g.cs
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\OrderPage\OrderDetailHistory.cshtml.g.cs
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\OrderPage\OrderHistory.cshtml.g.cs
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Privacy.cshtml.g.cs
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\ProductDetailPage\Productdetail.cshtml.g.cs
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\ProductPage\Index.cshtml.g.cs
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Shared\_Layout.cshtml.g.cs
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Shared\_Layout_Admin.cshtml.g.cs
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Shared\_Layout_Changepass.cshtml.g.cs
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Shared\_Layout_copy.cshtml.g.cs
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Shared\_Layout_CreateCate.cshtml.g.cs
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Shared\_Layout_CreateProduct.cshtml.g.cs
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Shared\_Layout_DetailProduct.cshtml.g.cs
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Shared\_Layout_EditCate.cshtml.g.cs
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Shared\_Layout_EditProduct.cshtml.g.cs
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Shared\_Layout_Editprofile.cshtml.g.cs
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Shared\_Layout_Home.cshtml.g.cs
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Shared\_Layout_OrderHistory.cshtml.g.cs
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Shared\_Layout_OrderHistory2.cshtml.g.cs
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Shared\_Layout_Product.cshtml.g.cs
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Shared\_Layout_ProductDetail.cshtml.g.cs
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\_ViewImports.cshtml.g.cs
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\_ViewStart.cshtml.g.cs
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.RazorTargetAssemblyInfo.cache
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.RazorTargetAssemblyInfo.cs
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.Views.pdb
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.csproj.CopyComplete
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.dll
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ref\ProjectSWP392.dll
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.pdb
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.genruntimeconfig.cache
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\appsettings.json
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\ProjectSWP392.exe
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\ProjectSWP392.deps.json
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\ProjectSWP392.runtimeconfig.json
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\ProjectSWP392.runtimeconfig.dev.json
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\ProjectSWP392.dll
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\ProjectSWP392.pdb
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\ProjectSWP392.Views.dll
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\ProjectSWP392.Views.pdb
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\BouncyCastle.Cryptography.dll
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Humanizer.dll
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\MailKit.dll
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.Extensions.Logging.dll
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\MimeKit.dll
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Serilog.dll
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Serilog.Extensions.Logging.dll
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Serilog.Sinks.Console.dll
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Serilog.Sinks.File.dll
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\System.Formats.Asn1.dll
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\System.Text.Encoding.CodePages.dll
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\BusinessObject.dll
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\DataAccess.dll
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Repository.dll
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\BusinessObject.pdb
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\DataAccess.pdb
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Repository.pdb
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.csproj.AssemblyReference.cache
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.AssemblyInfoInputs.cache
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.AssemblyInfo.cs
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.csproj.CoreCompileInputs.cache
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.RazorAssemblyInfo.cache
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.RazorAssemblyInfo.cs
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\staticwebassets\ProjectSWP392.StaticWebAssets.Manifest.cache
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\staticwebassets\ProjectSWP392.StaticWebAssets.xml
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\scopedcss\bundle\ProjectSWP392.styles.css
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.TagHelpers.input.cache
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.TagHelpers.output.cache
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.RazorCoreGenerate.cache
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\changePass.cshtml.g.cs
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AccountPage\changePass.cshtml.g.cs
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AccountPage\EditProfile.cshtml.g.cs
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AccountPage\ForgotPassword.cshtml.g.cs
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AccountPage\Login.cshtml.g.cs
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AccountPage\Profile.cshtml.g.cs
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AccountPage\Register.cshtml.g.cs
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AccountPage\Verified.cshtml.g.cs
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\AccountManagement.cshtml.g.cs
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\AddCategory.cshtml.g.cs
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\AddProduct.cshtml.g.cs
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\BanAcc.cshtml.g.cs
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\CategoryManagement.cshtml.g.cs
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\ChangePermission.cshtml.g.cs
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\Chart.cshtml.g.cs
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\ConfirmOrder.cshtml.g.cs
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\DashBoard.cshtml.g.cs
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\DeleteCategory.cshtml.g.cs
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\DeleteProduct.cshtml.g.cs
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\DetailsProduct.cshtml.g.cs
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\EditCategory.cshtml.g.cs
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\EditProduct.cshtml.g.cs
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\OrderDetailAdmin.cshtml.g.cs
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\OrderManagement.cshtml.g.cs
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\ProductManagement.cshtml.g.cs
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\CartPage\Index.cshtml.g.cs
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Error.cshtml.g.cs
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Index.cshtml.g.cs
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\OrderPage\CheckOut.cshtml.g.cs
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\OrderPage\OrderDetailHistory.cshtml.g.cs
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\OrderPage\OrderHistory.cshtml.g.cs
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Privacy.cshtml.g.cs
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\ProductDetailPage\Productdetail.cshtml.g.cs
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\ProductPage\Index.cshtml.g.cs
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Shared\_Layout.cshtml.g.cs
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Shared\_Layout_Admin.cshtml.g.cs
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Shared\_Layout_Changepass.cshtml.g.cs
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Shared\_Layout_copy.cshtml.g.cs
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Shared\_Layout_CreateCate.cshtml.g.cs
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Shared\_Layout_CreateProduct.cshtml.g.cs
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Shared\_Layout_DetailProduct.cshtml.g.cs
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Shared\_Layout_EditCate.cshtml.g.cs
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Shared\_Layout_EditProduct.cshtml.g.cs
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Shared\_Layout_Editprofile.cshtml.g.cs
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Shared\_Layout_Home.cshtml.g.cs
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Shared\_Layout_OrderHistory.cshtml.g.cs
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Shared\_Layout_OrderHistory2.cshtml.g.cs
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Shared\_Layout_Product.cshtml.g.cs
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Shared\_Layout_ProductDetail.cshtml.g.cs
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\_ViewImports.cshtml.g.cs
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\_ViewStart.cshtml.g.cs
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.RazorTargetAssemblyInfo.cache
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.RazorTargetAssemblyInfo.cs
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.Views.pdb
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.csproj.CopyComplete
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.dll
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ref\ProjectSWP392.dll
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.pdb
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.genruntimeconfig.cache
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\refint\ProjectSWP392.dll
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\appsettings.json
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\ProjectSWP392.exe
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\ProjectSWP392.deps.json
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\ProjectSWP392.runtimeconfig.json
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\ProjectSWP392.runtimeconfig.dev.json
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\ProjectSWP392.dll
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\ProjectSWP392.pdb
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\ProjectSWP392.Views.dll
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\ProjectSWP392.Views.pdb
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\BouncyCastle.Cryptography.dll
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Humanizer.dll
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\MailKit.dll
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.Extensions.Logging.dll
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\MimeKit.dll
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Serilog.dll
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Serilog.Extensions.Logging.dll
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Serilog.Sinks.Console.dll
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Serilog.Sinks.File.dll
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\System.Formats.Asn1.dll
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\System.Text.Encoding.CodePages.dll
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\BusinessObject.dll
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\DataAccess.dll
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Repository.dll
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\BusinessObject.pdb
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\DataAccess.pdb
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\bin\Debug\net5.0\Repository.pdb
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.csproj.AssemblyReference.cache
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.AssemblyInfoInputs.cache
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.AssemblyInfo.cs
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.csproj.CoreCompileInputs.cache
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.RazorAssemblyInfo.cache
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.RazorAssemblyInfo.cs
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\staticwebassets\ProjectSWP392.StaticWebAssets.Manifest.cache
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\staticwebassets\ProjectSWP392.StaticWebAssets.xml
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\scopedcss\bundle\ProjectSWP392.styles.css
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.TagHelpers.input.cache
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.TagHelpers.output.cache
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.RazorCoreGenerate.cache
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\changePass.cshtml.g.cs
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AccountPage\changePass.cshtml.g.cs
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AccountPage\EditProfile.cshtml.g.cs
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AccountPage\ForgotPassword.cshtml.g.cs
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AccountPage\Login.cshtml.g.cs
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AccountPage\Profile.cshtml.g.cs
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AccountPage\Register.cshtml.g.cs
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AccountPage\Verified.cshtml.g.cs
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\AccountManagement.cshtml.g.cs
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\AddCategory.cshtml.g.cs
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\AddProduct.cshtml.g.cs
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\BanAcc.cshtml.g.cs
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\CategoryManagement.cshtml.g.cs
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\ChangePermission.cshtml.g.cs
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\Chart.cshtml.g.cs
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\ConfirmOrder.cshtml.g.cs
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\DashBoard.cshtml.g.cs
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\DeleteCategory.cshtml.g.cs
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\DeleteProduct.cshtml.g.cs
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\DetailsProduct.cshtml.g.cs
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\EditCategory.cshtml.g.cs
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\EditProduct.cshtml.g.cs
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\OrderDetailAdmin.cshtml.g.cs
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\OrderManagement.cshtml.g.cs
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\AdminPage\ProductManagement.cshtml.g.cs
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\CartPage\Index.cshtml.g.cs
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Error.cshtml.g.cs
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Index.cshtml.g.cs
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\OrderPage\CheckOut.cshtml.g.cs
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\OrderPage\OrderDetailHistory.cshtml.g.cs
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\OrderPage\OrderHistory.cshtml.g.cs
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Privacy.cshtml.g.cs
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\ProductDetailPage\Productdetail.cshtml.g.cs
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\ProductPage\Index.cshtml.g.cs
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Shared\_Layout.cshtml.g.cs
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Shared\_Layout_Admin.cshtml.g.cs
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Shared\_Layout_Changepass.cshtml.g.cs
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Shared\_Layout_copy.cshtml.g.cs
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Shared\_Layout_CreateCate.cshtml.g.cs
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Shared\_Layout_CreateProduct.cshtml.g.cs
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Shared\_Layout_DetailProduct.cshtml.g.cs
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Shared\_Layout_EditCate.cshtml.g.cs
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Shared\_Layout_EditProduct.cshtml.g.cs
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Shared\_Layout_Editprofile.cshtml.g.cs
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Shared\_Layout_Home.cshtml.g.cs
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Shared\_Layout_OrderHistory.cshtml.g.cs
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Shared\_Layout_OrderHistory2.cshtml.g.cs
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Shared\_Layout_Product.cshtml.g.cs
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Shared\_Layout_ProductDetail.cshtml.g.cs
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\_ViewImports.cshtml.g.cs
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\Razor\Pages\_ViewStart.cshtml.g.cs
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.RazorTargetAssemblyInfo.cache
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.RazorTargetAssemblyInfo.cs
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.Views.pdb
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.csproj.CopyComplete
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.dll
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\refint\ProjectSWP392.dll
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.pdb
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ProjectSWP392.genruntimeconfig.cache
+C:\Users\Public\HK7\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392\obj\Debug\net5.0\ref\ProjectSWP392.dll

@@ -1,0 +1,128 @@
+﻿@page
+@model ProjectSWP392.Pages.AccountPage.EditProfileModel
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Pages/Shared/_Layout_Editprofile.cshtml";
+}
+<style>
+    body {
+        background: #eee;
+    }
+
+    .img-account-profile {
+        height: 10rem;
+    }
+
+    .rounded-circle {
+        border-radius: 50% !important;
+    }
+
+    .card {
+        box-shadow: 0 0.15rem 1.75rem 0 rgb(33 40 50 / 15%);
+    }
+
+    .card .card-header {
+        font-weight: 500;
+    }
+
+    .card-header:first-child {
+        border-radius: 0.35rem 0.35rem 0 0;
+    }
+
+    .card-header {
+        padding: 1rem 1.35rem;
+        margin-bottom: 0;
+        background-color: rgba(33, 40, 50, 0.03);
+        border-bottom: 1px solid rgba(33, 40, 50, 0.125);
+    }
+
+    .form-control,
+    .dataTable-input {
+        display: block;
+        width: 100%;
+        padding: 0.875rem 1.125rem;
+        font-size: 0.875rem;
+        font-weight: 400;
+        line-height: 1;
+        color: #69707a;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid #c5ccd6;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        border-radius: 0.35rem;
+        transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    }
+
+    .nav-borders .nav-link.active {
+        color: #0061f2;
+        border-bottom-color: #0061f2;
+    }
+
+    .nav-borders .nav-link {
+        color: #69707a;
+        border-bottom-width: 0.125rem;
+        border-bottom-style: solid;
+        border-bottom-color: transparent;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+</style>
+
+<div class="container-xl px-4 mt-4">
+    <div class="row">
+        <div class="col-xl-8">
+            <!-- Account details card-->
+            <div class="card mb-4">
+                <div class="card-header">
+                    <h3>User Profile</h3>
+                </div>
+                <div class="card-body">
+                    <form method="post">
+                        <!-- Form Group (Email)-->
+                            <div class="mb-3">
+                                <label class="small mb-1">Email</label>
+                                <input class="form-control" id="inputEmail" asp-for="@Model.acc.Email" type="text" value="@Model.acc.Email" readonly>
+                                <span asp-validation-for="@Model.acc.Email" class="text-danger"></span>
+                            </div>
+
+                            <!-- Form Group (Full Name)-->
+                            <div class="mb-3">
+                                <label class="small mb-1">Full Name</label>
+                                <input class="form-control" id="inputFullName" asp-for="@Model.acc.FullName" type="text" value="@Model.acc.FullName">
+                                <span asp-validation-for="@Model.acc.FullName" class="text-danger"></span>
+                            </div>
+
+                            <!-- Form Group (Address)-->
+                            <div class="mb-3">
+                                <label class="small mb-1">Address</label>
+                                <input class="form-control" id="inputAddress" asp-for="@Model.acc.Address" type="text" value="@Model.acc.Address">
+                                <span asp-validation-for="@Model.acc.Address" class="text-danger"></span>
+                            </div>
+
+                            <!-- Form Group (Phone Number)-->
+                            <div class="mb-3">
+                                <label class="small mb-1">Phone Number</label>
+                                <input class="form-control" id="inputPhone" asp-for="@Model.acc.Phone" type="text" value="@Model.acc.Phone">
+                                <span asp-validation-for="@Model.acc.Phone" class="text-danger"></span>
+                            </div>
+
+                        <div style=" text-align: center;">
+                            <button class="btn btn-primary" type="submit"> Edit</button>
+                            <a asp-page="/AccountPage/Profile" class="btn btn-danger">Back to List</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div>
+
+</div>

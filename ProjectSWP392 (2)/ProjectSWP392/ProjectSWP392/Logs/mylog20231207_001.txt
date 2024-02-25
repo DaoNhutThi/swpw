@@ -1,0 +1,757 @@
+2023-12-07 16:46:22.647 +07:00 [INF] User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-07 16:46:23.070 +07:00 [FTL] Unable to start Kestrel.
+System.IO.IOException: Failed to bind to address https://127.0.0.1:5001: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+ ---> System.Net.Sockets.SocketException (10048): Only one usage of each socket address (protocol/network address/port) is normally permitted.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.<Bind>g__BindSocket|13_0(<>c__DisplayClass13_0& )
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.<Bind>g__BindSocket|13_0(<>c__DisplayClass13_0& )
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass29_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(IEnumerable`1 listenOptions, AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+2023-12-07 16:46:48.301 +07:00 [INF] User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-07 16:46:48.721 +07:00 [FTL] Unable to start Kestrel.
+System.IO.IOException: Failed to bind to address https://127.0.0.1:5001: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+ ---> System.Net.Sockets.SocketException (10048): Only one usage of each socket address (protocol/network address/port) is normally permitted.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.<Bind>g__BindSocket|13_0(<>c__DisplayClass13_0& )
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.<Bind>g__BindSocket|13_0(<>c__DisplayClass13_0& )
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass29_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(IEnumerable`1 listenOptions, AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+2023-12-07 16:47:05.172 +07:00 [INF] User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-07 16:47:05.531 +07:00 [INF] Now listening on: https://localhost:5001
+2023-12-07 16:47:05.531 +07:00 [INF] Now listening on: http://localhost:5000
+2023-12-07 16:47:05.532 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-07 16:47:05.532 +07:00 [INF] Hosting environment: Development
+2023-12-07 16:47:05.532 +07:00 [INF] Content root path: C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392
+2023-12-07 16:47:06.318 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ - -
+2023-12-07 16:47:06.436 +07:00 [INF] Executing endpoint '/Index'
+2023-12-07 16:47:06.552 +07:00 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2023-12-07 16:47:06.579 +07:00 [INF] Executing handler method ProjectSWP392.Pages.IndexModel.OnGet - ModelState is "Valid"
+2023-12-07 16:47:06.587 +07:00 [INF] Executed handler method OnGet, returned result .
+2023-12-07 16:47:06.600 +07:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2023-12-07 16:47:06.602 +07:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2023-12-07 16:47:06.813 +07:00 [INF] Accessing expired session, Key:e4ee00b7-6011-ac75-c913-e05d48be1414
+2023-12-07 16:47:06.870 +07:00 [INF] Executed page /Index in 304.8049ms
+2023-12-07 16:47:06.873 +07:00 [INF] Executed endpoint '/Index'
+2023-12-07 16:47:06.888 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/ - - - 200 - text/html;+charset=utf-8 579.2356ms
+2023-12-07 16:47:06.892 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/css/bootstrap.min.css - -
+2023-12-07 16:47:06.919 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/css/site.css - -
+2023-12-07 16:47:06.919 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/image/banner.png - -
+2023-12-07 16:47:06.919 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/image/sss.png - -
+2023-12-07 16:47:06.924 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/js/bootstrap.bundle.min.js - -
+2023-12-07 16:47:06.925 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+2023-12-07 16:47:06.927 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - -
+2023-12-07 16:47:06.932 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/jquery/dist/jquery.min.js - -
+2023-12-07 16:47:06.938 +07:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\wwwroot\js\site.js'
+2023-12-07 16:47:06.945 +07:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\wwwroot\css\site.css'
+2023-12-07 16:47:06.946 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 3073 application/javascript;+charset=utf-8 20.6174ms
+2023-12-07 16:47:06.947 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - - 200 230 application/javascript 19.3681ms
+2023-12-07 16:47:06.950 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/css/site.css - - - 200 1417 text/css 28.6553ms
+2023-12-07 16:47:06.975 +07:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\wwwroot\lib\jquery\dist\jquery.min.js'
+2023-12-07 16:47:06.976 +07:00 [INF] Sending file. Request path: '/image/banner.png'. Physical path: 'C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\wwwroot\image\banner.png'
+2023-12-07 16:47:06.975 +07:00 [INF] Sending file. Request path: '/image/sss.png'. Physical path: 'C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\wwwroot\image\sss.png'
+2023-12-07 16:47:06.986 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/lib/jquery/dist/jquery.min.js - - - 200 89476 application/javascript 54.2005ms
+2023-12-07 16:47:06.986 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/image/sss.png - - - 200 44806 image/png 66.9498ms
+2023-12-07 16:47:06.986 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/image/banner.png - - - 200 43105 image/png 67.0542ms
+2023-12-07 16:47:06.996 +07:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2023-12-07 16:47:06.998 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/css/bootstrap.min.css - - - 200 155764 text/css 104.8128ms
+2023-12-07 16:47:07.081 +07:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2023-12-07 16:47:07.081 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - - 200 78641 application/javascript 157.2717ms
+2023-12-07 16:47:16.389 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/AccountPage/Register - -
+2023-12-07 16:47:16.398 +07:00 [INF] Executing endpoint '/AccountPage/Register'
+2023-12-07 16:47:16.436 +07:00 [INF] Route matched with {page = "/AccountPage/Register"}. Executing page /AccountPage/Register
+2023-12-07 16:47:16.659 +07:00 [INF] Create SendMailService
+2023-12-07 16:47:16.674 +07:00 [INF] Executing handler method ProjectSWP392.Pages.AccountPage.Register.OnGet - ModelState is "Valid"
+2023-12-07 16:47:16.674 +07:00 [INF] Executed handler method OnGet, returned result .
+2023-12-07 16:47:16.675 +07:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2023-12-07 16:47:16.675 +07:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2023-12-07 16:47:16.820 +07:00 [INF] Executed page /AccountPage/Register in 383.9998ms
+2023-12-07 16:47:16.820 +07:00 [INF] Executed endpoint '/AccountPage/Register'
+2023-12-07 16:47:16.823 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/AccountPage/Register - - - 200 - text/html;+charset=utf-8 434.0889ms
+2023-12-07 16:47:16.872 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+2023-12-07 16:47:16.874 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 3073 application/javascript;+charset=utf-8 2.2902ms
+2023-12-07 16:47:34.121 +07:00 [INF] Request starting HTTP/2 POST https://localhost:5001/AccountPage/Register application/x-www-form-urlencoded 374
+2023-12-07 16:47:34.128 +07:00 [INF] Executing endpoint '/AccountPage/Register'
+2023-12-07 16:47:34.130 +07:00 [INF] Route matched with {page = "/AccountPage/Register"}. Executing page /AccountPage/Register
+2023-12-07 16:47:34.154 +07:00 [INF] Create SendMailService
+2023-12-07 16:47:34.218 +07:00 [INF] Executing handler method ProjectSWP392.Pages.AccountPage.Register.OnPostAsync - ModelState is "Valid"
+2023-12-07 16:47:35.013 +07:00 [INF] Entity Framework Core 5.0.17 initialized 'DBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-12-07 16:47:35.841 +07:00 [INF] Executed DbCommand (53ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[UserID], [u].[Address], [u].[FullName], [u].[Phone], [u].[UserStatus]
+FROM [Users] AS [u]
+2023-12-07 16:47:35.979 +07:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[AccountID], [a].[AccountStatus], [a].[Admin], [a].[Email], [a].[Password], [a].[UserID], [a].[isVerified]
+FROM [Accounts] AS [a]
+2023-12-07 16:47:36.173 +07:00 [INF] Executed DbCommand (28ms) [Parameters=[@__account_Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[AccountID], [a].[AccountStatus], [a].[Admin], [a].[Email], [a].[Password], [a].[UserID], [a].[isVerified]
+FROM [Accounts] AS [a]
+WHERE [a].[Email] = @__account_Email_0
+2023-12-07 16:47:36.403 +07:00 [INF] Executed DbCommand (18ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Users] ([UserID], [Address], [FullName], [Phone], [UserStatus])
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2023-12-07 16:47:36.464 +07:00 [INF] Executed DbCommand (3ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (DbType = Boolean), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (DbType = Int32), @p6='?' (DbType = Boolean)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Accounts] ([AccountID], [AccountStatus], [Admin], [Email], [Password], [UserID], [isVerified])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+2023-12-07 16:47:36.501 +07:00 [INF] Executed DbCommand (4ms) [Parameters=[@__email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[AccountID], [a].[AccountStatus], [a].[Admin], [a].[Email], [a].[Password], [a].[UserID], [a].[isVerified]
+FROM [Accounts] AS [a]
+WHERE [a].[Email] = @__email_0
+2023-12-07 16:47:36.534 +07:00 [INF] Executed DbCommand (5ms) [Parameters=[@__account_AccountID_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [u].[UserID], [u].[Address], [u].[FullName], [u].[Phone], [u].[UserStatus]
+FROM [Users] AS [u]
+WHERE [u].[UserID] = @__account_AccountID_0
+2023-12-07 16:47:36.537 +07:00 [INF] User registered successfully
+2023-12-07 16:47:42.134 +07:00 [INF] send mail to huyntce160121@gmail.com
+2023-12-07 16:47:42.139 +07:00 [INF] Executed handler method OnPostAsync, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2023-12-07 16:47:42.160 +07:00 [INF] Executed page /AccountPage/Register in 8028.9184ms
+2023-12-07 16:47:42.161 +07:00 [INF] Executed endpoint '/AccountPage/Register'
+2023-12-07 16:47:42.174 +07:00 [INF] Request finished HTTP/2 POST https://localhost:5001/AccountPage/Register application/x-www-form-urlencoded 374 - 200 - text/html;+charset=utf-8 8052.9164ms
+2023-12-07 16:47:42.211 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+2023-12-07 16:47:42.214 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 3073 application/javascript;+charset=utf-8 2.9771ms
+2023-12-07 16:47:46.247 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/AccountPage/Login - -
+2023-12-07 16:47:46.251 +07:00 [INF] Executing endpoint '/AccountPage/Login'
+2023-12-07 16:47:46.281 +07:00 [INF] Route matched with {page = "/AccountPage/Login"}. Executing page /AccountPage/Login
+2023-12-07 16:47:46.296 +07:00 [INF] Executing handler method ProjectSWP392.Pages.AccountPage.Login.OnGet - ModelState is "Valid"
+2023-12-07 16:47:46.299 +07:00 [INF] Accessing expired session, Key:e4ee00b7-6011-ac75-c913-e05d48be1414
+2023-12-07 16:47:46.299 +07:00 [INF] Executed handler method OnGet, returned result .
+2023-12-07 16:47:46.299 +07:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2023-12-07 16:47:46.299 +07:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2023-12-07 16:47:46.361 +07:00 [INF] Executed page /AccountPage/Login in 78.8735ms
+2023-12-07 16:47:46.361 +07:00 [INF] Executed endpoint '/AccountPage/Login'
+2023-12-07 16:47:46.362 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/AccountPage/Login - - - 200 - text/html;+charset=utf-8 114.9673ms
+2023-12-07 16:47:46.442 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+2023-12-07 16:47:46.443 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 3073 application/javascript;+charset=utf-8 1.0019ms
+2023-12-07 16:48:37.056 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/AccountPage/Register - -
+2023-12-07 16:48:37.056 +07:00 [INF] Executing endpoint '/AccountPage/Register'
+2023-12-07 16:48:37.057 +07:00 [INF] Route matched with {page = "/AccountPage/Register"}. Executing page /AccountPage/Register
+2023-12-07 16:48:37.062 +07:00 [INF] Create SendMailService
+2023-12-07 16:48:37.063 +07:00 [INF] Executing handler method ProjectSWP392.Pages.AccountPage.Register.OnGet - ModelState is "Valid"
+2023-12-07 16:48:37.063 +07:00 [INF] Executed handler method OnGet, returned result .
+2023-12-07 16:48:37.063 +07:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2023-12-07 16:48:37.063 +07:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2023-12-07 16:48:37.076 +07:00 [INF] Executed page /AccountPage/Register in 16.5901ms
+2023-12-07 16:48:37.077 +07:00 [INF] Executed endpoint '/AccountPage/Register'
+2023-12-07 16:48:37.077 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/AccountPage/Register - - - 200 - text/html;+charset=utf-8 21.6741ms
+2023-12-07 16:48:37.122 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+2023-12-07 16:48:37.122 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 3073 application/javascript;+charset=utf-8 0.7177ms
+2023-12-07 16:49:08.050 +07:00 [INF] Request starting HTTP/2 POST https://localhost:5001/AccountPage/Register application/x-www-form-urlencoded 381
+2023-12-07 16:49:08.054 +07:00 [INF] Executing endpoint '/AccountPage/Register'
+2023-12-07 16:49:08.054 +07:00 [INF] Route matched with {page = "/AccountPage/Register"}. Executing page /AccountPage/Register
+2023-12-07 16:49:08.056 +07:00 [INF] Create SendMailService
+2023-12-07 16:49:08.060 +07:00 [INF] Executing handler method ProjectSWP392.Pages.AccountPage.Register.OnPostAsync - ModelState is "Valid"
+2023-12-07 16:49:08.188 +07:00 [INF] Entity Framework Core 5.0.17 initialized 'DBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-12-07 16:49:08.195 +07:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[UserID], [u].[Address], [u].[FullName], [u].[Phone], [u].[UserStatus]
+FROM [Users] AS [u]
+2023-12-07 16:49:08.202 +07:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[AccountID], [a].[AccountStatus], [a].[Admin], [a].[Email], [a].[Password], [a].[UserID], [a].[isVerified]
+FROM [Accounts] AS [a]
+2023-12-07 16:49:08.231 +07:00 [INF] Executed DbCommand (19ms) [Parameters=[@__account_Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[AccountID], [a].[AccountStatus], [a].[Admin], [a].[Email], [a].[Password], [a].[UserID], [a].[isVerified]
+FROM [Accounts] AS [a]
+WHERE [a].[Email] = @__account_Email_0
+2023-12-07 16:49:08.241 +07:00 [INF] Executed DbCommand (4ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Users] ([UserID], [Address], [FullName], [Phone], [UserStatus])
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2023-12-07 16:49:08.267 +07:00 [INF] Executed DbCommand (13ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (DbType = Boolean), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (DbType = Int32), @p6='?' (DbType = Boolean)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Accounts] ([AccountID], [AccountStatus], [Admin], [Email], [Password], [UserID], [isVerified])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+2023-12-07 16:49:08.286 +07:00 [INF] Executed DbCommand (10ms) [Parameters=[@__email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[AccountID], [a].[AccountStatus], [a].[Admin], [a].[Email], [a].[Password], [a].[UserID], [a].[isVerified]
+FROM [Accounts] AS [a]
+WHERE [a].[Email] = @__email_0
+2023-12-07 16:49:08.296 +07:00 [INF] Executed DbCommand (3ms) [Parameters=[@__account_AccountID_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [u].[UserID], [u].[Address], [u].[FullName], [u].[Phone], [u].[UserStatus]
+FROM [Users] AS [u]
+WHERE [u].[UserID] = @__account_AccountID_0
+2023-12-07 16:49:08.300 +07:00 [INF] User registered successfully
+2023-12-07 16:49:11.314 +07:00 [INF] send mail to huyntce160121@fpt.edu.vn
+2023-12-07 16:49:11.314 +07:00 [INF] Executed handler method OnPostAsync, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2023-12-07 16:49:11.318 +07:00 [INF] Executed page /AccountPage/Register in 3263.5155ms
+2023-12-07 16:49:11.318 +07:00 [INF] Executed endpoint '/AccountPage/Register'
+2023-12-07 16:49:11.319 +07:00 [INF] Request finished HTTP/2 POST https://localhost:5001/AccountPage/Register application/x-www-form-urlencoded 381 - 200 - text/html;+charset=utf-8 3268.5100ms
+2023-12-07 16:49:11.356 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+2023-12-07 16:49:11.357 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 3073 application/javascript;+charset=utf-8 0.9430ms
+2023-12-07 16:49:12.500 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/AccountPage/Login - -
+2023-12-07 16:49:12.501 +07:00 [INF] Executing endpoint '/AccountPage/Login'
+2023-12-07 16:49:12.502 +07:00 [INF] Route matched with {page = "/AccountPage/Login"}. Executing page /AccountPage/Login
+2023-12-07 16:49:12.502 +07:00 [INF] Executing handler method ProjectSWP392.Pages.AccountPage.Login.OnGet - ModelState is "Valid"
+2023-12-07 16:49:12.503 +07:00 [INF] Accessing expired session, Key:e4ee00b7-6011-ac75-c913-e05d48be1414
+2023-12-07 16:49:12.503 +07:00 [INF] Executed handler method OnGet, returned result .
+2023-12-07 16:49:12.503 +07:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2023-12-07 16:49:12.503 +07:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2023-12-07 16:49:12.514 +07:00 [INF] Executed page /AccountPage/Login in 12.0934ms
+2023-12-07 16:49:12.515 +07:00 [INF] Executed endpoint '/AccountPage/Login'
+2023-12-07 16:49:12.522 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/AccountPage/Login - - - 200 - text/html;+charset=utf-8 21.3732ms
+2023-12-07 16:49:12.615 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+2023-12-07 16:49:12.617 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 3073 application/javascript;+charset=utf-8 0.4305ms
+2023-12-07 17:01:39.641 +07:00 [INF] User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-07 17:01:40.127 +07:00 [INF] Now listening on: https://localhost:5001
+2023-12-07 17:01:40.128 +07:00 [INF] Now listening on: http://localhost:5000
+2023-12-07 17:01:40.128 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-07 17:01:40.128 +07:00 [INF] Hosting environment: Development
+2023-12-07 17:01:40.128 +07:00 [INF] Content root path: C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392
+2023-12-07 17:01:40.858 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ - -
+2023-12-07 17:01:40.972 +07:00 [INF] Executing endpoint '/Index'
+2023-12-07 17:01:41.091 +07:00 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2023-12-07 17:01:41.134 +07:00 [INF] Executing handler method ProjectSWP392.Pages.IndexModel.OnGet - ModelState is "Valid"
+2023-12-07 17:01:41.146 +07:00 [INF] Executed handler method OnGet, returned result .
+2023-12-07 17:01:41.157 +07:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2023-12-07 17:01:41.159 +07:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2023-12-07 17:01:41.461 +07:00 [INF] Accessing expired session, Key:e4ee00b7-6011-ac75-c913-e05d48be1414
+2023-12-07 17:01:41.527 +07:00 [INF] Executed page /Index in 419.4833ms
+2023-12-07 17:01:41.530 +07:00 [INF] Executed endpoint '/Index'
+2023-12-07 17:01:41.555 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/ - - - 200 - text/html;+charset=utf-8 703.1995ms
+2023-12-07 17:01:41.690 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/css/bootstrap.min.css - -
+2023-12-07 17:01:41.690 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/css/site.css - -
+2023-12-07 17:01:41.691 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/image/banner.png - -
+2023-12-07 17:01:41.696 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/js/bootstrap.bundle.min.js - -
+2023-12-07 17:01:41.700 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/image/sss.png - -
+2023-12-07 17:01:41.700 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - -
+2023-12-07 17:01:41.708 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/jquery/dist/jquery.min.js - -
+2023-12-07 17:01:41.717 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+2023-12-07 17:01:41.728 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 3073 application/javascript;+charset=utf-8 12.1939ms
+2023-12-07 17:01:41.733 +07:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\wwwroot\js\site.js'
+2023-12-07 17:01:41.733 +07:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\wwwroot\css\site.css'
+2023-12-07 17:01:41.749 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - - 200 230 application/javascript 48.7396ms
+2023-12-07 17:01:41.756 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/css/site.css - - - 200 1417 text/css 65.5862ms
+2023-12-07 17:01:41.790 +07:00 [INF] Sending file. Request path: '/image/sss.png'. Physical path: 'C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\wwwroot\image\sss.png'
+2023-12-07 17:01:41.790 +07:00 [INF] Sending file. Request path: '/image/banner.png'. Physical path: 'C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\wwwroot\image\banner.png'
+2023-12-07 17:01:41.794 +07:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\wwwroot\lib\jquery\dist\jquery.min.js'
+2023-12-07 17:01:41.795 +07:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2023-12-07 17:01:41.795 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/lib/jquery/dist/jquery.min.js - - - 200 89476 application/javascript 87.2144ms
+2023-12-07 17:01:41.795 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/image/banner.png - - - 200 43105 image/png 105.4487ms
+2023-12-07 17:01:41.795 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/image/sss.png - - - 200 44806 image/png 96.6645ms
+2023-12-07 17:01:41.797 +07:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2023-12-07 17:01:41.798 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/css/bootstrap.min.css - - - 200 155764 text/css 107.8886ms
+2023-12-07 17:01:41.798 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - - 200 78641 application/javascript 102.3477ms
+2023-12-07 17:01:41.983 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/favicon.ico - -
+2023-12-07 17:01:41.984 +07:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\wwwroot\favicon.ico'
+2023-12-07 17:01:41.984 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/favicon.ico - - - 200 5430 image/x-icon 1.0249ms
+2023-12-07 17:02:37.156 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/AccountPage/Register - -
+2023-12-07 17:02:37.165 +07:00 [INF] Executing endpoint '/AccountPage/Register'
+2023-12-07 17:02:37.211 +07:00 [INF] Route matched with {page = "/AccountPage/Register"}. Executing page /AccountPage/Register
+2023-12-07 17:02:37.405 +07:00 [INF] Create SendMailService
+2023-12-07 17:02:37.429 +07:00 [INF] Executing handler method ProjectSWP392.Pages.AccountPage.Register.OnGet - ModelState is "Valid"
+2023-12-07 17:02:37.431 +07:00 [INF] Executed handler method OnGet, returned result .
+2023-12-07 17:02:37.432 +07:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2023-12-07 17:02:37.432 +07:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2023-12-07 17:02:37.625 +07:00 [INF] Executed page /AccountPage/Register in 413.5026ms
+2023-12-07 17:02:37.625 +07:00 [INF] Executed endpoint '/AccountPage/Register'
+2023-12-07 17:02:37.628 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/AccountPage/Register - - - 200 - text/html;+charset=utf-8 471.1873ms
+2023-12-07 17:02:37.658 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/css/bootstrap.min.css - -
+2023-12-07 17:02:37.674 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/css/site.css - -
+2023-12-07 17:02:37.675 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+2023-12-07 17:02:37.676 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 3073 application/javascript;+charset=utf-8 0.7682ms
+2023-12-07 17:02:37.682 +07:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\wwwroot\css\site.css'
+2023-12-07 17:02:37.682 +07:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2023-12-07 17:02:37.683 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/css/bootstrap.min.css - - - 200 155764 text/css 24.8552ms
+2023-12-07 17:02:37.683 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/css/site.css - - - 200 1417 text/css 8.7202ms
+2023-12-07 17:02:51.230 +07:00 [INF] Request starting HTTP/2 POST https://localhost:5001/AccountPage/Register application/x-www-form-urlencoded 381
+2023-12-07 17:02:51.236 +07:00 [INF] Executing endpoint '/AccountPage/Register'
+2023-12-07 17:02:51.237 +07:00 [INF] Route matched with {page = "/AccountPage/Register"}. Executing page /AccountPage/Register
+2023-12-07 17:02:51.254 +07:00 [INF] Create SendMailService
+2023-12-07 17:02:51.317 +07:00 [INF] Executing handler method ProjectSWP392.Pages.AccountPage.Register.OnPostAsync - ModelState is "Valid"
+2023-12-07 17:02:52.241 +07:00 [INF] Entity Framework Core 5.0.17 initialized 'DBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-12-07 17:02:53.139 +07:00 [INF] Executed DbCommand (65ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[UserID], [u].[Address], [u].[FullName], [u].[Phone], [u].[UserStatus]
+FROM [Users] AS [u]
+2023-12-07 17:02:53.302 +07:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[AccountID], [a].[AccountStatus], [a].[Admin], [a].[Email], [a].[Password], [a].[UserID], [a].[isVerified]
+FROM [Accounts] AS [a]
+2023-12-07 17:02:53.555 +07:00 [INF] Executed DbCommand (40ms) [Parameters=[@__account_Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[AccountID], [a].[AccountStatus], [a].[Admin], [a].[Email], [a].[Password], [a].[UserID], [a].[isVerified]
+FROM [Accounts] AS [a]
+WHERE [a].[Email] = @__account_Email_0
+2023-12-07 17:02:53.815 +07:00 [INF] Executed DbCommand (23ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Users] ([UserID], [Address], [FullName], [Phone], [UserStatus])
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2023-12-07 17:02:53.885 +07:00 [INF] Executed DbCommand (5ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (DbType = Boolean), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (DbType = Int32), @p6='?' (DbType = Boolean)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Accounts] ([AccountID], [AccountStatus], [Admin], [Email], [Password], [UserID], [isVerified])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+2023-12-07 17:02:53.931 +07:00 [INF] Executed DbCommand (3ms) [Parameters=[@__email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[AccountID], [a].[AccountStatus], [a].[Admin], [a].[Email], [a].[Password], [a].[UserID], [a].[isVerified]
+FROM [Accounts] AS [a]
+WHERE [a].[Email] = @__email_0
+2023-12-07 17:02:53.965 +07:00 [INF] Executed DbCommand (3ms) [Parameters=[@__account_AccountID_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [u].[UserID], [u].[Address], [u].[FullName], [u].[Phone], [u].[UserStatus]
+FROM [Users] AS [u]
+WHERE [u].[UserID] = @__account_AccountID_0
+2023-12-07 17:02:53.969 +07:00 [INF] User registered successfully
+2023-12-07 17:02:57.894 +07:00 [INF] send mail to huyntce160121@fpt.edu.vn
+2023-12-07 17:02:57.898 +07:00 [INF] Executed handler method OnPostAsync, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2023-12-07 17:02:57.917 +07:00 [INF] Executed page /AccountPage/Register in 6679.0236ms
+2023-12-07 17:02:57.918 +07:00 [INF] Executed endpoint '/AccountPage/Register'
+2023-12-07 17:02:57.941 +07:00 [INF] Request finished HTTP/2 POST https://localhost:5001/AccountPage/Register application/x-www-form-urlencoded 381 - 200 - text/html;+charset=utf-8 6710.3621ms
+2023-12-07 17:02:57.961 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+2023-12-07 17:02:57.962 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 3073 application/javascript;+charset=utf-8 1.2500ms
+2023-12-07 17:02:59.146 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/AccountPage/Login - -
+2023-12-07 17:02:59.151 +07:00 [INF] Executing endpoint '/AccountPage/Login'
+2023-12-07 17:02:59.174 +07:00 [INF] Route matched with {page = "/AccountPage/Login"}. Executing page /AccountPage/Login
+2023-12-07 17:02:59.187 +07:00 [INF] Executing handler method ProjectSWP392.Pages.AccountPage.Login.OnGet - ModelState is "Valid"
+2023-12-07 17:02:59.189 +07:00 [INF] Accessing expired session, Key:e4ee00b7-6011-ac75-c913-e05d48be1414
+2023-12-07 17:02:59.190 +07:00 [INF] Executed handler method OnGet, returned result .
+2023-12-07 17:02:59.190 +07:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2023-12-07 17:02:59.190 +07:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2023-12-07 17:02:59.255 +07:00 [INF] Executed page /AccountPage/Login in 80.9928ms
+2023-12-07 17:02:59.261 +07:00 [INF] Executed endpoint '/AccountPage/Login'
+2023-12-07 17:02:59.266 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/AccountPage/Login - - - 200 - text/html;+charset=utf-8 119.4229ms
+2023-12-07 17:02:59.394 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+2023-12-07 17:02:59.394 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 3073 application/javascript;+charset=utf-8 0.4302ms
+2023-12-07 17:03:41.864 +07:00 [INF] User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-07 17:03:42.278 +07:00 [INF] Now listening on: https://localhost:5001
+2023-12-07 17:03:42.278 +07:00 [INF] Now listening on: http://localhost:5000
+2023-12-07 17:03:42.279 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-07 17:03:42.279 +07:00 [INF] Hosting environment: Development
+2023-12-07 17:03:42.279 +07:00 [INF] Content root path: C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392
+2023-12-07 17:03:42.509 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/AccountPage/Login - -
+2023-12-07 17:03:42.596 +07:00 [INF] Executing endpoint '/AccountPage/Login'
+2023-12-07 17:03:42.707 +07:00 [INF] Route matched with {page = "/AccountPage/Login"}. Executing page /AccountPage/Login
+2023-12-07 17:03:42.947 +07:00 [INF] Executing handler method ProjectSWP392.Pages.AccountPage.Login.OnGet - ModelState is "Valid"
+2023-12-07 17:03:42.962 +07:00 [INF] Accessing expired session, Key:e4ee00b7-6011-ac75-c913-e05d48be1414
+2023-12-07 17:03:42.963 +07:00 [INF] Executed handler method OnGet, returned result .
+2023-12-07 17:03:42.972 +07:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2023-12-07 17:03:42.973 +07:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2023-12-07 17:03:43.351 +07:00 [INF] Executed page /AccountPage/Login in 626.9409ms
+2023-12-07 17:03:43.353 +07:00 [INF] Executed endpoint '/AccountPage/Login'
+2023-12-07 17:03:43.377 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/AccountPage/Login - - - 200 - text/html;+charset=utf-8 872.6271ms
+2023-12-07 17:03:43.457 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+2023-12-07 17:03:43.470 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 3073 application/javascript;+charset=utf-8 13.6998ms
+2023-12-07 17:03:43.543 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/favicon.ico - -
+2023-12-07 17:03:43.562 +07:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\wwwroot\favicon.ico'
+2023-12-07 17:03:43.565 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/favicon.ico - - - 200 5430 image/x-icon 21.0628ms
+2023-12-07 17:16:06.433 +07:00 [INF] User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-07 17:16:06.828 +07:00 [INF] Now listening on: https://localhost:5001
+2023-12-07 17:16:06.828 +07:00 [INF] Now listening on: http://localhost:5000
+2023-12-07 17:16:06.829 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-07 17:16:06.829 +07:00 [INF] Hosting environment: Development
+2023-12-07 17:16:06.829 +07:00 [INF] Content root path: C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392
+2023-12-07 17:16:07.545 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ - -
+2023-12-07 17:16:07.660 +07:00 [INF] Executing endpoint '/Index'
+2023-12-07 17:16:07.789 +07:00 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2023-12-07 17:16:07.809 +07:00 [INF] Executing handler method ProjectSWP392.Pages.IndexModel.OnGet - ModelState is "Valid"
+2023-12-07 17:16:07.817 +07:00 [INF] Executed handler method OnGet, returned result .
+2023-12-07 17:16:07.827 +07:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2023-12-07 17:16:07.828 +07:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2023-12-07 17:16:08.018 +07:00 [INF] Accessing expired session, Key:e4ee00b7-6011-ac75-c913-e05d48be1414
+2023-12-07 17:16:08.084 +07:00 [INF] Executed page /Index in 283.3279ms
+2023-12-07 17:16:08.086 +07:00 [INF] Executed endpoint '/Index'
+2023-12-07 17:16:08.099 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/ - - - 200 - text/html;+charset=utf-8 560.8434ms
+2023-12-07 17:16:08.104 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/css/bootstrap.min.css - -
+2023-12-07 17:16:08.120 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/css/site.css - -
+2023-12-07 17:16:08.120 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/image/banner.png - -
+2023-12-07 17:16:08.120 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/image/sss.png - -
+2023-12-07 17:16:08.120 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/jquery/dist/jquery.min.js - -
+2023-12-07 17:16:08.120 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/js/bootstrap.bundle.min.js - -
+2023-12-07 17:16:08.128 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - -
+2023-12-07 17:16:08.144 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+2023-12-07 17:16:08.168 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 3073 application/javascript;+charset=utf-8 23.7345ms
+2023-12-07 17:16:08.170 +07:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\wwwroot\js\site.js'
+2023-12-07 17:16:08.170 +07:00 [INF] Sending file. Request path: '/image/sss.png'. Physical path: 'C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\wwwroot\image\sss.png'
+2023-12-07 17:16:08.171 +07:00 [INF] Sending file. Request path: '/image/banner.png'. Physical path: 'C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\wwwroot\image\banner.png'
+2023-12-07 17:16:08.170 +07:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\wwwroot\css\site.css'
+2023-12-07 17:16:08.183 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/image/banner.png - - - 200 43105 image/png 61.7491ms
+2023-12-07 17:16:08.183 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/css/site.css - - - 200 1417 text/css 63.5994ms
+2023-12-07 17:16:08.183 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - - 200 230 application/javascript 55.8354ms
+2023-12-07 17:16:08.183 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/image/sss.png - - - 200 44806 image/png 63.2031ms
+2023-12-07 17:16:08.189 +07:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2023-12-07 17:16:08.190 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - - 200 78641 application/javascript 69.8105ms
+2023-12-07 17:16:08.192 +07:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2023-12-07 17:16:08.193 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/css/bootstrap.min.css - - - 200 155764 text/css 89.0457ms
+2023-12-07 17:16:08.198 +07:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\wwwroot\lib\jquery\dist\jquery.min.js'
+2023-12-07 17:16:08.199 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/lib/jquery/dist/jquery.min.js - - - 200 89476 application/javascript 78.5115ms
+2023-12-07 17:16:08.392 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/favicon.ico - -
+2023-12-07 17:16:08.395 +07:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\wwwroot\favicon.ico'
+2023-12-07 17:16:08.396 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/favicon.ico - - - 200 5430 image/x-icon 3.1636ms
+2023-12-07 17:16:10.029 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/AccountPage/Login - -
+2023-12-07 17:16:10.036 +07:00 [INF] Executing endpoint '/AccountPage/Login'
+2023-12-07 17:16:10.080 +07:00 [INF] Route matched with {page = "/AccountPage/Login"}. Executing page /AccountPage/Login
+2023-12-07 17:16:10.307 +07:00 [INF] Executing handler method ProjectSWP392.Pages.AccountPage.Login.OnGet - ModelState is "Valid"
+2023-12-07 17:16:10.309 +07:00 [INF] Accessing expired session, Key:e4ee00b7-6011-ac75-c913-e05d48be1414
+2023-12-07 17:16:10.310 +07:00 [INF] Executed handler method OnGet, returned result .
+2023-12-07 17:16:10.310 +07:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2023-12-07 17:16:10.310 +07:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2023-12-07 17:16:10.474 +07:00 [INF] Executed page /AccountPage/Login in 393.8747ms
+2023-12-07 17:16:10.474 +07:00 [INF] Executed endpoint '/AccountPage/Login'
+2023-12-07 17:16:10.478 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/AccountPage/Login - - - 200 - text/html;+charset=utf-8 449.2001ms
+2023-12-07 17:16:10.530 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+2023-12-07 17:16:10.532 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 3073 application/javascript;+charset=utf-8 2.4316ms
+2023-12-07 17:16:12.603 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/AccountPage/Register - -
+2023-12-07 17:16:12.615 +07:00 [INF] Executing endpoint '/AccountPage/Register'
+2023-12-07 17:16:12.630 +07:00 [INF] Route matched with {page = "/AccountPage/Register"}. Executing page /AccountPage/Register
+2023-12-07 17:16:12.647 +07:00 [INF] Create SendMailService
+2023-12-07 17:16:12.652 +07:00 [INF] Executing handler method ProjectSWP392.Pages.AccountPage.Register.OnGet - ModelState is "Valid"
+2023-12-07 17:16:12.653 +07:00 [INF] Executed handler method OnGet, returned result .
+2023-12-07 17:16:12.653 +07:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2023-12-07 17:16:12.653 +07:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2023-12-07 17:16:12.744 +07:00 [INF] Executed page /AccountPage/Register in 113.9868ms
+2023-12-07 17:16:12.744 +07:00 [INF] Executed endpoint '/AccountPage/Register'
+2023-12-07 17:16:12.745 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/AccountPage/Register - - - 200 - text/html;+charset=utf-8 142.5259ms
+2023-12-07 17:16:12.828 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+2023-12-07 17:16:12.831 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 3073 application/javascript;+charset=utf-8 0.9766ms
+2023-12-07 17:16:22.070 +07:00 [INF] Request starting HTTP/2 POST https://localhost:5001/AccountPage/Register application/x-www-form-urlencoded 381
+2023-12-07 17:16:22.070 +07:00 [INF] Executing endpoint '/AccountPage/Register'
+2023-12-07 17:16:22.071 +07:00 [INF] Route matched with {page = "/AccountPage/Register"}. Executing page /AccountPage/Register
+2023-12-07 17:16:22.090 +07:00 [INF] Create SendMailService
+2023-12-07 17:16:22.154 +07:00 [INF] Executing handler method ProjectSWP392.Pages.AccountPage.Register.OnPostAsync - ModelState is "Valid"
+2023-12-07 17:16:23.157 +07:00 [INF] Entity Framework Core 5.0.17 initialized 'DBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-12-07 17:16:23.892 +07:00 [INF] Executed DbCommand (45ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[UserID], [u].[Address], [u].[FullName], [u].[Phone], [u].[UserStatus]
+FROM [Users] AS [u]
+2023-12-07 17:16:24.018 +07:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[AccountID], [a].[AccountStatus], [a].[Admin], [a].[Email], [a].[Password], [a].[UserID], [a].[isVerified]
+FROM [Accounts] AS [a]
+2023-12-07 17:16:24.224 +07:00 [INF] Executed DbCommand (27ms) [Parameters=[@__account_Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[AccountID], [a].[AccountStatus], [a].[Admin], [a].[Email], [a].[Password], [a].[UserID], [a].[isVerified]
+FROM [Accounts] AS [a]
+WHERE [a].[Email] = @__account_Email_0
+2023-12-07 17:16:24.467 +07:00 [INF] Executed DbCommand (18ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Users] ([UserID], [Address], [FullName], [Phone], [UserStatus])
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2023-12-07 17:16:24.539 +07:00 [INF] Executed DbCommand (4ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (DbType = Boolean), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (DbType = Int32), @p6='?' (DbType = Boolean)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Accounts] ([AccountID], [AccountStatus], [Admin], [Email], [Password], [UserID], [isVerified])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+2023-12-07 17:16:24.586 +07:00 [INF] Executed DbCommand (4ms) [Parameters=[@__email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[AccountID], [a].[AccountStatus], [a].[Admin], [a].[Email], [a].[Password], [a].[UserID], [a].[isVerified]
+FROM [Accounts] AS [a]
+WHERE [a].[Email] = @__email_0
+2023-12-07 17:16:24.623 +07:00 [INF] Executed DbCommand (3ms) [Parameters=[@__account_AccountID_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [u].[UserID], [u].[Address], [u].[FullName], [u].[Phone], [u].[UserStatus]
+FROM [Users] AS [u]
+WHERE [u].[UserID] = @__account_AccountID_0
+2023-12-07 17:16:24.626 +07:00 [INF] User registered successfully
+2023-12-07 17:16:28.699 +07:00 [INF] send mail to huyntce160121@fpt.edu.vn
+2023-12-07 17:16:28.704 +07:00 [INF] Executed handler method OnPostAsync, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2023-12-07 17:16:28.727 +07:00 [INF] Executed page /AccountPage/Register in 6655.8561ms
+2023-12-07 17:16:28.729 +07:00 [INF] Executed endpoint '/AccountPage/Register'
+2023-12-07 17:16:28.748 +07:00 [INF] Request finished HTTP/2 POST https://localhost:5001/AccountPage/Register application/x-www-form-urlencoded 381 - 200 - text/html;+charset=utf-8 6677.9077ms
+2023-12-07 17:16:28.764 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+2023-12-07 17:16:28.766 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 3073 application/javascript;+charset=utf-8 1.4630ms
+2023-12-07 17:16:30.279 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/AccountPage/Login - -
+2023-12-07 17:16:30.279 +07:00 [INF] Executing endpoint '/AccountPage/Login'
+2023-12-07 17:16:30.280 +07:00 [INF] Route matched with {page = "/AccountPage/Login"}. Executing page /AccountPage/Login
+2023-12-07 17:16:30.281 +07:00 [INF] Executing handler method ProjectSWP392.Pages.AccountPage.Login.OnGet - ModelState is "Valid"
+2023-12-07 17:16:30.281 +07:00 [INF] Accessing expired session, Key:e4ee00b7-6011-ac75-c913-e05d48be1414
+2023-12-07 17:16:30.281 +07:00 [INF] Executed handler method OnGet, returned result .
+2023-12-07 17:16:30.281 +07:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2023-12-07 17:16:30.281 +07:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2023-12-07 17:16:30.289 +07:00 [INF] Executed page /AccountPage/Login in 9.3389ms
+2023-12-07 17:16:30.290 +07:00 [INF] Executed endpoint '/AccountPage/Login'
+2023-12-07 17:16:30.293 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/AccountPage/Login - - - 200 - text/html;+charset=utf-8 14.1765ms
+2023-12-07 17:16:30.345 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+2023-12-07 17:16:30.348 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 3073 application/javascript;+charset=utf-8 3.2878ms
+2023-12-07 17:17:16.153 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/AccountPage/Verified?5 - -
+2023-12-07 17:17:16.157 +07:00 [INF] Executing endpoint '/AccountPage/Verified'
+2023-12-07 17:17:16.166 +07:00 [INF] Route matched with {page = "/AccountPage/Verified"}. Executing page /AccountPage/Verified
+2023-12-07 17:17:16.169 +07:00 [INF] Create SendMailService
+2023-12-07 17:17:16.174 +07:00 [INF] Executing handler method ProjectSWP392.Pages.AccountPage.Verified.OnGet - ModelState is "Valid"
+2023-12-07 17:17:16.291 +07:00 [INF] Entity Framework Core 5.0.17 initialized 'DBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-12-07 17:17:16.314 +07:00 [INF] Executed DbCommand (9ms) [Parameters=[@__accountId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[AccountID], [a].[AccountStatus], [a].[Admin], [a].[Email], [a].[Password], [a].[UserID], [a].[isVerified]
+FROM [Accounts] AS [a]
+WHERE [a].[AccountID] = @__accountId_0
+2023-12-07 17:17:16.341 +07:00 [ERR] Error:AccountBanNotFound
+2023-12-07 17:17:16.344 +07:00 [INF] Executed handler method OnGet, returned result .
+2023-12-07 17:17:16.344 +07:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2023-12-07 17:17:16.344 +07:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2023-12-07 17:17:16.357 +07:00 [INF] Executed page /AccountPage/Verified in 191.317ms
+2023-12-07 17:17:16.359 +07:00 [INF] Executed endpoint '/AccountPage/Verified'
+2023-12-07 17:17:16.361 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/AccountPage/Verified?5 - - - 200 - text/html;+charset=utf-8 207.8737ms
+2023-12-07 17:17:16.409 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+2023-12-07 17:17:16.410 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/images/email.png - -
+2023-12-07 17:17:16.412 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 3073 application/javascript;+charset=utf-8 0.6327ms
+2023-12-07 17:17:16.420 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/images/email.png - - - 404 0 - 10.3982ms
+2023-12-07 17:17:20.631 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/AccountPage/Login - -
+2023-12-07 17:17:20.632 +07:00 [INF] Executing endpoint '/AccountPage/Login'
+2023-12-07 17:17:20.632 +07:00 [INF] Route matched with {page = "/AccountPage/Login"}. Executing page /AccountPage/Login
+2023-12-07 17:17:20.634 +07:00 [INF] Executing handler method ProjectSWP392.Pages.AccountPage.Login.OnGet - ModelState is "Valid"
+2023-12-07 17:17:20.634 +07:00 [INF] Accessing expired session, Key:e4ee00b7-6011-ac75-c913-e05d48be1414
+2023-12-07 17:17:20.634 +07:00 [INF] Executed handler method OnGet, returned result .
+2023-12-07 17:17:20.634 +07:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2023-12-07 17:17:20.634 +07:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2023-12-07 17:17:20.638 +07:00 [INF] Executed page /AccountPage/Login in 5.6414ms
+2023-12-07 17:17:20.638 +07:00 [INF] Executed endpoint '/AccountPage/Login'
+2023-12-07 17:17:20.638 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/AccountPage/Login - - - 200 - text/html;+charset=utf-8 7.2938ms
+2023-12-07 17:17:20.686 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/css/bootstrap.min.css - -
+2023-12-07 17:17:20.693 +07:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2023-12-07 17:17:20.696 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/css/bootstrap.min.css - - - 200 155764 text/css 9.5422ms
+2023-12-07 17:17:20.708 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/jquery/dist/jquery.min.js - -
+2023-12-07 17:17:20.708 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/css/site.css - -
+2023-12-07 17:17:20.708 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/js/bootstrap.bundle.min.js - -
+2023-12-07 17:17:20.713 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - -
+2023-12-07 17:17:20.714 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+2023-12-07 17:17:20.715 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 3073 application/javascript;+charset=utf-8 1.3841ms
+2023-12-07 17:17:20.716 +07:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\wwwroot\js\site.js'
+2023-12-07 17:17:20.718 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - - 200 230 application/javascript 5.4374ms
+2023-12-07 17:17:20.720 +07:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\wwwroot\lib\jquery\dist\jquery.min.js'
+2023-12-07 17:17:20.721 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/lib/jquery/dist/jquery.min.js - - - 200 89476 application/javascript 13.0972ms
+2023-12-07 17:17:20.720 +07:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\wwwroot\css\site.css'
+2023-12-07 17:17:20.723 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/css/site.css - - - 200 1417 text/css 15.1052ms
+2023-12-07 17:17:20.728 +07:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2023-12-07 17:17:20.729 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - - 200 78641 application/javascript 20.7831ms
+2023-12-07 17:17:37.344 +07:00 [INF] Request starting HTTP/2 POST https://localhost:5001/AccountPage/Login application/x-www-form-urlencoded 247
+2023-12-07 17:17:37.345 +07:00 [INF] Executing endpoint '/AccountPage/Login'
+2023-12-07 17:17:37.345 +07:00 [INF] Route matched with {page = "/AccountPage/Login"}. Executing page /AccountPage/Login
+2023-12-07 17:17:37.349 +07:00 [INF] Executing handler method ProjectSWP392.Pages.AccountPage.Login.OnPostAsync - ModelState is "Valid"
+2023-12-07 17:17:37.388 +07:00 [INF] Entity Framework Core 5.0.17 initialized 'DBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-12-07 17:17:37.448 +07:00 [INF] Executed DbCommand (24ms) [Parameters=[@__Email_0='?' (Size = 4000), @__Password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Accounts] AS [a]
+        WHERE ([a].[Email] = @__Email_0) AND ([a].[Password] = @__Password_1)) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2023-12-07 17:17:37.459 +07:00 [INF] Executed DbCommand (3ms) [Parameters=[@__email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[AccountID], [a].[AccountStatus], [a].[Admin], [a].[Email], [a].[Password], [a].[UserID], [a].[isVerified]
+FROM [Accounts] AS [a]
+WHERE [a].[Email] = @__email_0
+2023-12-07 17:17:37.466 +07:00 [INF] Executed DbCommand (5ms) [Parameters=[@__account_AccountID_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [u].[UserID], [u].[Address], [u].[FullName], [u].[Phone], [u].[UserStatus]
+FROM [Users] AS [u]
+WHERE [u].[UserID] = @__account_AccountID_0
+2023-12-07 17:17:37.469 +07:00 [INF] Login successfully with huyntce160121@fpt.edu.vn and 123456
+2023-12-07 17:17:37.470 +07:00 [INF] Accessing expired session, Key:e4ee00b7-6011-ac75-c913-e05d48be1414
+2023-12-07 17:17:37.471 +07:00 [INF] Executed handler method OnPostAsync, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2023-12-07 17:17:37.473 +07:00 [INF] Executed page /AccountPage/Login in 127.6476ms
+2023-12-07 17:17:37.473 +07:00 [INF] Executed endpoint '/AccountPage/Login'
+2023-12-07 17:17:37.476 +07:00 [INF] Session started; Key:e4ee00b7-6011-ac75-c913-e05d48be1414, Id:e2dc3e69-a16e-b803-aeb0-85447cc9bfe8
+2023-12-07 17:17:37.478 +07:00 [INF] Request finished HTTP/2 POST https://localhost:5001/AccountPage/Login application/x-www-form-urlencoded 247 - 200 - text/html;+charset=utf-8 133.7075ms
+2023-12-07 17:17:37.506 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+2023-12-07 17:17:37.506 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 3073 application/javascript;+charset=utf-8 0.4782ms
+2023-12-07 17:17:39.973 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ProductPage/Index - -
+2023-12-07 17:17:39.978 +07:00 [INF] Executing endpoint '/ProductPage/Index'
+2023-12-07 17:17:39.993 +07:00 [INF] Route matched with {page = "/ProductPage/Index"}. Executing page /ProductPage/Index
+2023-12-07 17:17:39.997 +07:00 [INF] Executing handler method ProjectSWP392.Pages.ProductPage.Index.OnGet - ModelState is "Valid"
+2023-12-07 17:17:40.001 +07:00 [INF] Entity Framework Core 5.0.17 initialized 'DBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-12-07 17:17:40.029 +07:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ProductID], [p].[CategoryID], [p].[ProductBatteryCapacity], [p].[ProductChipset], [p].[ProductDetailDescription], [p].[ProductImage], [p].[ProductMainCamera], [p].[ProductName], [p].[ProductPrice], [p].[ProductQuantity], [p].[ProductSelfieCamera], [p].[ProductStatus], [p].[ProductStorageExternal], [p].[ProductStorageInternal]
+FROM [Products] AS [p]
+2023-12-07 17:17:40.201 +07:00 [INF] Executed handler method OnGet, returned result .
+2023-12-07 17:17:40.201 +07:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2023-12-07 17:17:40.201 +07:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2023-12-07 17:17:40.260 +07:00 [INF] Executed page /ProductPage/Index in 266.3225ms
+2023-12-07 17:17:40.260 +07:00 [INF] Executed endpoint '/ProductPage/Index'
+2023-12-07 17:17:40.261 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/ProductPage/Index - - - 200 - text/html;+charset=utf-8 287.7438ms
+2023-12-07 17:17:40.294 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/image/sss.png - -
+2023-12-07 17:17:40.296 +07:00 [INF] Sending file. Request path: '/image/sss.png'. Physical path: 'C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\wwwroot\image\sss.png'
+2023-12-07 17:17:40.296 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/image/sss.png - - - 200 44806 image/png 2.1781ms
+2023-12-07 17:17:40.303 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+2023-12-07 17:17:40.303 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 3073 application/javascript;+charset=utf-8 0.5651ms
+2023-12-07 17:25:03.117 +07:00 [INF] User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-07 17:25:03.512 +07:00 [INF] Now listening on: https://localhost:5001
+2023-12-07 17:25:03.512 +07:00 [INF] Now listening on: http://localhost:5000
+2023-12-07 17:25:03.513 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-07 17:25:03.513 +07:00 [INF] Hosting environment: Development
+2023-12-07 17:25:03.513 +07:00 [INF] Content root path: C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392
+2023-12-07 17:25:04.297 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ - -
+2023-12-07 17:25:04.420 +07:00 [INF] Executing endpoint '/Index'
+2023-12-07 17:25:04.666 +07:00 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2023-12-07 17:25:04.730 +07:00 [INF] Executing handler method ProjectSWP392.Pages.IndexModel.OnGet - ModelState is "Valid"
+2023-12-07 17:25:04.747 +07:00 [INF] Executed handler method OnGet, returned result .
+2023-12-07 17:25:04.761 +07:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2023-12-07 17:25:04.763 +07:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2023-12-07 17:25:05.037 +07:00 [INF] Accessing expired session, Key:e4ee00b7-6011-ac75-c913-e05d48be1414
+2023-12-07 17:25:05.113 +07:00 [INF] Executed page /Index in 431.7009ms
+2023-12-07 17:25:05.115 +07:00 [INF] Executed endpoint '/Index'
+2023-12-07 17:25:05.131 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/ - - - 200 - text/html;+charset=utf-8 841.5803ms
+2023-12-07 17:25:05.136 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/css/bootstrap.min.css - -
+2023-12-07 17:25:05.156 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/css/site.css - -
+2023-12-07 17:25:05.158 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/image/banner.png - -
+2023-12-07 17:25:05.161 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/image/sss.png - -
+2023-12-07 17:25:05.160 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/jquery/dist/jquery.min.js - -
+2023-12-07 17:25:05.165 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - -
+2023-12-07 17:25:05.166 +07:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\wwwroot\css\site.css'
+2023-12-07 17:25:05.168 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+2023-12-07 17:25:05.170 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/css/site.css - - - 200 1417 text/css 13.3840ms
+2023-12-07 17:25:05.165 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/js/bootstrap.bundle.min.js - -
+2023-12-07 17:25:05.174 +07:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\wwwroot\js\site.js'
+2023-12-07 17:25:05.177 +07:00 [INF] Sending file. Request path: '/image/banner.png'. Physical path: 'C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\wwwroot\image\banner.png'
+2023-12-07 17:25:05.178 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - - 200 230 application/javascript 12.9330ms
+2023-12-07 17:25:05.179 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 3073 application/javascript;+charset=utf-8 10.5275ms
+2023-12-07 17:25:05.182 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/image/banner.png - - - 200 43105 image/png 24.2587ms
+2023-12-07 17:25:05.212 +07:00 [INF] Sending file. Request path: '/image/sss.png'. Physical path: 'C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\wwwroot\image\sss.png'
+2023-12-07 17:25:05.212 +07:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\wwwroot\lib\jquery\dist\jquery.min.js'
+2023-12-07 17:25:05.212 +07:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2023-12-07 17:25:05.212 +07:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2023-12-07 17:25:05.220 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/css/bootstrap.min.css - - - 200 155764 text/css 83.1636ms
+2023-12-07 17:25:05.220 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/image/sss.png - - - 200 44806 image/png 58.2366ms
+2023-12-07 17:25:05.220 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/lib/jquery/dist/jquery.min.js - - - 200 89476 application/javascript 59.8758ms
+2023-12-07 17:25:05.220 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - - 200 78641 application/javascript 54.7546ms
+2023-12-07 17:25:07.156 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/AccountPage/Login - -
+2023-12-07 17:25:07.166 +07:00 [INF] Executing endpoint '/AccountPage/Login'
+2023-12-07 17:25:07.221 +07:00 [INF] Route matched with {page = "/AccountPage/Login"}. Executing page /AccountPage/Login
+2023-12-07 17:25:07.501 +07:00 [INF] Executing handler method ProjectSWP392.Pages.AccountPage.Login.OnGet - ModelState is "Valid"
+2023-12-07 17:25:07.501 +07:00 [INF] Accessing expired session, Key:e4ee00b7-6011-ac75-c913-e05d48be1414
+2023-12-07 17:25:07.501 +07:00 [INF] Executed handler method OnGet, returned result .
+2023-12-07 17:25:07.501 +07:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2023-12-07 17:25:07.502 +07:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2023-12-07 17:25:07.667 +07:00 [INF] Executed page /AccountPage/Login in 445.8848ms
+2023-12-07 17:25:07.667 +07:00 [INF] Executed endpoint '/AccountPage/Login'
+2023-12-07 17:25:07.671 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/AccountPage/Login - - - 200 - text/html;+charset=utf-8 514.3688ms
+2023-12-07 17:25:07.717 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+2023-12-07 17:25:07.718 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 3073 application/javascript;+charset=utf-8 0.9757ms
+2023-12-07 17:25:17.814 +07:00 [INF] Request starting HTTP/2 POST https://localhost:5001/AccountPage/Login application/x-www-form-urlencoded 242
+2023-12-07 17:25:17.821 +07:00 [INF] Executing endpoint '/AccountPage/Login'
+2023-12-07 17:25:17.821 +07:00 [INF] Route matched with {page = "/AccountPage/Login"}. Executing page /AccountPage/Login
+2023-12-07 17:25:17.897 +07:00 [INF] Executing handler method ProjectSWP392.Pages.AccountPage.Login.OnPostAsync - ModelState is "Valid"
+2023-12-07 17:25:18.793 +07:00 [INF] Entity Framework Core 5.0.17 initialized 'DBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-12-07 17:25:19.730 +07:00 [INF] Executed DbCommand (92ms) [Parameters=[@__Email_0='?' (Size = 4000), @__Password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Accounts] AS [a]
+        WHERE ([a].[Email] = @__Email_0) AND ([a].[Password] = @__Password_1)) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2023-12-07 17:25:19.898 +07:00 [INF] Executed DbCommand (26ms) [Parameters=[@__email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[AccountID], [a].[AccountStatus], [a].[Admin], [a].[Email], [a].[Password], [a].[UserID], [a].[isVerified]
+FROM [Accounts] AS [a]
+WHERE [a].[Email] = @__email_0
+2023-12-07 17:25:20.047 +07:00 [INF] Executed DbCommand (11ms) [Parameters=[@__account_AccountID_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [u].[UserID], [u].[Address], [u].[FullName], [u].[Phone], [u].[UserStatus]
+FROM [Users] AS [u]
+WHERE [u].[UserID] = @__account_AccountID_0
+2023-12-07 17:25:20.095 +07:00 [INF] Executed page /AccountPage/Login in 2272.5774ms
+2023-12-07 17:25:20.100 +07:00 [INF] Executed endpoint '/AccountPage/Login'
+2023-12-07 17:25:20.237 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Exception: verified
+   at ProjectSWP392.Pages.AccountPage.Login.OnPostAsync() in C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\Pages\AccountPage\Login.cshtml.cs:line 51
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.ExecutorFactory.GenericTaskHandlerMethod.Convert[T](Object taskAsObject)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.ExecutorFactory.GenericTaskHandlerMethod.Execute(Object receiver, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeHandlerMethodAsync()
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeNextPageFilterAsync()
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.Rethrow(PageHandlerExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-12-07 17:25:20.313 +07:00 [INF] Request finished HTTP/2 POST https://localhost:5001/AccountPage/Login application/x-www-form-urlencoded 242 - 500 - text/html;+charset=utf-8 2498.5084ms
+2023-12-07 17:25:20.341 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+2023-12-07 17:25:20.341 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 3073 application/javascript;+charset=utf-8 0.5654ms
+2023-12-07 17:26:09.074 +07:00 [INF] User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-07 17:26:09.474 +07:00 [INF] Now listening on: https://localhost:5001
+2023-12-07 17:26:09.474 +07:00 [INF] Now listening on: http://localhost:5000
+2023-12-07 17:26:09.475 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-07 17:26:09.475 +07:00 [INF] Hosting environment: Development
+2023-12-07 17:26:09.475 +07:00 [INF] Content root path: C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392
+2023-12-07 17:26:24.025 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ - -
+2023-12-07 17:26:24.141 +07:00 [INF] Executing endpoint '/Index'
+2023-12-07 17:26:24.233 +07:00 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2023-12-07 17:26:24.249 +07:00 [INF] Executing handler method ProjectSWP392.Pages.IndexModel.OnGet - ModelState is "Valid"
+2023-12-07 17:26:24.257 +07:00 [INF] Executed handler method OnGet, returned result .
+2023-12-07 17:26:24.271 +07:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2023-12-07 17:26:24.273 +07:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2023-12-07 17:26:24.494 +07:00 [INF] Accessing expired session, Key:e4ee00b7-6011-ac75-c913-e05d48be1414
+2023-12-07 17:26:24.561 +07:00 [INF] Executed page /Index in 317.3361ms
+2023-12-07 17:26:24.564 +07:00 [INF] Executed endpoint '/Index'
+2023-12-07 17:26:24.582 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/ - - - 200 - text/html;+charset=utf-8 563.7796ms
+2023-12-07 17:26:24.617 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/css/bootstrap.min.css - -
+2023-12-07 17:26:24.622 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/css/site.css - -
+2023-12-07 17:26:24.622 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/image/sss.png - -
+2023-12-07 17:26:24.622 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/image/banner.png - -
+2023-12-07 17:26:24.646 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/jquery/dist/jquery.min.js - -
+2023-12-07 17:26:24.651 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - -
+2023-12-07 17:26:24.651 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/js/bootstrap.bundle.min.js - -
+2023-12-07 17:26:24.654 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+2023-12-07 17:26:24.654 +07:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\wwwroot\css\site.css'
+2023-12-07 17:26:24.655 +07:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\wwwroot\js\site.js'
+2023-12-07 17:26:24.656 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/css/site.css - - - 200 1417 text/css 32.6740ms
+2023-12-07 17:26:24.659 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - - 200 230 application/javascript 3.4477ms
+2023-12-07 17:26:24.691 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 3073 application/javascript;+charset=utf-8 37.6492ms
+2023-12-07 17:26:24.692 +07:00 [INF] Sending file. Request path: '/image/sss.png'. Physical path: 'C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\wwwroot\image\sss.png'
+2023-12-07 17:26:24.693 +07:00 [INF] Sending file. Request path: '/image/banner.png'. Physical path: 'C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\wwwroot\image\banner.png'
+2023-12-07 17:26:24.696 +07:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\wwwroot\lib\jquery\dist\jquery.min.js'
+2023-12-07 17:26:24.696 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/image/sss.png - - - 200 44806 image/png 73.6827ms
+2023-12-07 17:26:24.697 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/lib/jquery/dist/jquery.min.js - - - 200 89476 application/javascript 50.7943ms
+2023-12-07 17:26:24.702 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/image/banner.png - - - 200 43105 image/png 79.0774ms
+2023-12-07 17:26:24.707 +07:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2023-12-07 17:26:24.707 +07:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\ProjectSWP392\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2023-12-07 17:26:24.708 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/css/bootstrap.min.css - - - 200 155764 text/css 90.7023ms
+2023-12-07 17:26:24.708 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - - 200 78641 application/javascript 56.6493ms
+2023-12-07 17:26:26.641 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/AccountPage/Login - -
+2023-12-07 17:26:26.648 +07:00 [INF] Executing endpoint '/AccountPage/Login'
+2023-12-07 17:26:26.696 +07:00 [INF] Route matched with {page = "/AccountPage/Login"}. Executing page /AccountPage/Login
+2023-12-07 17:26:26.916 +07:00 [INF] Executing handler method ProjectSWP392.Pages.AccountPage.Login.OnGet - ModelState is "Valid"
+2023-12-07 17:26:26.918 +07:00 [INF] Accessing expired session, Key:e4ee00b7-6011-ac75-c913-e05d48be1414
+2023-12-07 17:26:26.918 +07:00 [INF] Executed handler method OnGet, returned result .
+2023-12-07 17:26:26.918 +07:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2023-12-07 17:26:26.919 +07:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2023-12-07 17:26:27.046 +07:00 [INF] Executed page /AccountPage/Login in 349.3614ms
+2023-12-07 17:26:27.047 +07:00 [INF] Executed endpoint '/AccountPage/Login'
+2023-12-07 17:26:27.049 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/AccountPage/Login - - - 200 - text/html;+charset=utf-8 408.6453ms
+2023-12-07 17:26:27.096 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+2023-12-07 17:26:27.097 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 3073 application/javascript;+charset=utf-8 0.9922ms
+2023-12-07 17:26:30.530 +07:00 [INF] Request starting HTTP/2 POST https://localhost:5001/AccountPage/Login application/x-www-form-urlencoded 242
+2023-12-07 17:26:30.536 +07:00 [INF] Executing endpoint '/AccountPage/Login'
+2023-12-07 17:26:30.537 +07:00 [INF] Route matched with {page = "/AccountPage/Login"}. Executing page /AccountPage/Login
+2023-12-07 17:26:30.610 +07:00 [INF] Executing handler method ProjectSWP392.Pages.AccountPage.Login.OnPostAsync - ModelState is "Valid"
+2023-12-07 17:26:31.575 +07:00 [INF] Entity Framework Core 5.0.17 initialized 'DBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-12-07 17:26:32.558 +07:00 [INF] Executed DbCommand (81ms) [Parameters=[@__Email_0='?' (Size = 4000), @__Password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Accounts] AS [a]
+        WHERE ([a].[Email] = @__Email_0) AND ([a].[Password] = @__Password_1)) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2023-12-07 17:26:32.739 +07:00 [INF] Executed DbCommand (28ms) [Parameters=[@__email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[AccountID], [a].[AccountStatus], [a].[Admin], [a].[Email], [a].[Password], [a].[UserID], [a].[isVerified]
+FROM [Accounts] AS [a]
+WHERE [a].[Email] = @__email_0
+2023-12-07 17:26:32.883 +07:00 [INF] Executed DbCommand (14ms) [Parameters=[@__account_AccountID_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [u].[UserID], [u].[Address], [u].[FullName], [u].[Phone], [u].[UserStatus]
+FROM [Users] AS [u]
+WHERE [u].[UserID] = @__account_AccountID_0
+2023-12-07 17:26:32.903 +07:00 [INF] Executed handler method OnPostAsync, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2023-12-07 17:26:32.924 +07:00 [INF] Executed page /AccountPage/Login in 2387.3724ms
+2023-12-07 17:26:32.926 +07:00 [INF] Executed endpoint '/AccountPage/Login'
+2023-12-07 17:26:32.941 +07:00 [INF] Request finished HTTP/2 POST https://localhost:5001/AccountPage/Login application/x-www-form-urlencoded 242 - 200 - text/html;+charset=utf-8 2410.5434ms
+2023-12-07 17:26:32.964 +07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+2023-12-07 17:26:32.966 +07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 3073 application/javascript;+charset=utf-8 2.6476ms
+2023-12-07 17:26:38.514 +07:00 [INF] Application is shutting down...

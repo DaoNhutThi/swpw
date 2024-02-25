@@ -1,0 +1,883 @@
+2023-12-15 02:58:28.564 +07:00 [INF] Application is shutting down...
+2023-12-15 11:00:27.612 +07:00 [INF] User profile is available. Using 'C:\Users\Joysing\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-15 11:00:27.854 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-15 11:00:27.860 +07:00 [INF] Hosting environment: Development
+2023-12-15 11:00:27.862 +07:00 [INF] Content root path: C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\ProjectSWP392
+2023-12-15 11:00:27.882 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44307/ - -
+2023-12-15 11:00:27.961 +07:00 [INF] Executing endpoint '/Index'
+2023-12-15 11:00:28.031 +07:00 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2023-12-15 11:00:28.404 +07:00 [INF] Executing handler method ProjectSWP392.Pages.IndexModel.OnGet - ModelState is "Valid"
+2023-12-15 11:00:28.764 +07:00 [INF] Entity Framework Core 5.0.17 initialized 'DBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-12-15 11:00:29.326 +07:00 [INF] Executed DbCommand (37ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ProductID], [p].[CategoryID], [p].[ProductBatteryCapacity], [p].[ProductChipset], [p].[ProductDetailDescription], [p].[ProductImage], [p].[ProductMainCamera], [p].[ProductName], [p].[ProductPrice], [p].[ProductQuantity], [p].[ProductSelfieCamera], [p].[ProductStatus], [p].[ProductStorageExternal], [p].[ProductStorageInternal]
+FROM [Products] AS [p]
+WHERE [p].[ProductStatus] = N'1'
+2023-12-15 11:00:29.381 +07:00 [INF] Executed handler method OnGet, returned result .
+2023-12-15 11:00:29.384 +07:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2023-12-15 11:00:29.384 +07:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2023-12-15 11:00:29.581 +07:00 [INF] Executed page /Index in 1544.8862ms
+2023-12-15 11:00:29.583 +07:00 [INF] Executed endpoint '/Index'
+2023-12-15 11:00:29.614 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44307/css/site.css - -
+2023-12-15 11:00:29.616 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44307/image/Logo-epics.svg - -
+2023-12-15 11:00:29.618 +07:00 [INF] The file /css/site.css was not modified
+2023-12-15 11:00:29.618 +07:00 [INF] The file /image/Logo-epics.svg was not modified
+2023-12-15 11:00:29.621 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44307/ - - - 200 - text/html;+charset=utf-8 1740.6210ms
+2023-12-15 11:00:29.621 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44307/css/site.css - - - 304 - text/css 6.7160ms
+2023-12-15 11:00:29.621 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44307/image/Logo-epics.svg - - - 304 - image/svg+xml 4.5169ms
+2023-12-15 11:00:29.624 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44307/lib/bootstrap/dist/js/script.js - -
+2023-12-15 11:00:29.625 +07:00 [INF] The file /lib/bootstrap/dist/js/script.js was not modified
+2023-12-15 11:00:29.627 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44307/lib/bootstrap/dist/js/script.js - - - 304 - application/javascript 2.9794ms
+2023-12-15 11:00:29.639 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44307/_vs/browserLink - -
+2023-12-15 11:00:29.679 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44307/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 39.1907ms
+2023-12-15 11:00:29.695 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44307/image/samsungs23.svg - -
+2023-12-15 11:00:29.695 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44307/image/fold5.svg - -
+2023-12-15 11:00:29.695 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44307/image/Iphone15.svg - -
+2023-12-15 11:00:29.697 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44307/image/realme.svg - -
+2023-12-15 11:00:29.697 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44307/image/vivo.svg - -
+2023-12-15 11:00:29.697 +07:00 [INF] The file /image/Iphone15.svg was not modified
+2023-12-15 11:00:29.697 +07:00 [INF] The file /image/fold5.svg was not modified
+2023-12-15 11:00:29.697 +07:00 [INF] The file /image/samsungs23.svg was not modified
+2023-12-15 11:00:29.697 +07:00 [INF] The file /image/realme.svg was not modified
+2023-12-15 11:00:29.697 +07:00 [INF] The file /image/vivo.svg was not modified
+2023-12-15 11:00:29.698 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44307/image/fold5.svg - - - 304 - image/svg+xml 2.8336ms
+2023-12-15 11:00:29.698 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44307/image/Iphone15.svg - - - 304 - image/svg+xml 2.8183ms
+2023-12-15 11:00:29.698 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44307/image/vivo.svg - - - 304 - image/svg+xml 0.3830ms
+2023-12-15 11:00:29.698 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44307/image/realme.svg - - - 304 - image/svg+xml 0.3396ms
+2023-12-15 11:00:29.698 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44307/image/samsungs23.svg - - - 304 - image/svg+xml 2.8426ms
+2023-12-15 12:45:00.117 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44307/AccountPage/Login - -
+2023-12-15 12:45:00.187 +07:00 [INF] Executing endpoint '/AccountPage/Login'
+2023-12-15 12:45:00.232 +07:00 [INF] Route matched with {page = "/AccountPage/Login"}. Executing page /AccountPage/Login
+2023-12-15 12:45:00.259 +07:00 [INF] Executing handler method ProjectSWP392.Pages.AccountPage.Login.OnGet - ModelState is "Valid"
+2023-12-15 12:45:00.261 +07:00 [INF] Executed handler method OnGet, returned result .
+2023-12-15 12:45:00.261 +07:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2023-12-15 12:45:00.261 +07:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2023-12-15 12:45:00.391 +07:00 [INF] Executed page /AccountPage/Login in 158.9407ms
+2023-12-15 12:45:00.392 +07:00 [INF] Executed endpoint '/AccountPage/Login'
+2023-12-15 12:45:00.400 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44307/AccountPage/Login - - - 200 - text/html;+charset=utf-8 289.3992ms
+2023-12-15 12:45:00.415 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44307/css/login.css - -
+2023-12-15 12:45:00.415 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44307/_vs/browserLink - -
+2023-12-15 12:45:00.415 +07:00 [INF] The file /css/login.css was not modified
+2023-12-15 12:45:00.416 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44307/css/login.css - - - 304 - text/css 1.3991ms
+2023-12-15 12:45:00.434 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44307/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 19.5339ms
+2023-12-15 12:45:00.444 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44307/image/page_login.svg - -
+2023-12-15 12:45:00.444 +07:00 [INF] The file /image/page_login.svg was not modified
+2023-12-15 12:45:00.445 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44307/image/page_login.svg - - - 304 - image/svg+xml 0.5881ms
+2023-12-15 12:45:07.724 +07:00 [INF] Request starting HTTP/2 POST https://localhost:44307/AccountPage/Login application/x-www-form-urlencoded 247
+2023-12-15 12:45:07.731 +07:00 [INF] Executing endpoint '/AccountPage/Login'
+2023-12-15 12:45:07.731 +07:00 [INF] Route matched with {page = "/AccountPage/Login"}. Executing page /AccountPage/Login
+2023-12-15 12:45:07.780 +07:00 [INF] Executing handler method ProjectSWP392.Pages.AccountPage.Login.OnPostAsync - ModelState is "Valid"
+2023-12-15 12:45:07.859 +07:00 [INF] Entity Framework Core 5.0.17 initialized 'DBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-12-15 12:45:07.956 +07:00 [INF] Executed DbCommand (42ms) [Parameters=[@__Email_0='?' (Size = 4000), @__Password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Accounts] AS [a]
+        WHERE ([a].[Email] = @__Email_0) AND ([a].[Password] = @__Password_1)) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2023-12-15 12:45:07.987 +07:00 [INF] Executed DbCommand (8ms) [Parameters=[@__email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[AccountID], [a].[AccountStatus], [a].[Admin], [a].[Email], [a].[Password], [a].[UserID], [a].[isVerified]
+FROM [Accounts] AS [a]
+WHERE [a].[Email] = @__email_0
+2023-12-15 12:45:08.024 +07:00 [INF] Executed DbCommand (5ms) [Parameters=[@__account_AccountID_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [u].[UserID], [u].[Address], [u].[FullName], [u].[Phone], [u].[UserStatus]
+FROM [Users] AS [u]
+WHERE [u].[UserID] = @__account_AccountID_0
+2023-12-15 12:45:08.043 +07:00 [INF] Login successfully with thidnCE160943@fpt.edu.vn and 123456
+2023-12-15 12:45:08.047 +07:00 [INF] Executed handler method OnPostAsync, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2023-12-15 12:45:08.056 +07:00 [INF] Executed page /AccountPage/Login in 324.5513ms
+2023-12-15 12:45:08.056 +07:00 [INF] Executed endpoint '/AccountPage/Login'
+2023-12-15 12:45:08.057 +07:00 [INF] Session started; Key:090d174a-6b4d-8ca7-2351-d53eb60ee312, Id:55b45bd7-cee6-7a7c-e69c-1b8bdbde869b
+2023-12-15 12:45:08.060 +07:00 [INF] Request finished HTTP/2 POST https://localhost:44307/AccountPage/Login application/x-www-form-urlencoded 247 - 200 - text/html;+charset=utf-8 336.4558ms
+2023-12-15 12:45:08.080 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44307/_vs/browserLink - -
+2023-12-15 12:45:08.091 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44307/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 11.3472ms
+2023-12-15 12:45:09.869 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44307/AdminPage/DashBoard - -
+2023-12-15 12:45:09.877 +07:00 [INF] Executing endpoint '/AdminPage/DashBoard'
+2023-12-15 12:45:09.881 +07:00 [INF] Route matched with {page = "/AdminPage/DashBoard"}. Executing page /AdminPage/DashBoard
+2023-12-15 12:45:09.885 +07:00 [INF] Executing handler method ProjectSWP392.Pages.AdminPage.DashBoard.OnGet - ModelState is "Valid"
+2023-12-15 12:45:09.905 +07:00 [INF] Entity Framework Core 5.0.17 initialized 'DBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-12-15 12:45:09.919 +07:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[AccountID], [a].[AccountStatus], [a].[Admin], [a].[Email], [a].[Password], [a].[UserID], [a].[isVerified]
+FROM [Accounts] AS [a]
+WHERE [a].[AccountStatus] = N'1'
+2023-12-15 12:45:09.932 +07:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ProductID], [p].[CategoryID], [p].[ProductBatteryCapacity], [p].[ProductChipset], [p].[ProductDetailDescription], [p].[ProductImage], [p].[ProductMainCamera], [p].[ProductName], [p].[ProductPrice], [p].[ProductQuantity], [p].[ProductSelfieCamera], [p].[ProductStatus], [p].[ProductStorageExternal], [p].[ProductStorageInternal]
+FROM [Products] AS [p]
+WHERE [p].[ProductStatus] = N'1'
+2023-12-15 12:45:09.945 +07:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[OrderID], [o].[OrderDate], [o].[OrderNote], [o].[OrderQuantity], [o].[OrderStatus], [o].[ShipperDate], [o].[UserID]
+FROM [Orders] AS [o]
+WHERE [o].[OrderStatus] = N'1'
+2023-12-15 12:45:09.985 +07:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[OrderID], [o].[OrderDate], [o].[OrderNote], [o].[OrderQuantity], [o].[OrderStatus], [o].[ShipperDate], [o].[UserID]
+FROM [Orders] AS [o]
+WHERE ([o].[OrderStatus] = N'1') AND ([o].[OrderNote] = N'Confirmed')
+2023-12-15 12:45:09.998 +07:00 [INF] Executed DbCommand (3ms) [Parameters=[@__o_OrderID_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[OrderDetailID], [o].[OrderDetailQuantity], [o].[OrderDetailStatus], [o].[OrderDetailTotalPrice], [o].[OrderID], [o].[ProductID], [o].[UserID]
+FROM [OrderDetails] AS [o]
+WHERE ([o].[OrderDetailStatus] = N'1') AND ([o].[OrderID] = @__o_OrderID_0)
+2023-12-15 12:45:10.021 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__o_OrderID_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[OrderDetailID], [o].[OrderDetailQuantity], [o].[OrderDetailStatus], [o].[OrderDetailTotalPrice], [o].[OrderID], [o].[ProductID], [o].[UserID]
+FROM [OrderDetails] AS [o]
+WHERE ([o].[OrderDetailStatus] = N'1') AND ([o].[OrderID] = @__o_OrderID_0)
+2023-12-15 12:45:10.023 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[@__o_OrderID_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[OrderDetailID], [o].[OrderDetailQuantity], [o].[OrderDetailStatus], [o].[OrderDetailTotalPrice], [o].[OrderID], [o].[ProductID], [o].[UserID]
+FROM [OrderDetails] AS [o]
+WHERE ([o].[OrderDetailStatus] = N'1') AND ([o].[OrderID] = @__o_OrderID_0)
+2023-12-15 12:45:10.024 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[@__o_OrderID_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[OrderDetailID], [o].[OrderDetailQuantity], [o].[OrderDetailStatus], [o].[OrderDetailTotalPrice], [o].[OrderID], [o].[ProductID], [o].[UserID]
+FROM [OrderDetails] AS [o]
+WHERE ([o].[OrderDetailStatus] = N'1') AND ([o].[OrderID] = @__o_OrderID_0)
+2023-12-15 12:45:10.026 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__o_OrderID_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[OrderDetailID], [o].[OrderDetailQuantity], [o].[OrderDetailStatus], [o].[OrderDetailTotalPrice], [o].[OrderID], [o].[ProductID], [o].[UserID]
+FROM [OrderDetails] AS [o]
+WHERE ([o].[OrderDetailStatus] = N'1') AND ([o].[OrderID] = @__o_OrderID_0)
+2023-12-15 12:45:10.027 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[@__o_OrderID_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[OrderDetailID], [o].[OrderDetailQuantity], [o].[OrderDetailStatus], [o].[OrderDetailTotalPrice], [o].[OrderID], [o].[ProductID], [o].[UserID]
+FROM [OrderDetails] AS [o]
+WHERE ([o].[OrderDetailStatus] = N'1') AND ([o].[OrderID] = @__o_OrderID_0)
+2023-12-15 12:45:10.028 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[@__o_OrderID_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[OrderDetailID], [o].[OrderDetailQuantity], [o].[OrderDetailStatus], [o].[OrderDetailTotalPrice], [o].[OrderID], [o].[ProductID], [o].[UserID]
+FROM [OrderDetails] AS [o]
+WHERE ([o].[OrderDetailStatus] = N'1') AND ([o].[OrderID] = @__o_OrderID_0)
+2023-12-15 12:45:10.029 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[@__o_OrderID_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[OrderDetailID], [o].[OrderDetailQuantity], [o].[OrderDetailStatus], [o].[OrderDetailTotalPrice], [o].[OrderID], [o].[ProductID], [o].[UserID]
+FROM [OrderDetails] AS [o]
+WHERE ([o].[OrderDetailStatus] = N'1') AND ([o].[OrderID] = @__o_OrderID_0)
+2023-12-15 12:45:10.030 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[@__o_OrderID_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[OrderDetailID], [o].[OrderDetailQuantity], [o].[OrderDetailStatus], [o].[OrderDetailTotalPrice], [o].[OrderID], [o].[ProductID], [o].[UserID]
+FROM [OrderDetails] AS [o]
+WHERE ([o].[OrderDetailStatus] = N'1') AND ([o].[OrderID] = @__o_OrderID_0)
+2023-12-15 12:45:10.031 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__o_OrderID_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[OrderDetailID], [o].[OrderDetailQuantity], [o].[OrderDetailStatus], [o].[OrderDetailTotalPrice], [o].[OrderID], [o].[ProductID], [o].[UserID]
+FROM [OrderDetails] AS [o]
+WHERE ([o].[OrderDetailStatus] = N'1') AND ([o].[OrderID] = @__o_OrderID_0)
+2023-12-15 12:45:10.032 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[@__o_OrderID_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[OrderDetailID], [o].[OrderDetailQuantity], [o].[OrderDetailStatus], [o].[OrderDetailTotalPrice], [o].[OrderID], [o].[ProductID], [o].[UserID]
+FROM [OrderDetails] AS [o]
+WHERE ([o].[OrderDetailStatus] = N'1') AND ([o].[OrderID] = @__o_OrderID_0)
+2023-12-15 12:45:10.033 +07:00 [INF] Executed handler method OnGet, returned result .
+2023-12-15 12:45:10.033 +07:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2023-12-15 12:45:10.033 +07:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2023-12-15 12:45:10.065 +07:00 [INF] Executed page /AdminPage/DashBoard in 183.3619ms
+2023-12-15 12:45:10.065 +07:00 [INF] Executed endpoint '/AdminPage/DashBoard'
+2023-12-15 12:45:10.071 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44307/AdminPage/DashBoard - - - 200 - text/html;+charset=utf-8 201.7421ms
+2023-12-15 12:45:10.089 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44307/css/admin.css - -
+2023-12-15 12:45:10.090 +07:00 [INF] The file /css/admin.css was not modified
+2023-12-15 12:45:10.090 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44307/css/admin.css - - - 304 - text/css 0.5356ms
+2023-12-15 12:45:10.095 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44307/_vs/browserLink - -
+2023-12-15 12:45:10.103 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44307/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 7.7673ms
+2023-12-15 12:45:15.811 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44307/ - -
+2023-12-15 12:45:15.812 +07:00 [INF] Executing endpoint '/Index'
+2023-12-15 12:45:15.812 +07:00 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2023-12-15 12:45:15.813 +07:00 [INF] Executing handler method ProjectSWP392.Pages.IndexModel.OnGet - ModelState is "Valid"
+2023-12-15 12:45:15.814 +07:00 [INF] Entity Framework Core 5.0.17 initialized 'DBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-12-15 12:45:15.818 +07:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ProductID], [p].[CategoryID], [p].[ProductBatteryCapacity], [p].[ProductChipset], [p].[ProductDetailDescription], [p].[ProductImage], [p].[ProductMainCamera], [p].[ProductName], [p].[ProductPrice], [p].[ProductQuantity], [p].[ProductSelfieCamera], [p].[ProductStatus], [p].[ProductStorageExternal], [p].[ProductStorageInternal]
+FROM [Products] AS [p]
+WHERE [p].[ProductStatus] = N'1'
+2023-12-15 12:45:15.820 +07:00 [INF] Executed handler method OnGet, returned result .
+2023-12-15 12:45:15.820 +07:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2023-12-15 12:45:15.820 +07:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2023-12-15 12:45:15.836 +07:00 [INF] Executed page /Index in 23.7136ms
+2023-12-15 12:45:15.836 +07:00 [INF] Executed endpoint '/Index'
+2023-12-15 12:45:15.841 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44307/ - - - 200 - text/html;+charset=utf-8 29.9862ms
+2023-12-15 12:45:15.866 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44307/_vs/browserLink - -
+2023-12-15 12:45:15.877 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44307/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 11.2060ms
+2023-12-15 12:45:19.461 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44307/OrderPage/OrderHistory - -
+2023-12-15 12:45:19.465 +07:00 [INF] Executing endpoint '/OrderPage/OrderHistory'
+2023-12-15 12:45:19.479 +07:00 [INF] Route matched with {page = "/OrderPage/OrderHistory"}. Executing page /OrderPage/OrderHistory
+2023-12-15 12:45:19.481 +07:00 [INF] Executing handler method ProjectSWP392.Pages.OrderPage.OrderHistory.OnGet - ModelState is "Valid"
+2023-12-15 12:45:19.485 +07:00 [INF] Entity Framework Core 5.0.17 initialized 'DBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-12-15 12:45:19.499 +07:00 [INF] Executed DbCommand (8ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[OrderID], [o].[OrderDate], [o].[OrderNote], [o].[OrderQuantity], [o].[OrderStatus], [o].[ShipperDate], [o].[UserID]
+FROM [Orders] AS [o]
+WHERE ([o].[UserID] = @__id_0) AND ([o].[OrderStatus] = N'1')
+2023-12-15 12:45:19.504 +07:00 [INF] Executed handler method OnGet, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2023-12-15 12:45:19.576 +07:00 [INF] Executed page /OrderPage/OrderHistory in 97.0745ms
+2023-12-15 12:45:19.576 +07:00 [INF] Executed endpoint '/OrderPage/OrderHistory'
+2023-12-15 12:45:19.590 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44307/OrderPage/OrderHistory - - - 200 - text/html;+charset=utf-8 129.4047ms
+2023-12-15 12:45:19.599 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44307/css/orderhistory.css - -
+2023-12-15 12:45:19.599 +07:00 [INF] The file /css/orderhistory.css was not modified
+2023-12-15 12:45:19.600 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44307/css/orderhistory.css - - - 304 - text/css 0.8949ms
+2023-12-15 12:45:19.601 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44307/_vs/browserLink - -
+2023-12-15 12:45:19.610 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44307/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 8.4758ms
+2023-12-15 12:45:48.516 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44307/OrderPage/OrderDetailHistory?orderId=3 - -
+2023-12-15 12:45:48.525 +07:00 [INF] Executing endpoint '/OrderPage/OrderDetailHistory'
+2023-12-15 12:45:48.531 +07:00 [INF] Route matched with {page = "/OrderPage/OrderDetailHistory"}. Executing page /OrderPage/OrderDetailHistory
+2023-12-15 12:45:48.535 +07:00 [INF] Executing handler method ProjectSWP392.Pages.OrderPage.OrderDetailHistory.OnGet - ModelState is "Valid"
+2023-12-15 12:45:48.542 +07:00 [INF] Entity Framework Core 5.0.17 initialized 'DBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-12-15 12:45:48.567 +07:00 [INF] Executed DbCommand (20ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[OrderDetailID], [o].[OrderDetailQuantity], [o].[OrderDetailStatus], [o].[OrderDetailTotalPrice], [o].[OrderID], [o].[ProductID], [o].[UserID]
+FROM [OrderDetails] AS [o]
+WHERE ([o].[OrderDetailStatus] = N'1') AND ([o].[OrderID] = @__id_0)
+2023-12-15 12:45:48.577 +07:00 [INF] Executed DbCommand (2ms) [Parameters=[@__order_UserID_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [u].[UserID], [u].[Address], [u].[FullName], [u].[Phone], [u].[UserStatus]
+FROM [Users] AS [u]
+WHERE [u].[UserID] = @__order_UserID_0
+2023-12-15 12:45:48.585 +07:00 [INF] Executed DbCommand (2ms) [Parameters=[@__order_OrderID_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [o].[OrderID], [o].[OrderDate], [o].[OrderNote], [o].[OrderQuantity], [o].[OrderStatus], [o].[ShipperDate], [o].[UserID]
+FROM [Orders] AS [o]
+WHERE [o].[OrderID] = @__order_OrderID_0
+2023-12-15 12:45:48.593 +07:00 [INF] Executed DbCommand (3ms) [Parameters=[@__order_ProductID_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [p].[ProductID], [p].[CategoryID], [p].[ProductBatteryCapacity], [p].[ProductChipset], [p].[ProductDetailDescription], [p].[ProductImage], [p].[ProductMainCamera], [p].[ProductName], [p].[ProductPrice], [p].[ProductQuantity], [p].[ProductSelfieCamera], [p].[ProductStatus], [p].[ProductStorageExternal], [p].[ProductStorageInternal]
+FROM [Products] AS [p]
+WHERE [p].[ProductID] = @__order_ProductID_0
+2023-12-15 12:45:48.597 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__order_UserID_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [u].[UserID], [u].[Address], [u].[FullName], [u].[Phone], [u].[UserStatus]
+FROM [Users] AS [u]
+WHERE [u].[UserID] = @__order_UserID_0
+2023-12-15 12:45:48.598 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__order_OrderID_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [o].[OrderID], [o].[OrderDate], [o].[OrderNote], [o].[OrderQuantity], [o].[OrderStatus], [o].[ShipperDate], [o].[UserID]
+FROM [Orders] AS [o]
+WHERE [o].[OrderID] = @__order_OrderID_0
+2023-12-15 12:45:48.600 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[@__order_ProductID_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [p].[ProductID], [p].[CategoryID], [p].[ProductBatteryCapacity], [p].[ProductChipset], [p].[ProductDetailDescription], [p].[ProductImage], [p].[ProductMainCamera], [p].[ProductName], [p].[ProductPrice], [p].[ProductQuantity], [p].[ProductSelfieCamera], [p].[ProductStatus], [p].[ProductStorageExternal], [p].[ProductStorageInternal]
+FROM [Products] AS [p]
+WHERE [p].[ProductID] = @__order_ProductID_0
+2023-12-15 12:45:48.601 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__order_UserID_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [u].[UserID], [u].[Address], [u].[FullName], [u].[Phone], [u].[UserStatus]
+FROM [Users] AS [u]
+WHERE [u].[UserID] = @__order_UserID_0
+2023-12-15 12:45:48.602 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[@__order_OrderID_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [o].[OrderID], [o].[OrderDate], [o].[OrderNote], [o].[OrderQuantity], [o].[OrderStatus], [o].[ShipperDate], [o].[UserID]
+FROM [Orders] AS [o]
+WHERE [o].[OrderID] = @__order_OrderID_0
+2023-12-15 12:45:48.603 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[@__order_ProductID_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [p].[ProductID], [p].[CategoryID], [p].[ProductBatteryCapacity], [p].[ProductChipset], [p].[ProductDetailDescription], [p].[ProductImage], [p].[ProductMainCamera], [p].[ProductName], [p].[ProductPrice], [p].[ProductQuantity], [p].[ProductSelfieCamera], [p].[ProductStatus], [p].[ProductStorageExternal], [p].[ProductStorageInternal]
+FROM [Products] AS [p]
+WHERE [p].[ProductID] = @__order_ProductID_0
+2023-12-15 12:45:48.614 +07:00 [INF] Executed DbCommand (3ms) [Parameters=[@__name_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [u].[UserID], [u].[Address], [u].[FullName], [u].[Phone], [u].[UserStatus]
+FROM [Users] AS [u]
+WHERE [u].[FullName] = @__name_0
+2023-12-15 12:45:48.614 +07:00 [INF] Executed handler method OnGet, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2023-12-15 12:45:48.621 +07:00 [INF] Executed page /OrderPage/OrderDetailHistory in 90.0781ms
+2023-12-15 12:45:48.621 +07:00 [INF] Executed endpoint '/OrderPage/OrderDetailHistory'
+2023-12-15 12:45:48.621 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44307/OrderPage/OrderDetailHistory?orderId=3 - - - 200 - text/html;+charset=utf-8 105.4968ms
+2023-12-15 12:46:41.599 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44307/OrderPage/OrderDetailHistory?orderId=3 - -
+2023-12-15 12:46:41.605 +07:00 [INF] Executing endpoint '/OrderPage/OrderDetailHistory'
+2023-12-15 12:46:41.605 +07:00 [INF] Route matched with {page = "/OrderPage/OrderDetailHistory"}. Executing page /OrderPage/OrderDetailHistory
+2023-12-15 12:46:41.607 +07:00 [INF] Executing handler method ProjectSWP392.Pages.OrderPage.OrderDetailHistory.OnGet - ModelState is "Valid"
+2023-12-15 12:46:41.611 +07:00 [INF] Entity Framework Core 5.0.17 initialized 'DBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-12-15 12:46:41.622 +07:00 [INF] Executed DbCommand (6ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[OrderDetailID], [o].[OrderDetailQuantity], [o].[OrderDetailStatus], [o].[OrderDetailTotalPrice], [o].[OrderID], [o].[ProductID], [o].[UserID]
+FROM [OrderDetails] AS [o]
+WHERE ([o].[OrderDetailStatus] = N'1') AND ([o].[OrderID] = @__id_0)
+2023-12-15 12:46:41.627 +07:00 [INF] Executed DbCommand (3ms) [Parameters=[@__order_UserID_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [u].[UserID], [u].[Address], [u].[FullName], [u].[Phone], [u].[UserStatus]
+FROM [Users] AS [u]
+WHERE [u].[UserID] = @__order_UserID_0
+2023-12-15 12:46:41.630 +07:00 [INF] Executed DbCommand (2ms) [Parameters=[@__order_OrderID_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [o].[OrderID], [o].[OrderDate], [o].[OrderNote], [o].[OrderQuantity], [o].[OrderStatus], [o].[ShipperDate], [o].[UserID]
+FROM [Orders] AS [o]
+WHERE [o].[OrderID] = @__order_OrderID_0
+2023-12-15 12:46:41.633 +07:00 [INF] Executed DbCommand (3ms) [Parameters=[@__order_ProductID_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [p].[ProductID], [p].[CategoryID], [p].[ProductBatteryCapacity], [p].[ProductChipset], [p].[ProductDetailDescription], [p].[ProductImage], [p].[ProductMainCamera], [p].[ProductName], [p].[ProductPrice], [p].[ProductQuantity], [p].[ProductSelfieCamera], [p].[ProductStatus], [p].[ProductStorageExternal], [p].[ProductStorageInternal]
+FROM [Products] AS [p]
+WHERE [p].[ProductID] = @__order_ProductID_0
+2023-12-15 12:46:41.634 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[@__order_UserID_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [u].[UserID], [u].[Address], [u].[FullName], [u].[Phone], [u].[UserStatus]
+FROM [Users] AS [u]
+WHERE [u].[UserID] = @__order_UserID_0
+2023-12-15 12:46:41.635 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[@__order_OrderID_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [o].[OrderID], [o].[OrderDate], [o].[OrderNote], [o].[OrderQuantity], [o].[OrderStatus], [o].[ShipperDate], [o].[UserID]
+FROM [Orders] AS [o]
+WHERE [o].[OrderID] = @__order_OrderID_0
+2023-12-15 12:46:41.636 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[@__order_ProductID_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [p].[ProductID], [p].[CategoryID], [p].[ProductBatteryCapacity], [p].[ProductChipset], [p].[ProductDetailDescription], [p].[ProductImage], [p].[ProductMainCamera], [p].[ProductName], [p].[ProductPrice], [p].[ProductQuantity], [p].[ProductSelfieCamera], [p].[ProductStatus], [p].[ProductStorageExternal], [p].[ProductStorageInternal]
+FROM [Products] AS [p]
+WHERE [p].[ProductID] = @__order_ProductID_0
+2023-12-15 12:46:41.637 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[@__order_UserID_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [u].[UserID], [u].[Address], [u].[FullName], [u].[Phone], [u].[UserStatus]
+FROM [Users] AS [u]
+WHERE [u].[UserID] = @__order_UserID_0
+2023-12-15 12:46:41.638 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[@__order_OrderID_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [o].[OrderID], [o].[OrderDate], [o].[OrderNote], [o].[OrderQuantity], [o].[OrderStatus], [o].[ShipperDate], [o].[UserID]
+FROM [Orders] AS [o]
+WHERE [o].[OrderID] = @__order_OrderID_0
+2023-12-15 12:46:41.640 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__order_ProductID_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [p].[ProductID], [p].[CategoryID], [p].[ProductBatteryCapacity], [p].[ProductChipset], [p].[ProductDetailDescription], [p].[ProductImage], [p].[ProductMainCamera], [p].[ProductName], [p].[ProductPrice], [p].[ProductQuantity], [p].[ProductSelfieCamera], [p].[ProductStatus], [p].[ProductStorageExternal], [p].[ProductStorageInternal]
+FROM [Products] AS [p]
+WHERE [p].[ProductID] = @__order_ProductID_0
+2023-12-15 12:46:41.644 +07:00 [INF] Executed DbCommand (3ms) [Parameters=[@__name_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [u].[UserID], [u].[Address], [u].[FullName], [u].[Phone], [u].[UserStatus]
+FROM [Users] AS [u]
+WHERE [u].[FullName] = @__name_0
+2023-12-15 12:46:41.646 +07:00 [INF] Executed handler method OnGet, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2023-12-15 12:46:41.657 +07:00 [INF] Executed page /OrderPage/OrderDetailHistory in 51.3246ms
+2023-12-15 12:46:41.657 +07:00 [INF] Executed endpoint '/OrderPage/OrderDetailHistory'
+2023-12-15 12:46:41.658 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44307/OrderPage/OrderDetailHistory?orderId=3 - - - 200 - text/html;+charset=utf-8 58.2874ms
+2023-12-15 12:47:36.732 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44307/OrderPage/OrderHistory - -
+2023-12-15 12:47:36.740 +07:00 [INF] Executing endpoint '/OrderPage/OrderHistory'
+2023-12-15 12:47:36.740 +07:00 [INF] Route matched with {page = "/OrderPage/OrderHistory"}. Executing page /OrderPage/OrderHistory
+2023-12-15 12:47:36.741 +07:00 [INF] Executing handler method ProjectSWP392.Pages.OrderPage.OrderHistory.OnGet - ModelState is "Valid"
+2023-12-15 12:47:36.742 +07:00 [INF] Entity Framework Core 5.0.17 initialized 'DBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-12-15 12:47:36.754 +07:00 [INF] Executed DbCommand (11ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[OrderID], [o].[OrderDate], [o].[OrderNote], [o].[OrderQuantity], [o].[OrderStatus], [o].[ShipperDate], [o].[UserID]
+FROM [Orders] AS [o]
+WHERE ([o].[UserID] = @__id_0) AND ([o].[OrderStatus] = N'1')
+2023-12-15 12:47:36.756 +07:00 [INF] Executed handler method OnGet, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2023-12-15 12:47:36.789 +07:00 [INF] Executed page /OrderPage/OrderHistory in 48.1427ms
+2023-12-15 12:47:36.789 +07:00 [INF] Executed endpoint '/OrderPage/OrderHistory'
+2023-12-15 12:47:36.797 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44307/OrderPage/OrderHistory - - - 200 - text/html;+charset=utf-8 64.3602ms
+2023-12-15 12:47:36.809 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44307/_vs/browserLink - -
+2023-12-15 12:47:36.818 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44307/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 8.3978ms
+2023-12-15 12:47:37.826 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44307/ - -
+2023-12-15 12:47:37.827 +07:00 [INF] Executing endpoint '/Index'
+2023-12-15 12:47:37.828 +07:00 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2023-12-15 12:47:37.828 +07:00 [INF] Executing handler method ProjectSWP392.Pages.IndexModel.OnGet - ModelState is "Valid"
+2023-12-15 12:47:37.830 +07:00 [INF] Entity Framework Core 5.0.17 initialized 'DBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-12-15 12:47:37.836 +07:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ProductID], [p].[CategoryID], [p].[ProductBatteryCapacity], [p].[ProductChipset], [p].[ProductDetailDescription], [p].[ProductImage], [p].[ProductMainCamera], [p].[ProductName], [p].[ProductPrice], [p].[ProductQuantity], [p].[ProductSelfieCamera], [p].[ProductStatus], [p].[ProductStorageExternal], [p].[ProductStorageInternal]
+FROM [Products] AS [p]
+WHERE [p].[ProductStatus] = N'1'
+2023-12-15 12:47:37.837 +07:00 [INF] Executed handler method OnGet, returned result .
+2023-12-15 12:47:37.837 +07:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2023-12-15 12:47:37.837 +07:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2023-12-15 12:47:37.844 +07:00 [INF] Executed page /Index in 16.7068ms
+2023-12-15 12:47:37.845 +07:00 [INF] Executed endpoint '/Index'
+2023-12-15 12:47:37.848 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44307/ - - - 200 - text/html;+charset=utf-8 21.2695ms
+2023-12-15 12:47:37.878 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44307/_vs/browserLink - -
+2023-12-15 12:47:37.890 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44307/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 11.4896ms
+2023-12-15 12:47:38.879 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44307/ProductPage - -
+2023-12-15 12:47:38.892 +07:00 [INF] Executing endpoint '/ProductPage/Index'
+2023-12-15 12:47:38.898 +07:00 [INF] Route matched with {page = "/ProductPage/Index"}. Executing page /ProductPage/Index
+2023-12-15 12:47:38.899 +07:00 [INF] Executing handler method ProjectSWP392.Pages.ProductPage.Index.OnGet - ModelState is "Valid"
+2023-12-15 12:47:38.902 +07:00 [INF] Entity Framework Core 5.0.17 initialized 'DBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-12-15 12:47:38.905 +07:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ProductID], [p].[CategoryID], [p].[ProductBatteryCapacity], [p].[ProductChipset], [p].[ProductDetailDescription], [p].[ProductImage], [p].[ProductMainCamera], [p].[ProductName], [p].[ProductPrice], [p].[ProductQuantity], [p].[ProductSelfieCamera], [p].[ProductStatus], [p].[ProductStorageExternal], [p].[ProductStorageInternal]
+FROM [Products] AS [p]
+WHERE [p].[ProductStatus] = N'1'
+2023-12-15 12:47:38.932 +07:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CategoryId], [c].[CategoryName], [c].[CategoryStatus]
+FROM [Categorys] AS [c]
+WHERE [c].[CategoryStatus] = N'1'
+2023-12-15 12:47:38.940 +07:00 [INF] Executed handler method OnGet, returned result .
+2023-12-15 12:47:38.940 +07:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2023-12-15 12:47:38.940 +07:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2023-12-15 12:47:38.998 +07:00 [INF] Executed page /ProductPage/Index in 99.9526ms
+2023-12-15 12:47:38.998 +07:00 [INF] Executed endpoint '/ProductPage/Index'
+2023-12-15 12:47:39.001 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44307/ProductPage - - - 200 - text/html;+charset=utf-8 121.3234ms
+2023-12-15 12:47:39.023 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44307/image/mobile.png - -
+2023-12-15 12:47:39.023 +07:00 [INF] The file /image/mobile.png was not modified
+2023-12-15 12:47:39.024 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44307/image/mobile.png - - - 304 - image/png 1.0500ms
+2023-12-15 12:47:39.026 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44307/_vs/browserLink - -
+2023-12-15 12:47:39.035 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44307/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 9.0167ms
+2023-12-15 12:50:26.565 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44307/AdminPage/DashBoard - -
+2023-12-15 12:50:26.576 +07:00 [INF] Executing endpoint '/AdminPage/DashBoard'
+2023-12-15 12:50:26.576 +07:00 [INF] Route matched with {page = "/AdminPage/DashBoard"}. Executing page /AdminPage/DashBoard
+2023-12-15 12:50:26.577 +07:00 [INF] Executing handler method ProjectSWP392.Pages.AdminPage.DashBoard.OnGet - ModelState is "Valid"
+2023-12-15 12:50:26.579 +07:00 [INF] Entity Framework Core 5.0.17 initialized 'DBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-12-15 12:50:26.585 +07:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[AccountID], [a].[AccountStatus], [a].[Admin], [a].[Email], [a].[Password], [a].[UserID], [a].[isVerified]
+FROM [Accounts] AS [a]
+WHERE [a].[AccountStatus] = N'1'
+2023-12-15 12:50:26.589 +07:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ProductID], [p].[CategoryID], [p].[ProductBatteryCapacity], [p].[ProductChipset], [p].[ProductDetailDescription], [p].[ProductImage], [p].[ProductMainCamera], [p].[ProductName], [p].[ProductPrice], [p].[ProductQuantity], [p].[ProductSelfieCamera], [p].[ProductStatus], [p].[ProductStorageExternal], [p].[ProductStorageInternal]
+FROM [Products] AS [p]
+WHERE [p].[ProductStatus] = N'1'
+2023-12-15 12:50:26.592 +07:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[OrderID], [o].[OrderDate], [o].[OrderNote], [o].[OrderQuantity], [o].[OrderStatus], [o].[ShipperDate], [o].[UserID]
+FROM [Orders] AS [o]
+WHERE [o].[OrderStatus] = N'1'
+2023-12-15 12:50:26.595 +07:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[OrderID], [o].[OrderDate], [o].[OrderNote], [o].[OrderQuantity], [o].[OrderStatus], [o].[ShipperDate], [o].[UserID]
+FROM [Orders] AS [o]
+WHERE ([o].[OrderStatus] = N'1') AND ([o].[OrderNote] = N'Confirmed')
+2023-12-15 12:50:26.599 +07:00 [INF] Executed DbCommand (2ms) [Parameters=[@__o_OrderID_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[OrderDetailID], [o].[OrderDetailQuantity], [o].[OrderDetailStatus], [o].[OrderDetailTotalPrice], [o].[OrderID], [o].[ProductID], [o].[UserID]
+FROM [OrderDetails] AS [o]
+WHERE ([o].[OrderDetailStatus] = N'1') AND ([o].[OrderID] = @__o_OrderID_0)
+2023-12-15 12:50:26.600 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__o_OrderID_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[OrderDetailID], [o].[OrderDetailQuantity], [o].[OrderDetailStatus], [o].[OrderDetailTotalPrice], [o].[OrderID], [o].[ProductID], [o].[UserID]
+FROM [OrderDetails] AS [o]
+WHERE ([o].[OrderDetailStatus] = N'1') AND ([o].[OrderID] = @__o_OrderID_0)
+2023-12-15 12:50:26.601 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__o_OrderID_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[OrderDetailID], [o].[OrderDetailQuantity], [o].[OrderDetailStatus], [o].[OrderDetailTotalPrice], [o].[OrderID], [o].[ProductID], [o].[UserID]
+FROM [OrderDetails] AS [o]
+WHERE ([o].[OrderDetailStatus] = N'1') AND ([o].[OrderID] = @__o_OrderID_0)
+2023-12-15 12:50:26.602 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__o_OrderID_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[OrderDetailID], [o].[OrderDetailQuantity], [o].[OrderDetailStatus], [o].[OrderDetailTotalPrice], [o].[OrderID], [o].[ProductID], [o].[UserID]
+FROM [OrderDetails] AS [o]
+WHERE ([o].[OrderDetailStatus] = N'1') AND ([o].[OrderID] = @__o_OrderID_0)
+2023-12-15 12:50:26.603 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[@__o_OrderID_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[OrderDetailID], [o].[OrderDetailQuantity], [o].[OrderDetailStatus], [o].[OrderDetailTotalPrice], [o].[OrderID], [o].[ProductID], [o].[UserID]
+FROM [OrderDetails] AS [o]
+WHERE ([o].[OrderDetailStatus] = N'1') AND ([o].[OrderID] = @__o_OrderID_0)
+2023-12-15 12:50:26.604 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[@__o_OrderID_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[OrderDetailID], [o].[OrderDetailQuantity], [o].[OrderDetailStatus], [o].[OrderDetailTotalPrice], [o].[OrderID], [o].[ProductID], [o].[UserID]
+FROM [OrderDetails] AS [o]
+WHERE ([o].[OrderDetailStatus] = N'1') AND ([o].[OrderID] = @__o_OrderID_0)
+2023-12-15 12:50:26.605 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[@__o_OrderID_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[OrderDetailID], [o].[OrderDetailQuantity], [o].[OrderDetailStatus], [o].[OrderDetailTotalPrice], [o].[OrderID], [o].[ProductID], [o].[UserID]
+FROM [OrderDetails] AS [o]
+WHERE ([o].[OrderDetailStatus] = N'1') AND ([o].[OrderID] = @__o_OrderID_0)
+2023-12-15 12:50:26.606 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[@__o_OrderID_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[OrderDetailID], [o].[OrderDetailQuantity], [o].[OrderDetailStatus], [o].[OrderDetailTotalPrice], [o].[OrderID], [o].[ProductID], [o].[UserID]
+FROM [OrderDetails] AS [o]
+WHERE ([o].[OrderDetailStatus] = N'1') AND ([o].[OrderID] = @__o_OrderID_0)
+2023-12-15 12:50:26.607 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__o_OrderID_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[OrderDetailID], [o].[OrderDetailQuantity], [o].[OrderDetailStatus], [o].[OrderDetailTotalPrice], [o].[OrderID], [o].[ProductID], [o].[UserID]
+FROM [OrderDetails] AS [o]
+WHERE ([o].[OrderDetailStatus] = N'1') AND ([o].[OrderID] = @__o_OrderID_0)
+2023-12-15 12:50:26.608 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[@__o_OrderID_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[OrderDetailID], [o].[OrderDetailQuantity], [o].[OrderDetailStatus], [o].[OrderDetailTotalPrice], [o].[OrderID], [o].[ProductID], [o].[UserID]
+FROM [OrderDetails] AS [o]
+WHERE ([o].[OrderDetailStatus] = N'1') AND ([o].[OrderID] = @__o_OrderID_0)
+2023-12-15 12:50:26.608 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[@__o_OrderID_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[OrderDetailID], [o].[OrderDetailQuantity], [o].[OrderDetailStatus], [o].[OrderDetailTotalPrice], [o].[OrderID], [o].[ProductID], [o].[UserID]
+FROM [OrderDetails] AS [o]
+WHERE ([o].[OrderDetailStatus] = N'1') AND ([o].[OrderID] = @__o_OrderID_0)
+2023-12-15 12:50:26.609 +07:00 [INF] Executed handler method OnGet, returned result .
+2023-12-15 12:50:26.609 +07:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2023-12-15 12:50:26.609 +07:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2023-12-15 12:50:26.637 +07:00 [INF] Executed page /AdminPage/DashBoard in 60.7541ms
+2023-12-15 12:50:26.637 +07:00 [INF] Executed endpoint '/AdminPage/DashBoard'
+2023-12-15 12:50:26.645 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44307/AdminPage/DashBoard - - - 200 - text/html;+charset=utf-8 81.6873ms
+2023-12-15 12:50:26.660 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44307/_vs/browserLink - -
+2023-12-15 12:50:26.667 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44307/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 7.8918ms
+2023-12-15 12:51:07.968 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44307/AdminPage/AccountManagement - -
+2023-12-15 12:51:07.978 +07:00 [INF] Executing endpoint '/AdminPage/AccountManagement'
+2023-12-15 12:51:07.985 +07:00 [INF] Route matched with {page = "/AdminPage/AccountManagement"}. Executing page /AdminPage/AccountManagement
+2023-12-15 12:51:07.986 +07:00 [INF] Executing handler method ProjectSWP392.Pages.AdminPage.AccountManagement.OnGet - ModelState is "Valid"
+2023-12-15 12:51:07.991 +07:00 [INF] Entity Framework Core 5.0.17 initialized 'DBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-12-15 12:51:08.008 +07:00 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[AccountID], [a].[AccountStatus], [a].[Admin], [a].[Email], [a].[Password], [a].[UserID], [a].[isVerified]
+FROM [Accounts] AS [a]
+WHERE [a].[AccountStatus] = N'1'
+2023-12-15 12:51:08.022 +07:00 [INF] Executed DbCommand (3ms) [Parameters=[@__item_UserID_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserID], [u].[Address], [u].[FullName], [u].[Phone], [u].[UserStatus]
+FROM [Users] AS [u]
+WHERE [u].[UserID] = @__item_UserID_0
+2023-12-15 12:51:08.027 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__item_UserID_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserID], [u].[Address], [u].[FullName], [u].[Phone], [u].[UserStatus]
+FROM [Users] AS [u]
+WHERE [u].[UserID] = @__item_UserID_0
+2023-12-15 12:51:08.033 +07:00 [INF] Executed handler method OnGet, returned result .
+2023-12-15 12:51:08.033 +07:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2023-12-15 12:51:08.033 +07:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2023-12-15 12:51:08.060 +07:00 [INF] Executed page /AdminPage/AccountManagement in 74.933ms
+2023-12-15 12:51:08.060 +07:00 [INF] Executed endpoint '/AdminPage/AccountManagement'
+2023-12-15 12:51:08.063 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44307/AdminPage/AccountManagement - - - 200 - text/html;+charset=utf-8 95.3215ms
+2023-12-15 12:51:08.084 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44307/_vs/browserLink - -
+2023-12-15 12:51:08.091 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44307/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 6.8120ms
+2023-12-15 12:51:59.695 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44307/AdminPage/ProductManagement - -
+2023-12-15 12:51:59.704 +07:00 [INF] Executing endpoint '/AdminPage/ProductManagement'
+2023-12-15 12:51:59.711 +07:00 [INF] Route matched with {page = "/AdminPage/ProductManagement"}. Executing page /AdminPage/ProductManagement
+2023-12-15 12:51:59.713 +07:00 [INF] Executing handler method ProjectSWP392.Pages.AdminPage.ProductManagement.OnGet - ModelState is "Valid"
+2023-12-15 12:51:59.716 +07:00 [INF] Entity Framework Core 5.0.17 initialized 'DBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-12-15 12:51:59.724 +07:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CategoryId], [c].[CategoryName], [c].[CategoryStatus]
+FROM [Categorys] AS [c]
+WHERE [c].[CategoryStatus] = N'1'
+2023-12-15 12:51:59.759 +07:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ProductID], [p].[CategoryID], [p].[ProductBatteryCapacity], [p].[ProductChipset], [p].[ProductDetailDescription], [p].[ProductImage], [p].[ProductMainCamera], [p].[ProductName], [p].[ProductPrice], [p].[ProductQuantity], [p].[ProductSelfieCamera], [p].[ProductStatus], [p].[ProductStorageExternal], [p].[ProductStorageInternal]
+FROM [Products] AS [p]
+WHERE [p].[ProductStatus] = N'1'
+2023-12-15 12:51:59.765 +07:00 [INF] Executed handler method OnGet, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2023-12-15 12:51:59.797 +07:00 [INF] Executed page /AdminPage/ProductManagement in 85.9394ms
+2023-12-15 12:51:59.797 +07:00 [INF] Executed endpoint '/AdminPage/ProductManagement'
+2023-12-15 12:51:59.807 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44307/AdminPage/ProductManagement - - - 200 - text/html;+charset=utf-8 111.8562ms
+2023-12-15 12:51:59.823 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44307/_vs/browserLink - -
+2023-12-15 12:51:59.837 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44307/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 13.7002ms
+2023-12-15 12:52:13.855 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44307/AdminPage/CategoryManagement - -
+2023-12-15 12:52:13.860 +07:00 [INF] Executing endpoint '/AdminPage/CategoryManagement'
+2023-12-15 12:52:13.866 +07:00 [INF] Route matched with {page = "/AdminPage/CategoryManagement"}. Executing page /AdminPage/CategoryManagement
+2023-12-15 12:52:13.867 +07:00 [INF] Executing handler method ProjectSWP392.Pages.AdminPage.CategoryManagement.OnGet - ModelState is "Valid"
+2023-12-15 12:52:13.869 +07:00 [INF] Entity Framework Core 5.0.17 initialized 'DBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-12-15 12:52:13.872 +07:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CategoryId], [c].[CategoryName], [c].[CategoryStatus]
+FROM [Categorys] AS [c]
+WHERE [c].[CategoryStatus] = N'1'
+2023-12-15 12:52:13.875 +07:00 [INF] Executed handler method OnGet, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2023-12-15 12:52:13.893 +07:00 [INF] Executed page /AdminPage/CategoryManagement in 26.7592ms
+2023-12-15 12:52:13.893 +07:00 [INF] Executed endpoint '/AdminPage/CategoryManagement'
+2023-12-15 12:52:13.897 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44307/AdminPage/CategoryManagement - - - 200 - text/html;+charset=utf-8 41.2012ms
+2023-12-15 12:52:13.921 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44307/_vs/browserLink - -
+2023-12-15 12:52:13.929 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44307/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 7.9989ms
+2023-12-15 12:52:37.814 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44307/AdminPage/OrderManagement - -
+2023-12-15 12:52:37.843 +07:00 [INF] Executing endpoint '/AdminPage/OrderManagement'
+2023-12-15 12:52:37.863 +07:00 [INF] Route matched with {page = "/AdminPage/OrderManagement"}. Executing page /AdminPage/OrderManagement
+2023-12-15 12:52:37.864 +07:00 [INF] Executing handler method ProjectSWP392.Pages.AdminPage.OrderManagement.OnGet - ModelState is "Valid"
+2023-12-15 12:52:37.868 +07:00 [INF] Entity Framework Core 5.0.17 initialized 'DBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-12-15 12:52:37.877 +07:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[OrderID], [o].[OrderDate], [o].[OrderNote], [o].[OrderQuantity], [o].[OrderStatus], [o].[ShipperDate], [o].[UserID]
+FROM [Orders] AS [o]
+WHERE [o].[OrderStatus] = N'1'
+2023-12-15 12:52:37.879 +07:00 [INF] Executed handler method OnGet, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2023-12-15 12:52:37.889 +07:00 [INF] Executed page /AdminPage/OrderManagement in 26.2006ms
+2023-12-15 12:52:37.889 +07:00 [INF] Executed endpoint '/AdminPage/OrderManagement'
+2023-12-15 12:52:37.900 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44307/AdminPage/OrderManagement - - - 200 - text/html;+charset=utf-8 86.7776ms
+2023-12-15 12:52:37.915 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44307/_vs/browserLink - -
+2023-12-15 12:52:37.927 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44307/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 12.1715ms
+2023-12-15 13:27:15.023 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44307/AdminPage/AccountManagement - -
+2023-12-15 13:27:15.031 +07:00 [INF] Executing endpoint '/AdminPage/AccountManagement'
+2023-12-15 13:27:15.031 +07:00 [INF] Route matched with {page = "/AdminPage/AccountManagement"}. Executing page /AdminPage/AccountManagement
+2023-12-15 13:27:15.033 +07:00 [INF] Executing handler method ProjectSWP392.Pages.AdminPage.AccountManagement.OnGet - ModelState is "Valid"
+2023-12-15 13:27:15.035 +07:00 [INF] Entity Framework Core 5.0.17 initialized 'DBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-12-15 13:27:15.059 +07:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[AccountID], [a].[AccountStatus], [a].[Admin], [a].[Email], [a].[Password], [a].[UserID], [a].[isVerified]
+FROM [Accounts] AS [a]
+WHERE [a].[AccountStatus] = N'1'
+2023-12-15 13:27:15.068 +07:00 [INF] Executed DbCommand (3ms) [Parameters=[@__item_UserID_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserID], [u].[Address], [u].[FullName], [u].[Phone], [u].[UserStatus]
+FROM [Users] AS [u]
+WHERE [u].[UserID] = @__item_UserID_0
+2023-12-15 13:27:15.077 +07:00 [INF] Executed DbCommand (2ms) [Parameters=[@__item_UserID_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserID], [u].[Address], [u].[FullName], [u].[Phone], [u].[UserStatus]
+FROM [Users] AS [u]
+WHERE [u].[UserID] = @__item_UserID_0
+2023-12-15 13:27:15.078 +07:00 [INF] Executed handler method OnGet, returned result .
+2023-12-15 13:27:15.078 +07:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2023-12-15 13:27:15.078 +07:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2023-12-15 13:27:15.084 +07:00 [INF] Accessing expired session, Key:090d174a-6b4d-8ca7-2351-d53eb60ee312
+2023-12-15 13:27:15.106 +07:00 [INF] Executed page /AdminPage/AccountManagement in 74.4316ms
+2023-12-15 13:27:15.106 +07:00 [INF] Executed endpoint '/AdminPage/AccountManagement'
+2023-12-15 13:27:15.110 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44307/AdminPage/AccountManagement - - - 200 - text/html;+charset=utf-8 86.8185ms
+2023-12-15 13:27:15.126 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44307/css/site.css - -
+2023-12-15 13:27:15.127 +07:00 [INF] The file /css/site.css was not modified
+2023-12-15 13:27:15.127 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44307/css/site.css - - - 304 - text/css 0.6623ms
+2023-12-15 13:27:15.136 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44307/_vs/browserLink - -
+2023-12-15 13:27:15.143 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44307/Index - -
+2023-12-15 13:27:15.145 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44307/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 8.3141ms
+2023-12-15 13:27:15.145 +07:00 [INF] Executing endpoint '/Index'
+2023-12-15 13:27:15.148 +07:00 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2023-12-15 13:27:15.148 +07:00 [INF] Executing handler method ProjectSWP392.Pages.IndexModel.OnGet - ModelState is "Valid"
+2023-12-15 13:27:15.149 +07:00 [INF] Entity Framework Core 5.0.17 initialized 'DBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-12-15 13:27:15.155 +07:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ProductID], [p].[CategoryID], [p].[ProductBatteryCapacity], [p].[ProductChipset], [p].[ProductDetailDescription], [p].[ProductImage], [p].[ProductMainCamera], [p].[ProductName], [p].[ProductPrice], [p].[ProductQuantity], [p].[ProductSelfieCamera], [p].[ProductStatus], [p].[ProductStorageExternal], [p].[ProductStorageInternal]
+FROM [Products] AS [p]
+WHERE [p].[ProductStatus] = N'1'
+2023-12-15 13:27:15.155 +07:00 [INF] Executed handler method OnGet, returned result .
+2023-12-15 13:27:15.155 +07:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2023-12-15 13:27:15.155 +07:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2023-12-15 13:27:15.155 +07:00 [INF] Accessing expired session, Key:090d174a-6b4d-8ca7-2351-d53eb60ee312
+2023-12-15 13:27:15.160 +07:00 [INF] Executed page /Index in 12.0091ms
+2023-12-15 13:27:15.160 +07:00 [INF] Executed endpoint '/Index'
+2023-12-15 13:27:15.167 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44307/Index - - - 200 - text/html;+charset=utf-8 24.1514ms
+2023-12-15 13:27:15.199 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44307/_vs/browserLink - -
+2023-12-15 13:27:15.215 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44307/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 16.6967ms
+2023-12-15 13:27:17.791 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44307/AccountPage/Login - -
+2023-12-15 13:27:17.792 +07:00 [INF] Executing endpoint '/AccountPage/Login'
+2023-12-15 13:27:17.792 +07:00 [INF] Route matched with {page = "/AccountPage/Login"}. Executing page /AccountPage/Login
+2023-12-15 13:27:17.792 +07:00 [INF] Executing handler method ProjectSWP392.Pages.AccountPage.Login.OnGet - ModelState is "Valid"
+2023-12-15 13:27:17.792 +07:00 [INF] Accessing expired session, Key:090d174a-6b4d-8ca7-2351-d53eb60ee312
+2023-12-15 13:27:17.792 +07:00 [INF] Executed handler method OnGet, returned result .
+2023-12-15 13:27:17.792 +07:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2023-12-15 13:27:17.792 +07:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2023-12-15 13:27:17.801 +07:00 [INF] Executed page /AccountPage/Login in 8.7906ms
+2023-12-15 13:27:17.801 +07:00 [INF] Executed endpoint '/AccountPage/Login'
+2023-12-15 13:27:17.803 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44307/AccountPage/Login - - - 200 - text/html;+charset=utf-8 12.0134ms
+2023-12-15 13:27:17.833 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44307/_vs/browserLink - -
+2023-12-15 13:27:17.844 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44307/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 10.8064ms
+2023-12-15 13:27:22.840 +07:00 [INF] Request starting HTTP/2 POST https://localhost:44307/AccountPage/Login application/x-www-form-urlencoded 247
+2023-12-15 13:27:22.841 +07:00 [INF] Executing endpoint '/AccountPage/Login'
+2023-12-15 13:27:22.841 +07:00 [INF] Route matched with {page = "/AccountPage/Login"}. Executing page /AccountPage/Login
+2023-12-15 13:27:22.843 +07:00 [INF] Executing handler method ProjectSWP392.Pages.AccountPage.Login.OnPostAsync - ModelState is "Valid"
+2023-12-15 13:27:22.847 +07:00 [INF] Entity Framework Core 5.0.17 initialized 'DBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-12-15 13:27:22.851 +07:00 [INF] Executed DbCommand (4ms) [Parameters=[@__Email_0='?' (Size = 4000), @__Password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Accounts] AS [a]
+        WHERE ([a].[Email] = @__Email_0) AND ([a].[Password] = @__Password_1)) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2023-12-15 13:27:22.855 +07:00 [INF] Executed DbCommand (3ms) [Parameters=[@__email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[AccountID], [a].[AccountStatus], [a].[Admin], [a].[Email], [a].[Password], [a].[UserID], [a].[isVerified]
+FROM [Accounts] AS [a]
+WHERE [a].[Email] = @__email_0
+2023-12-15 13:27:22.858 +07:00 [INF] Executed DbCommand (2ms) [Parameters=[@__account_AccountID_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [u].[UserID], [u].[Address], [u].[FullName], [u].[Phone], [u].[UserStatus]
+FROM [Users] AS [u]
+WHERE [u].[UserID] = @__account_AccountID_0
+2023-12-15 13:27:22.878 +07:00 [ERR] ThanhHuy thidnCE160943@fpt.edu.vn and 123446
+2023-12-15 13:27:22.879 +07:00 [INF] Executed handler method OnPostAsync, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2023-12-15 13:27:22.887 +07:00 [INF] Executed page /AccountPage/Login in 45.1044ms
+2023-12-15 13:27:22.887 +07:00 [INF] Executed endpoint '/AccountPage/Login'
+2023-12-15 13:27:22.890 +07:00 [INF] Request finished HTTP/2 POST https://localhost:44307/AccountPage/Login application/x-www-form-urlencoded 247 - 200 - text/html;+charset=utf-8 50.0327ms
+2023-12-15 13:27:22.913 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44307/_vs/browserLink - -
+2023-12-15 13:27:22.922 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44307/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 9.1487ms
+2023-12-15 13:27:26.682 +07:00 [INF] Request starting HTTP/2 POST https://localhost:44307/AccountPage/Login application/x-www-form-urlencoded 247
+2023-12-15 13:27:26.683 +07:00 [INF] Executing endpoint '/AccountPage/Login'
+2023-12-15 13:27:26.683 +07:00 [INF] Route matched with {page = "/AccountPage/Login"}. Executing page /AccountPage/Login
+2023-12-15 13:27:26.685 +07:00 [INF] Executing handler method ProjectSWP392.Pages.AccountPage.Login.OnPostAsync - ModelState is "Valid"
+2023-12-15 13:27:26.690 +07:00 [INF] Entity Framework Core 5.0.17 initialized 'DBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-12-15 13:27:26.691 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__Email_0='?' (Size = 4000), @__Password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Accounts] AS [a]
+        WHERE ([a].[Email] = @__Email_0) AND ([a].[Password] = @__Password_1)) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2023-12-15 13:27:26.693 +07:00 [INF] Executed DbCommand (2ms) [Parameters=[@__email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[AccountID], [a].[AccountStatus], [a].[Admin], [a].[Email], [a].[Password], [a].[UserID], [a].[isVerified]
+FROM [Accounts] AS [a]
+WHERE [a].[Email] = @__email_0
+2023-12-15 13:27:26.696 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__account_AccountID_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [u].[UserID], [u].[Address], [u].[FullName], [u].[Phone], [u].[UserStatus]
+FROM [Users] AS [u]
+WHERE [u].[UserID] = @__account_AccountID_0
+2023-12-15 13:27:26.699 +07:00 [INF] Login successfully with thidnCE160943@fpt.edu.vn and 123456
+2023-12-15 13:27:26.700 +07:00 [INF] Accessing expired session, Key:090d174a-6b4d-8ca7-2351-d53eb60ee312
+2023-12-15 13:27:26.700 +07:00 [INF] Executed handler method OnPostAsync, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2023-12-15 13:27:26.706 +07:00 [INF] Executed page /AccountPage/Login in 22.3417ms
+2023-12-15 13:27:26.706 +07:00 [INF] Executed endpoint '/AccountPage/Login'
+2023-12-15 13:27:26.706 +07:00 [INF] Session started; Key:090d174a-6b4d-8ca7-2351-d53eb60ee312, Id:09e24b22-09c5-e200-5d73-156551f827f7
+2023-12-15 13:27:26.708 +07:00 [INF] Request finished HTTP/2 POST https://localhost:44307/AccountPage/Login application/x-www-form-urlencoded 247 - 200 - text/html;+charset=utf-8 26.0293ms
+2023-12-15 13:27:26.732 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44307/_vs/browserLink - -
+2023-12-15 13:27:26.740 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44307/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 8.1137ms
+2023-12-15 13:27:27.408 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44307/AdminPage/DashBoard - -
+2023-12-15 13:27:27.410 +07:00 [INF] Executing endpoint '/AdminPage/DashBoard'
+2023-12-15 13:27:27.410 +07:00 [INF] Route matched with {page = "/AdminPage/DashBoard"}. Executing page /AdminPage/DashBoard
+2023-12-15 13:27:27.410 +07:00 [INF] Executing handler method ProjectSWP392.Pages.AdminPage.DashBoard.OnGet - ModelState is "Valid"
+2023-12-15 13:27:27.411 +07:00 [INF] Entity Framework Core 5.0.17 initialized 'DBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-12-15 13:27:27.412 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[AccountID], [a].[AccountStatus], [a].[Admin], [a].[Email], [a].[Password], [a].[UserID], [a].[isVerified]
+FROM [Accounts] AS [a]
+WHERE [a].[AccountStatus] = N'1'
+2023-12-15 13:27:27.413 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ProductID], [p].[CategoryID], [p].[ProductBatteryCapacity], [p].[ProductChipset], [p].[ProductDetailDescription], [p].[ProductImage], [p].[ProductMainCamera], [p].[ProductName], [p].[ProductPrice], [p].[ProductQuantity], [p].[ProductSelfieCamera], [p].[ProductStatus], [p].[ProductStorageExternal], [p].[ProductStorageInternal]
+FROM [Products] AS [p]
+WHERE [p].[ProductStatus] = N'1'
+2023-12-15 13:27:27.417 +07:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[OrderID], [o].[OrderDate], [o].[OrderNote], [o].[OrderQuantity], [o].[OrderStatus], [o].[ShipperDate], [o].[UserID]
+FROM [Orders] AS [o]
+WHERE [o].[OrderStatus] = N'1'
+2023-12-15 13:27:27.420 +07:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[OrderID], [o].[OrderDate], [o].[OrderNote], [o].[OrderQuantity], [o].[OrderStatus], [o].[ShipperDate], [o].[UserID]
+FROM [Orders] AS [o]
+WHERE ([o].[OrderStatus] = N'1') AND ([o].[OrderNote] = N'Confirmed')
+2023-12-15 13:27:27.424 +07:00 [INF] Executed DbCommand (3ms) [Parameters=[@__o_OrderID_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[OrderDetailID], [o].[OrderDetailQuantity], [o].[OrderDetailStatus], [o].[OrderDetailTotalPrice], [o].[OrderID], [o].[ProductID], [o].[UserID]
+FROM [OrderDetails] AS [o]
+WHERE ([o].[OrderDetailStatus] = N'1') AND ([o].[OrderID] = @__o_OrderID_0)
+2023-12-15 13:27:27.425 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[@__o_OrderID_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[OrderDetailID], [o].[OrderDetailQuantity], [o].[OrderDetailStatus], [o].[OrderDetailTotalPrice], [o].[OrderID], [o].[ProductID], [o].[UserID]
+FROM [OrderDetails] AS [o]
+WHERE ([o].[OrderDetailStatus] = N'1') AND ([o].[OrderID] = @__o_OrderID_0)
+2023-12-15 13:27:27.426 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[@__o_OrderID_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[OrderDetailID], [o].[OrderDetailQuantity], [o].[OrderDetailStatus], [o].[OrderDetailTotalPrice], [o].[OrderID], [o].[ProductID], [o].[UserID]
+FROM [OrderDetails] AS [o]
+WHERE ([o].[OrderDetailStatus] = N'1') AND ([o].[OrderID] = @__o_OrderID_0)
+2023-12-15 13:27:27.427 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__o_OrderID_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[OrderDetailID], [o].[OrderDetailQuantity], [o].[OrderDetailStatus], [o].[OrderDetailTotalPrice], [o].[OrderID], [o].[ProductID], [o].[UserID]
+FROM [OrderDetails] AS [o]
+WHERE ([o].[OrderDetailStatus] = N'1') AND ([o].[OrderID] = @__o_OrderID_0)
+2023-12-15 13:27:27.428 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__o_OrderID_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[OrderDetailID], [o].[OrderDetailQuantity], [o].[OrderDetailStatus], [o].[OrderDetailTotalPrice], [o].[OrderID], [o].[ProductID], [o].[UserID]
+FROM [OrderDetails] AS [o]
+WHERE ([o].[OrderDetailStatus] = N'1') AND ([o].[OrderID] = @__o_OrderID_0)
+2023-12-15 13:27:27.429 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[@__o_OrderID_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[OrderDetailID], [o].[OrderDetailQuantity], [o].[OrderDetailStatus], [o].[OrderDetailTotalPrice], [o].[OrderID], [o].[ProductID], [o].[UserID]
+FROM [OrderDetails] AS [o]
+WHERE ([o].[OrderDetailStatus] = N'1') AND ([o].[OrderID] = @__o_OrderID_0)
+2023-12-15 13:27:27.430 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[@__o_OrderID_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[OrderDetailID], [o].[OrderDetailQuantity], [o].[OrderDetailStatus], [o].[OrderDetailTotalPrice], [o].[OrderID], [o].[ProductID], [o].[UserID]
+FROM [OrderDetails] AS [o]
+WHERE ([o].[OrderDetailStatus] = N'1') AND ([o].[OrderID] = @__o_OrderID_0)
+2023-12-15 13:27:27.431 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[@__o_OrderID_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[OrderDetailID], [o].[OrderDetailQuantity], [o].[OrderDetailStatus], [o].[OrderDetailTotalPrice], [o].[OrderID], [o].[ProductID], [o].[UserID]
+FROM [OrderDetails] AS [o]
+WHERE ([o].[OrderDetailStatus] = N'1') AND ([o].[OrderID] = @__o_OrderID_0)
+2023-12-15 13:27:27.432 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__o_OrderID_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[OrderDetailID], [o].[OrderDetailQuantity], [o].[OrderDetailStatus], [o].[OrderDetailTotalPrice], [o].[OrderID], [o].[ProductID], [o].[UserID]
+FROM [OrderDetails] AS [o]
+WHERE ([o].[OrderDetailStatus] = N'1') AND ([o].[OrderID] = @__o_OrderID_0)
+2023-12-15 13:27:27.433 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[@__o_OrderID_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[OrderDetailID], [o].[OrderDetailQuantity], [o].[OrderDetailStatus], [o].[OrderDetailTotalPrice], [o].[OrderID], [o].[ProductID], [o].[UserID]
+FROM [OrderDetails] AS [o]
+WHERE ([o].[OrderDetailStatus] = N'1') AND ([o].[OrderID] = @__o_OrderID_0)
+2023-12-15 13:27:27.434 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[@__o_OrderID_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[OrderDetailID], [o].[OrderDetailQuantity], [o].[OrderDetailStatus], [o].[OrderDetailTotalPrice], [o].[OrderID], [o].[ProductID], [o].[UserID]
+FROM [OrderDetails] AS [o]
+WHERE ([o].[OrderDetailStatus] = N'1') AND ([o].[OrderID] = @__o_OrderID_0)
+2023-12-15 13:27:27.434 +07:00 [INF] Executed handler method OnGet, returned result .
+2023-12-15 13:27:27.434 +07:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2023-12-15 13:27:27.434 +07:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2023-12-15 13:27:27.442 +07:00 [INF] Executed page /AdminPage/DashBoard in 32.2999ms
+2023-12-15 13:27:27.442 +07:00 [INF] Executed endpoint '/AdminPage/DashBoard'
+2023-12-15 13:27:27.446 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44307/AdminPage/DashBoard - - - 200 - text/html;+charset=utf-8 37.9689ms
+2023-12-15 13:27:27.480 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44307/_vs/browserLink - -
+2023-12-15 13:27:27.493 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44307/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 13.4345ms
+2023-12-15 13:27:30.087 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44307/AdminPage/AccountManagement - -
+2023-12-15 13:27:30.088 +07:00 [INF] Executing endpoint '/AdminPage/AccountManagement'
+2023-12-15 13:27:30.089 +07:00 [INF] Route matched with {page = "/AdminPage/AccountManagement"}. Executing page /AdminPage/AccountManagement
+2023-12-15 13:27:30.089 +07:00 [INF] Executing handler method ProjectSWP392.Pages.AdminPage.AccountManagement.OnGet - ModelState is "Valid"
+2023-12-15 13:27:30.090 +07:00 [INF] Entity Framework Core 5.0.17 initialized 'DBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-12-15 13:27:30.092 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[AccountID], [a].[AccountStatus], [a].[Admin], [a].[Email], [a].[Password], [a].[UserID], [a].[isVerified]
+FROM [Accounts] AS [a]
+WHERE [a].[AccountStatus] = N'1'
+2023-12-15 13:27:30.097 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__item_UserID_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserID], [u].[Address], [u].[FullName], [u].[Phone], [u].[UserStatus]
+FROM [Users] AS [u]
+WHERE [u].[UserID] = @__item_UserID_0
+2023-12-15 13:27:30.099 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__item_UserID_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserID], [u].[Address], [u].[FullName], [u].[Phone], [u].[UserStatus]
+FROM [Users] AS [u]
+WHERE [u].[UserID] = @__item_UserID_0
+2023-12-15 13:27:30.099 +07:00 [INF] Executed handler method OnGet, returned result .
+2023-12-15 13:27:30.099 +07:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2023-12-15 13:27:30.099 +07:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2023-12-15 13:27:30.106 +07:00 [INF] Executed page /AdminPage/AccountManagement in 16.9087ms
+2023-12-15 13:27:30.106 +07:00 [INF] Executed endpoint '/AdminPage/AccountManagement'
+2023-12-15 13:27:30.111 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44307/AdminPage/AccountManagement - - - 200 - text/html;+charset=utf-8 23.6395ms
+2023-12-15 13:27:30.135 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44307/_vs/browserLink - -
+2023-12-15 13:27:30.146 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44307/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 11.8661ms
+2023-12-15 13:28:27.406 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44307/AdminPage/CategoryManagement - -
+2023-12-15 13:28:27.412 +07:00 [INF] Executing endpoint '/AdminPage/CategoryManagement'
+2023-12-15 13:28:27.412 +07:00 [INF] Route matched with {page = "/AdminPage/CategoryManagement"}. Executing page /AdminPage/CategoryManagement
+2023-12-15 13:28:27.413 +07:00 [INF] Executing handler method ProjectSWP392.Pages.AdminPage.CategoryManagement.OnGet - ModelState is "Valid"
+2023-12-15 13:28:27.415 +07:00 [INF] Entity Framework Core 5.0.17 initialized 'DBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-12-15 13:28:27.425 +07:00 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CategoryId], [c].[CategoryName], [c].[CategoryStatus]
+FROM [Categorys] AS [c]
+WHERE [c].[CategoryStatus] = N'1'
+2023-12-15 13:28:27.425 +07:00 [INF] Executed handler method OnGet, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2023-12-15 13:28:27.442 +07:00 [INF] Executed page /AdminPage/CategoryManagement in 29.449ms
+2023-12-15 13:28:27.442 +07:00 [INF] Executed endpoint '/AdminPage/CategoryManagement'
+2023-12-15 13:28:27.449 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44307/AdminPage/CategoryManagement - - - 200 - text/html;+charset=utf-8 43.0587ms
+2023-12-15 13:28:27.466 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44307/_vs/browserLink - -
+2023-12-15 13:28:27.486 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44307/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 19.3838ms
+2023-12-15 13:28:29.463 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44307/AdminPage/ProductManagement - -
+2023-12-15 13:28:29.464 +07:00 [INF] Executing endpoint '/AdminPage/ProductManagement'
+2023-12-15 13:28:29.464 +07:00 [INF] Route matched with {page = "/AdminPage/ProductManagement"}. Executing page /AdminPage/ProductManagement
+2023-12-15 13:28:29.464 +07:00 [INF] Executing handler method ProjectSWP392.Pages.AdminPage.ProductManagement.OnGet - ModelState is "Valid"
+2023-12-15 13:28:29.465 +07:00 [INF] Entity Framework Core 5.0.17 initialized 'DBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-12-15 13:28:29.467 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CategoryId], [c].[CategoryName], [c].[CategoryStatus]
+FROM [Categorys] AS [c]
+WHERE [c].[CategoryStatus] = N'1'
+2023-12-15 13:28:29.474 +07:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ProductID], [p].[CategoryID], [p].[ProductBatteryCapacity], [p].[ProductChipset], [p].[ProductDetailDescription], [p].[ProductImage], [p].[ProductMainCamera], [p].[ProductName], [p].[ProductPrice], [p].[ProductQuantity], [p].[ProductSelfieCamera], [p].[ProductStatus], [p].[ProductStorageExternal], [p].[ProductStorageInternal]
+FROM [Products] AS [p]
+WHERE [p].[ProductStatus] = N'1'
+2023-12-15 13:28:29.474 +07:00 [INF] Executed handler method OnGet, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2023-12-15 13:28:29.481 +07:00 [INF] Executed page /AdminPage/ProductManagement in 16.7746ms
+2023-12-15 13:28:29.481 +07:00 [INF] Executed endpoint '/AdminPage/ProductManagement'
+2023-12-15 13:28:29.491 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44307/AdminPage/ProductManagement - - - 200 - text/html;+charset=utf-8 28.4888ms
+2023-12-15 13:28:29.516 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44307/_vs/browserLink - -
+2023-12-15 13:28:29.525 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44307/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 8.8406ms
+2023-12-15 13:28:31.129 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44307/AdminPage/DetailsProduct?Id=9 - -
+2023-12-15 13:28:31.133 +07:00 [INF] Executing endpoint '/AdminPage/DetailsProduct'
+2023-12-15 13:28:31.137 +07:00 [INF] Route matched with {page = "/AdminPage/DetailsProduct"}. Executing page /AdminPage/DetailsProduct
+2023-12-15 13:28:31.138 +07:00 [INF] Executing handler method ProjectSWP392.Pages.AdminPage.DetailsProduct.OnGet - ModelState is "Valid"
+2023-12-15 13:28:31.141 +07:00 [INF] Entity Framework Core 5.0.17 initialized 'DBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-12-15 13:28:31.146 +07:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CategoryId], [c].[CategoryName], [c].[CategoryStatus]
+FROM [Categorys] AS [c]
+WHERE [c].[CategoryStatus] = N'1'
+2023-12-15 13:28:31.158 +07:00 [INF] Executed DbCommand (3ms) [Parameters=[@__Id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [p].[ProductID], [p].[CategoryID], [p].[ProductBatteryCapacity], [p].[ProductChipset], [p].[ProductDetailDescription], [p].[ProductImage], [p].[ProductMainCamera], [p].[ProductName], [p].[ProductPrice], [p].[ProductQuantity], [p].[ProductSelfieCamera], [p].[ProductStatus], [p].[ProductStorageExternal], [p].[ProductStorageInternal]
+FROM [Products] AS [p]
+WHERE [p].[ProductID] = @__Id_0
+2023-12-15 13:28:31.159 +07:00 [INF] Executed handler method OnGet, returned result .
+2023-12-15 13:28:31.159 +07:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2023-12-15 13:28:31.159 +07:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2023-12-15 13:28:31.202 +07:00 [INF] Executed page /AdminPage/DetailsProduct in 65.2954ms
+2023-12-15 13:28:31.202 +07:00 [INF] Executed endpoint '/AdminPage/DetailsProduct'
+2023-12-15 13:28:31.207 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44307/AdminPage/DetailsProduct?Id=9 - - - 200 - text/html;+charset=utf-8 78.1009ms
+2023-12-15 13:28:31.236 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44307/_vs/browserLink - -
+2023-12-15 13:28:31.244 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44307/css/adminaccount.css - -
+2023-12-15 13:28:31.244 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44307/css/editprofile.css - -
+2023-12-15 13:28:31.244 +07:00 [INF] The file /css/adminaccount.css was not modified
+2023-12-15 13:28:31.244 +07:00 [INF] The file /css/editprofile.css was not modified
+2023-12-15 13:28:31.244 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44307/css/adminaccount.css - - - 304 - text/css 0.6897ms
+2023-12-15 13:28:31.244 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44307/css/editprofile.css - - - 304 - text/css 0.6899ms
+2023-12-15 13:28:31.252 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44307/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 15.8051ms
+2023-12-15 13:28:48.890 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44307/AdminPage/ProductManagement - -
+2023-12-15 13:28:48.891 +07:00 [INF] Executing endpoint '/AdminPage/ProductManagement'
+2023-12-15 13:28:48.891 +07:00 [INF] Route matched with {page = "/AdminPage/ProductManagement"}. Executing page /AdminPage/ProductManagement
+2023-12-15 13:28:48.891 +07:00 [INF] Executing handler method ProjectSWP392.Pages.AdminPage.ProductManagement.OnGet - ModelState is "Valid"
+2023-12-15 13:28:48.893 +07:00 [INF] Entity Framework Core 5.0.17 initialized 'DBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-12-15 13:28:48.894 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CategoryId], [c].[CategoryName], [c].[CategoryStatus]
+FROM [Categorys] AS [c]
+WHERE [c].[CategoryStatus] = N'1'
+2023-12-15 13:28:48.900 +07:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ProductID], [p].[CategoryID], [p].[ProductBatteryCapacity], [p].[ProductChipset], [p].[ProductDetailDescription], [p].[ProductImage], [p].[ProductMainCamera], [p].[ProductName], [p].[ProductPrice], [p].[ProductQuantity], [p].[ProductSelfieCamera], [p].[ProductStatus], [p].[ProductStorageExternal], [p].[ProductStorageInternal]
+FROM [Products] AS [p]
+WHERE [p].[ProductStatus] = N'1'
+2023-12-15 13:28:48.900 +07:00 [INF] Executed handler method OnGet, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2023-12-15 13:28:48.913 +07:00 [INF] Executed page /AdminPage/ProductManagement in 22.1314ms
+2023-12-15 13:28:48.913 +07:00 [INF] Executed endpoint '/AdminPage/ProductManagement'
+2023-12-15 13:28:48.917 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44307/AdminPage/ProductManagement - - - 200 - text/html;+charset=utf-8 27.2143ms
+2023-12-15 13:28:48.945 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44307/_vs/browserLink - -
+2023-12-15 13:28:48.955 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44307/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 10.0823ms
+2023-12-15 13:28:51.081 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44307/AdminPage/OrderManagement - -
+2023-12-15 13:28:51.083 +07:00 [INF] Executing endpoint '/AdminPage/OrderManagement'
+2023-12-15 13:28:51.083 +07:00 [INF] Route matched with {page = "/AdminPage/OrderManagement"}. Executing page /AdminPage/OrderManagement
+2023-12-15 13:28:51.083 +07:00 [INF] Executing handler method ProjectSWP392.Pages.AdminPage.OrderManagement.OnGet - ModelState is "Valid"
+2023-12-15 13:28:51.085 +07:00 [INF] Entity Framework Core 5.0.17 initialized 'DBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-12-15 13:28:51.089 +07:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[OrderID], [o].[OrderDate], [o].[OrderNote], [o].[OrderQuantity], [o].[OrderStatus], [o].[ShipperDate], [o].[UserID]
+FROM [Orders] AS [o]
+WHERE [o].[OrderStatus] = N'1'
+2023-12-15 13:28:51.090 +07:00 [INF] Executed handler method OnGet, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2023-12-15 13:28:51.097 +07:00 [INF] Executed page /AdminPage/OrderManagement in 13.8927ms
+2023-12-15 13:28:51.097 +07:00 [INF] Executed endpoint '/AdminPage/OrderManagement'
+2023-12-15 13:28:51.107 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44307/AdminPage/OrderManagement - - - 200 - text/html;+charset=utf-8 25.7229ms
+2023-12-15 13:28:51.130 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44307/_vs/browserLink - -
+2023-12-15 13:28:51.139 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44307/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 9.0533ms
+2023-12-15 13:29:13.737 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44307/AdminPage/CategoryManagement - -
+2023-12-15 13:29:13.743 +07:00 [INF] Executing endpoint '/AdminPage/CategoryManagement'
+2023-12-15 13:29:13.744 +07:00 [INF] Route matched with {page = "/AdminPage/CategoryManagement"}. Executing page /AdminPage/CategoryManagement
+2023-12-15 13:29:13.744 +07:00 [INF] Executing handler method ProjectSWP392.Pages.AdminPage.CategoryManagement.OnGet - ModelState is "Valid"
+2023-12-15 13:29:13.745 +07:00 [INF] Entity Framework Core 5.0.17 initialized 'DBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-12-15 13:29:13.750 +07:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CategoryId], [c].[CategoryName], [c].[CategoryStatus]
+FROM [Categorys] AS [c]
+WHERE [c].[CategoryStatus] = N'1'
+2023-12-15 13:29:13.751 +07:00 [INF] Executed handler method OnGet, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2023-12-15 13:29:13.775 +07:00 [INF] Executed page /AdminPage/CategoryManagement in 31.6478ms
+2023-12-15 13:29:13.776 +07:00 [INF] Executed endpoint '/AdminPage/CategoryManagement'
+2023-12-15 13:29:13.781 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44307/AdminPage/CategoryManagement - - - 200 - text/html;+charset=utf-8 43.7771ms
+2023-12-15 13:29:13.815 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44307/_vs/browserLink - -
+2023-12-15 13:29:13.833 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44307/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 18.2985ms
+2023-12-15 13:30:14.969 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44307/AdminPage/OrderManagement - -
+2023-12-15 13:30:14.975 +07:00 [INF] Executing endpoint '/AdminPage/OrderManagement'
+2023-12-15 13:30:14.975 +07:00 [INF] Route matched with {page = "/AdminPage/OrderManagement"}. Executing page /AdminPage/OrderManagement
+2023-12-15 13:30:14.976 +07:00 [INF] Executing handler method ProjectSWP392.Pages.AdminPage.OrderManagement.OnGet - ModelState is "Valid"
+2023-12-15 13:30:14.978 +07:00 [INF] Entity Framework Core 5.0.17 initialized 'DBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-12-15 13:30:14.985 +07:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[OrderID], [o].[OrderDate], [o].[OrderNote], [o].[OrderQuantity], [o].[OrderStatus], [o].[ShipperDate], [o].[UserID]
+FROM [Orders] AS [o]
+WHERE [o].[OrderStatus] = N'1'
+2023-12-15 13:30:14.986 +07:00 [INF] Executed handler method OnGet, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2023-12-15 13:30:15.011 +07:00 [INF] Executed page /AdminPage/OrderManagement in 36.0293ms
+2023-12-15 13:30:15.011 +07:00 [INF] Executed endpoint '/AdminPage/OrderManagement'
+2023-12-15 13:30:15.023 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44307/AdminPage/OrderManagement - - - 200 - text/html;+charset=utf-8 54.5327ms
+2023-12-15 13:30:15.033 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44307/_vs/browserLink - -
+2023-12-15 13:30:15.047 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44307/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 13.6124ms
+2023-12-15 13:30:49.518 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44307/AdminPage/OrderDetailAdmin?orderId=8 - -
+2023-12-15 13:30:49.528 +07:00 [INF] Executing endpoint '/AdminPage/OrderDetailAdmin'
+2023-12-15 13:30:49.532 +07:00 [INF] Route matched with {page = "/AdminPage/OrderDetailAdmin"}. Executing page /AdminPage/OrderDetailAdmin
+2023-12-15 13:30:49.533 +07:00 [INF] Executing handler method ProjectSWP392.Pages.AdminPage.OrderDetailAdmin.OnGet - ModelState is "Valid"
+2023-12-15 13:30:49.536 +07:00 [INF] Entity Framework Core 5.0.17 initialized 'DBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-12-15 13:30:49.547 +07:00 [INF] Executed DbCommand (9ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[OrderDetailID], [o].[OrderDetailQuantity], [o].[OrderDetailStatus], [o].[OrderDetailTotalPrice], [o].[OrderID], [o].[ProductID], [o].[UserID]
+FROM [OrderDetails] AS [o]
+WHERE ([o].[OrderDetailStatus] = N'1') AND ([o].[OrderID] = @__id_0)
+2023-12-15 13:30:49.557 +07:00 [INF] Executed DbCommand (4ms) [Parameters=[@__order_UserID_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [u].[UserID], [u].[Address], [u].[FullName], [u].[Phone], [u].[UserStatus]
+FROM [Users] AS [u]
+WHERE [u].[UserID] = @__order_UserID_0
+2023-12-15 13:30:49.560 +07:00 [INF] Executed DbCommand (2ms) [Parameters=[@__order_OrderID_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [o].[OrderID], [o].[OrderDate], [o].[OrderNote], [o].[OrderQuantity], [o].[OrderStatus], [o].[ShipperDate], [o].[UserID]
+FROM [Orders] AS [o]
+WHERE [o].[OrderID] = @__order_OrderID_0
+2023-12-15 13:30:49.563 +07:00 [INF] Executed DbCommand (2ms) [Parameters=[@__order_ProductID_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [p].[ProductID], [p].[CategoryID], [p].[ProductBatteryCapacity], [p].[ProductChipset], [p].[ProductDetailDescription], [p].[ProductImage], [p].[ProductMainCamera], [p].[ProductName], [p].[ProductPrice], [p].[ProductQuantity], [p].[ProductSelfieCamera], [p].[ProductStatus], [p].[ProductStorageExternal], [p].[ProductStorageInternal]
+FROM [Products] AS [p]
+WHERE [p].[ProductID] = @__order_ProductID_0
+2023-12-15 13:30:49.567 +07:00 [INF] Executed DbCommand (2ms) [Parameters=[@__name_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [u].[UserID], [u].[Address], [u].[FullName], [u].[Phone], [u].[UserStatus]
+FROM [Users] AS [u]
+WHERE [u].[FullName] = @__name_0
+2023-12-15 13:30:49.568 +07:00 [INF] Executed handler method OnGet, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2023-12-15 13:30:49.584 +07:00 [INF] Executed page /AdminPage/OrderDetailAdmin in 51.4559ms
+2023-12-15 13:30:49.584 +07:00 [INF] Executed endpoint '/AdminPage/OrderDetailAdmin'
+2023-12-15 13:30:49.584 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44307/AdminPage/OrderDetailAdmin?orderId=8 - - - 200 - text/html;+charset=utf-8 66.4525ms

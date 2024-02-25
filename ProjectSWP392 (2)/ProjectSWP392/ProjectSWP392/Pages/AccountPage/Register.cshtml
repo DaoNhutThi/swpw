@@ -1,0 +1,126 @@
+@page
+@model ProjectSWP392.Pages.AccountPage.Register
+
+<h1>@ViewData["Title"]</h1>
+
+@{
+    Layout = "~/Pages/Shared/_Layout_copy.cshtml";
+}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<style>
+    body {
+        background-image: url('/image/page_login.svg');
+        background-repeat: no-repeat;
+        /* Ngăn chặn lặp lại ảnh nền */
+        background-size: cover;
+        height: 97.8vh !important;
+        margin: 0;
+    }
+</style>
+
+<body>
+    <section class="p-4 mt-3">
+        <div class="px-4 py-5 px-md-5 text-center text-lg-start">
+            <div class="container">
+                <div class="row gx-lg-5 align-items-center justify-content-end">
+
+
+                    <div class="col-lg-6 mb-5 mb-lg-0">
+                        <div class="card" style="  margin-top: 0rem !important;">
+                            <div class="card-body py-5 px-md-5">
+                                <form method="post" class="form-container">
+                                    <h5 style="   margin-bottom: 2rem;
+    text-align: center;
+    font-weight: 800;">Register</h5>
+                                    <div class="form-group">
+                                        <input asp-for="regist.FullName" class="form-control" placeholder="Full Name" />
+                                        <span asp-validation-for="regist.FullName" class="text-danger"></span>
+                                    </div>
+                                    <div class="form-group">
+                                        <input asp-for="regist.Email" type="text" class="form-control"
+                                            placeholder="Email" />
+                                        <span asp-validation-for="regist.Email" class="text-danger"></span>
+                                    </div>
+                                    <div class="form-group">
+                                        <input asp-for="regist.PassWord" type="password" class="form-control"
+                                            placeholder="Password" />
+                                        <span asp-validation-for="regist.PassWord" class="text-danger"></span>
+                                    </div>
+                                    <div class="form-group">
+                                        <input asp-for="regist.ReEnterPassword" type="password" class="form-control"
+                                            placeholder="Confirm Password" />
+                                        <span asp-validation-for="regist.ReEnterPassword" class="text-danger"></span>
+                                    </div>
+                                    <div class="form-group">
+                                        <input asp-for="regist.Address" class="form-control" placeholder="Address" />
+                                        <span asp-validation-for="regist.Address" class="text-danger"></span>
+                                    </div>
+                                    <div class="form-group">
+                                        <input asp-for="regist.Phone" class="form-control" placeholder="Phone" />
+                                        <span asp-validation-for="regist.Phone" class="text-danger"></span>
+                                    </div>
+
+                                    <button type="submit" class="btn btn-secondary mt-2">Register</button>
+                                    <a asp-page="Login" class="btn btn-secondary mt-2">Login Here</a>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+@if (@TempData["Exist"] != null)
+{
+    <text>
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                Swal.fire({
+                    title: 'Error!',
+                    text: 'Regist Fail! Email was exist!!',
+                    icon: 'error'
+                });
+            });
+        </script>
+    </text>
+}
+@if (@TempData["Pass"] != null)
+{
+    <text>
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                Swal.fire({
+                    title: 'Error!',
+                    text: 'Regist Fail! Password and Confirm password not match!!',
+                    icon: 'error'
+                });
+            });
+        </script>
+    </text>
+}
+@if (@TempData["Ok"] != null)
+{
+    <text>
+        <script>
+            // Check for TempData value and show SweetAlert
+            document.addEventListener('DOMContentLoaded', function () {
+                Swal.fire({
+                    title: 'Success!',
+                    text: 'Regist successfully! Thanks for using!!',
+                    icon: 'success'
+                }).then((result) => {
+                    if (result.isConfirmed) {
+                        window.location.href = '/AccountPage/Login';
+                    }
+                });
+            });
+        </script>
+    </text>
+}

@@ -1,0 +1,69 @@
+﻿@page
+@model ProjectSWP392.Pages.AccountPage.changePassModel
+@{
+    Layout = "~/Pages/Shared/_Layout_Changepass.cshtml";
+}
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<style>
+    body {
+          background: #eee;
+    }
+
+    .scrollable-container {
+        overflow-x: auto;
+    }
+
+    .scrollable-rows {
+        display: block;
+        max-height: 420px;
+        overflow-y: auto;
+    }
+
+    .sticky-column {
+        position: -webkit-sticky;
+        position: sticky;
+        left: 0;
+        background-color: white;
+        z-index: 1;
+    }
+    
+</style>
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-ms-5 larger-card">
+            <div class="card bg-light">
+                <form method="post" class="card-body">
+                    <h3 class="card-title">User Profile</h3>
+                        <div class="mb-3">
+                            <label class="small mb-1">PassWord:</label>
+                            <input class="form-control" asp-for="acc.OldPass" placeholder="Please enter old password" type="password">
+                            <span asp-validation-for="acc.OldPass" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="small mb-1">New PassWord:</label>
+                            <input class="form-control" asp-for="acc.NewPass" placeholder="Please enter new password" type="password">
+                            <span asp-validation-for="acc.NewPass" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="small mb-1">Confirm new password:</label>
+                            <input class="form-control" asp-for="acc.ConfirmPass" placeholder="Confirm new password" type="password">
+                             <span asp-validation-for="acc.ConfirmPass" class="text-danger"></span>
+                        </div>
+
+                        <p style="text-align: center;">
+                            <button class="btn btn-outline-secondary" type="submit">Change</button>
+                            <a class="btn btn-outline-warning mt-2" asp-page="/AccountPage/Profile">Back</a>
+                        </p>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,220 @@
+@page
+@model ProjectSWP392.Pages.AdminPage.CategoryManagement
+@{
+    ViewData["Title"] = "CategoryManagement";
+    Layout = "~/Pages/Shared/_Layout_Admin.cshtml";
+}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<style>
+    .table-container {
+        overflow: auto;
+        /* Add overflow property for scrolling if needed */
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+    }
+
+    th,
+    td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+    }
+
+    th {
+        background-color: #f2f2f2;
+    }
+
+    body {
+        margin: 0;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .dashboard-container {
+        display: flex;
+        height: 100vh;
+    }
+
+    .sidebar {
+        flex: 1;
+        width: 20%;
+        background-color: #333;
+        color: #fff;
+        margin-top: -20px;
+        margin-left: -20px;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    .sidebar ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .sidebar li {
+        margin-bottom: 10px;
+    }
+
+    .sidebar a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 16px;
+        transition: color 0.3s;
+        padding: 10px;
+        display: block;
+        border-radius: 5px;
+    }
+
+    .sidebar a:hover {
+        color: #ffd700;
+    }
+
+    .sidebar a.active {
+        background-color: #555;
+    }
+
+    .main-content {
+        flex: 4;
+        padding: 20px;
+        box-sizing: border-box;
+        max-width: 100%;
+    }
+
+    .section-title {
+        font-size: 28px;
+        font-weight: bold;
+        margin-bottom: 15px;
+        color: #333;
+    }
+
+    .card {
+        background-color: #fff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        margin: 10px;
+        text-align: center;
+        border-radius: 8px;
+        transition: box-shadow 0.3s;
+    }
+
+    .card:hover {
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+
+    .card h2 {
+        color: #333;
+        margin-bottom: 10px;
+    }
+
+    .card p {
+        font-size: 24px;
+        color: #007bff;
+        margin: 0;
+    }
+
+    th.sorting.sorting_asc {
+        text-align: center;
+    }
+
+    th.sorting {
+        text-align: center !important;
+    }
+
+    td {
+        text-align: center;
+    }
+</style>
+
+<div class="dashboard-container">
+    <div class="sidebar">
+        <ul>
+            <li><a href="/AdminPage/Dashboard">Dashboard</a></li>
+            <li><a href="/AdminPage/AccountManagement">Account Management</a></li>
+            <li><a href="/AdminPage/ProductManagement">Product Management</a></li>
+            <li><a href="/AdminPage/CategoryManagement" class="active">Category Management</a></li>
+            <li><a href="/AdminPage/OrderManagement">Order Management</a></li>
+        </ul>
+    </div>
+    <div class="card shadow" style="width: 1200px">
+        <h5 style="    margin-bottom: 1rem;
+    text-align: center;
+    font-weight: 800;
+    font-size: 33px;
+    margin-top: 2rem;">Category Management</h5>
+        <div class="card-body p-4">
+            <div class="main-content">
+                <div class="table-container">
+                    <a class="btn btn-outline-primary" asp-page="/AdminPage/AddCategory"
+                        style="margin-left: -984px;">AddNew</a>
+                    <table id="CateTable">
+                        <thead>
+                            <tr>
+                                <th>CategoryID</th>
+                                <th>CategoryName</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model.cates)
+                            {
+                                <tr>
+                                    <td>@item.CategoryId</td>
+                                    <td>@item.CategoryName</td>
+                                    <td>
+                                        <a class="btn btn-outline-success" asp-page="/AdminPage/EditCategory"
+                                            asp-route-Id="@item.CategoryId">Edit</a>
+                                        <a class="btn btn-outline-danger delete-btn"
+                                            data-category-id="@item.CategoryId">Delete</a>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="deleteCategoryModal" tabindex="-1" role="dialog" aria-labelledby="deleteCategoryModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="addCategoryModalLabel">Delete Category</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body" style="margin-top: 0px !important;">
+            </div>
+        </div>
+    </div>
+</div>
+@* <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> *@
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $(".delete-btn").click(function () {
+            var categoryId = $(this).data("category-id");
+
+            $.ajax({
+                url: "/AdminPage/DeleteCategory",
+                type: "GET",
+                data: { Id: categoryId },
+                success: function (data) {
+                    $("#deleteCategoryModal .modal-body").html(data);
+                    $('#deleteCategoryModal').modal('show');
+                },
+                error: function (error) {
+                    console.log(error);
+                }
+            });
+        });
+    });
+</script>

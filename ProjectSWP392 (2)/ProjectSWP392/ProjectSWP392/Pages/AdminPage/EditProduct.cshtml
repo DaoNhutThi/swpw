@@ -1,0 +1,119 @@
+@page
+@model ProjectSWP392.Pages.AdminPage.EditProduct
+@{
+    Layout = "~/Pages/Shared/_Layout_EditProduct.cshtml";
+}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+<div class="Edit-page">
+    <div class="container">
+        <form method="post" class="form-container">
+            <div class="all-editPro">
+                <div class="form-group">
+                    <label>ProductName:</label>
+                    <input asp-for="Edit.ProductName" type="text" class="form-control" />
+                    <span asp-validation-for="Edit.ProductName" class="text-danger"></span>
+                </div>
+                 <div class="form-group">
+                    <label>Category:</label>
+                    <select asp-for="Edit.CategoryID" asp-items="@(new SelectList(Model.categories, "CategoryId", "CategoryName"))" class="form-control">
+                        <option value="">Select a category</option>
+                    </select>
+                    <span asp-validation-for="Edit.CategoryID" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label>ProductImage:</label>
+                    <input asp-for="Edit.ProductImage" type="text" class="form-control" />
+                    <span asp-validation-for="Edit.ProductImage" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="all-editPro">
+
+                <div class="form-group">
+                    <label>ProductDetailDescription:</label>
+                    <input asp-for="Edit.ProductDetailDescription" type="text" class="form-control" />
+                    <span asp-validation-for="Edit.ProductDetailDescription" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label>ProductChipset:</label>
+                    <input asp-for="Edit.ProductChipset" type="text" class="form-control" />
+                    <span asp-validation-for="Edit.ProductChipset" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label>ProductPrice:</label>
+                    <input asp-for="Edit.ProductPrice" type="text" class="form-control" />
+                    <span asp-validation-for="Edit.ProductPrice" class="text-danger"></span>
+                </div>
+
+            </div>
+
+            <div class="all-editPro">
+                <div class="form-group">
+                    <label>ProductStorageInternal:</label>
+                    <input asp-for="Edit.ProductStorageInternal" type="text" class="form-control" />
+                    <span asp-validation-for="Edit.ProductStorageInternal" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label>ProductQuantity:</label>
+                    <input asp-for="Edit.ProductQuantity" type="text" class="form-control" />
+                    <span asp-validation-for="Edit.ProductQuantity" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label>ProductStorageExternal:</label>
+                    <input asp-for="Edit.ProductStorageExternal" type="text" class="form-control" />
+                    <span asp-validation-for="Edit.ProductStorageExternal" class="text-danger"></span>
+                </div>
+
+            </div>
+
+            <div class="all-editPro">
+                <div class="form-group">
+                    <label>ProductBatteryCapacity:</label>
+                    <input asp-for="Edit.ProductBatteryCapacity" type="text" class="form-control" />
+                    <span asp-validation-for="Edit.ProductBatteryCapacity" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label>ProductSelfieCamera:</label>
+                    <input asp-for="Edit.ProductSelfieCamera" type="text" class="form-control" />
+                    <span asp-validation-for="Edit.ProductSelfieCamera" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label>ProductMainCamera:</label>
+                    <input asp-for="Edit.ProductMainCamera" type="text" class="form-control" />
+                    <span asp-validation-for="Edit.ProductMainCamera" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="all-editPro">
+                    <input name="Edit.ProductID" value='@TempData["ProID"]' type="hidden" class="form-control" />
+                <button type="submit" class="btn btn-success" asp-page="">Save</button>
+                <button type="submit" class="btn btn-success" asp-page="">Cancel</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<style>
+    .Edit-page .container {
+        max-width: 400px;
+        margin: auto;
+        margin-top: 50px;
+    }
+
+    .Edit-page .form-container {
+        padding: 20px;
+        background-color: #f8f9fa;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        width: auto;
+    }
+</style>

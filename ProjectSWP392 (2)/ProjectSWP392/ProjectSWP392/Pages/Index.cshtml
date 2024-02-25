@@ -1,0 +1,159 @@
+﻿@page
+@model IndexModel
+@using Microsoft.AspNetCore.Http
+@using Microsoft.AspNetCore.Http.Extensions
+@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
+@{
+    int userid = 0;
+    if (HttpContextAccessor.HttpContext.Session.GetInt32("UserID") != null)
+    {
+        userid = (int)HttpContextAccessor.HttpContext.Session.GetInt32("UserID");
+    }
+}
+
+@{
+    ViewData["Title"] = "Home page";
+    Layout = "~/Pages/Shared/_Layout_Home.cshtml";
+}
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+        <div class="py-5 h-100" style="display: flex;  flex-direction: column; padding-top: 0rem !important; height: 32rem !important;">
+            <div class="slide-all">
+                <div id="slide">
+                    <div class="item" style="background-image: url(/image/samsungs23.svg);">
+                        <div class="content">
+                            <div class="name">Samsung Galaxy S23 Ultra</div>
+                            <div class="des">Unleash power and elegance with Samsung Galaxy S23 Ultra 256GB (Unlocked)
+                                in Phantom Black. Elevate every moment.</div>
+                            <button id="btn-item">See more</button>
+                        </div>
+                    </div>
+                    <div class="item" style="background-image: url(/image/fold5.svg);">
+                        <div class="content">
+                            <div class="name">Oppo Find N2 Flip</div>
+                            <div class="des">Oppo Find N2 Flip: Unfold Style, Capture Innovation</div>
+                            <button id="btn-item">Buy Now</button>
+                        </div>
+                    </div>
+                    <div class="item" style="background-image: url(/image/Iphone15.svg);">
+                        <div class="content">
+                            <div class="name">IPhone 15 Pro Max</div>
+                            <div class="des">IPhone 15 Pro Max: Redefining Excellence. Elevate Your Experience with
+                                Unmatched Innovation and Style</div>
+                            <button id="btn-item">Buy Now</button>
+                        </div>
+                    </div>
+                    <div class="item" style="background-image: url(/image/realme.svg);">
+                        <div class="content">
+                            <div class="name">Realme 11</div>
+                            <div class="des">Realme 11: Redefining Power, Capturing Moments with Brilliance.</div>
+                            <button id="btn-item">Buy Now</button>
+                        </div>
+                    </div>
+                    <div class="item" style="background-image: url(/image/vivo.svg);">
+                        <div class="content">
+                            <div class="name">Vivo Y22s </div>
+                            <div class="des">Elevate every moment with cutting-edge brilliance. Unleash innovation in
+                                the palm of your hand.</div>
+                            <button id="btn-item">Buy Now</button>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="buttons">
+                    <button id="prev"><i class="fa-solid fa-angle-left"></i></button>
+                    <button id="next"><i class="fa-solid fa-angle-right"></i></button>
+                </div>
+            </div>
+
+
+            <script src="~/lib/bootstrap/dist/js/script.js"></script>
+
+
+        </div>
+        <div class="py-3 py-md-5 bg-light bg-all">
+        <div class="container">
+            <div class="row" style="margin-right: 0px !important;">
+                <div class="col-md-12">
+                    <h4 class="mb-4">New Products</h4>
+                </div>
+                @if( Model.product != null){
+                    @foreach (var item in Model.product.TakeLast(4))
+                 {
+
+                <div class="col-md-3">
+                    <div class="product-card">
+                        <div class="product-card-img">
+                            <label class="stock bg-success">In Stock</label>
+                            <a href="/ProductDetailPage/Productdetail?id=@item.ProductID">
+                                <img src="~/image/@item.ProductImage" alt="Laptop">
+                            </a>
+                        </div>
+                        <div class="product-card-body">
+                            <p class="product-brand">ProductName</p>
+                            <h5 class="product-name">
+                               <a asp-page="/ProductDetailPage/Productdetail">
+                                    @item.ProductName
+                               </a>
+                            </h5>
+                            <div>
+                                <span class="selling-price">$@item.ProductPrice</span>
+                            </div>
+                              @if (item.ProductQuantity > 0)
+                                    {
+                                        if(userid ==0){
+                                    <div class="mt-2">
+                                        <a class="btn-cart" onclick="showLoginWarning()">Add to Cart</a>
+                                    </div>
+                                        }
+                                        else{
+                                        <div class="mt-2">
+                                      <a class="btn-cart" asp-page="/CartPage/Index"
+                                                asp-page-handler="AddToCart" asp-route-proid="@item.ProductID"
+                                                asp-route-userid="@userid">Add to Cart</a>
+                                    </div>
+                                        }
+                                    
+                                    }else
+                                    {
+                                        <div class="mb-2 text-center">
+                                            <a class="btn add-to-cart text-light bg-danger">SOLD OUT</a>
+                                        </div>
+                                    }
+                        </div>
+                    </div>
+                </div>
+           
+    }
+                }
+                else{
+                    <div class="col-md-12">
+                        <p>No products available at the moment.</p>
+                    </div>
+                }
+                
+                 </div>
+            </div>
+        </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+<script>
+    function showLoginWarning() {
+        Swal.fire({
+            title: 'Warning!',
+            text: 'Please login to buy this!',
+            icon: 'warning'
+        }).then((result) => {
+                    if (result.isConfirmed) {
+                        window.location.href = '/AccountPage/Login';
+                    }
+                });
+    }
+</script>

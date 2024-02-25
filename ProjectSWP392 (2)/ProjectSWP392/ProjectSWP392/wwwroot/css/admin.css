@@ -1,0 +1,201 @@
+@keyframes backgroundAnimation {
+    0% {
+      background-position: 0% 0;
+    }
+  
+    50% {
+      background-position: 100% 0;
+    }
+  
+    100% {
+      background-position: 0% 0;
+    }
+  }
+  
+  header {
+    background: linear-gradient(to right, #746c6b, #c49a68);
+    background-size: 200% 100%;
+    animation: backgroundAnimation 10s infinite linear;
+    padding-left: 16rem;
+    padding-right: 7rem;
+  }
+
+  .sidebar{
+    background: linear-gradient(to right, #c49a68 ,#746c6b);
+    background-size: 200% 100%;
+    animation: backgroundAnimation 10s infinite linear;
+  }
+
+  main.col-md-9.ms-sm-auto.col-lg-10.px-md-4 {
+    margin-left: 1rem !important;
+ 
+    margin-top: 7rem !important;
+}
+input[type="search"] {
+    border-radius: 4rem !important;
+    width: 23rem;
+    margin-bottom: 1rem;
+    padding-left: 1rem !important;
+}
+label {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+}
+a.paginate_button.current {
+    border-radius: 7rem !important;
+    border: 1px solid #c49a68 !important;
+    background: #c49a68 !important;
+}
+div#AccTable_info {
+    font-weight: 700!important;
+}
+
+a#AccTable_previous {
+    font-weight: 700!important;
+}
+
+a#AccTable_next {
+    font-weight: 700 !important;
+}
+
+div#myTable_info {
+    font-weight: 700!important;
+}
+
+a#myTable_previous {
+    font-weight: 700!important;
+}
+
+a#myTable_next {
+    font-weight: 700 !important;
+}
+div#CateTable_info {
+    font-weight: 700!important;
+}
+
+a#CateTable_previous {
+    font-weight: 700!important;
+}
+
+a#CateTable_next {
+    font-weight: 700 !important;
+}
+
+div#OrderTable_info {
+    font-weight: 700!important;
+}
+
+a#OrderTable_previous {
+    font-weight: 700!important;
+}
+
+a#OrderTable_next {
+    font-weight: 700 !important;
+}
+select {
+    border-radius: 1rem !important;
+    width: 4rem;
+    text-align: center;
+}
+th.sorting.sorting_asc {
+    background: #c49a68;
+}
+th.sorting {
+    background: #c49a68;
+}
+button.btn.btn-outline-danger.btn-sm {
+    height: 2.3rem;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+    color: black !important;
+    border-radius: 7rem !important;
+    border: 1px solid #c49a68 !important;
+    background: #c49a68 !important;
+}
+.btn-outline-primary {
+    color: black;
+    border-color: #c49a68;
+    margin-bottom: 1rem;
+    background: #c49a68;
+    font-weight: 700;
+}
+.btn-outline-primary:not(:disabled):not(.disabled).active, .btn-outline-primary:not(:disabled):not(.disabled):active, .show>.btn-outline-primary.dropdown-toggle {
+    color: black;
+    background-color: #746c6b;
+    border-color: #746c6b;
+}
+.btn-outline-primary:hover {
+    color: black;
+    background-color: #746c6b;
+    border-color: #746c6b;
+}
+
+.btn-primary {
+    color: black;
+    background-color: #c49a68;
+    border-color: #c49a68;
+    font-weight: 700;
+}
+.btn-primary.focus, .btn-primary:focus {
+    box-shadow: 0 0 0 0.2rem #c49a68;
+}
+.btn-primary:hover {
+    color: black;
+    background-color: #746c6b;
+    border-color: #746c6b;
+}
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    color: black;
+    background-color: #746c6b;
+    border-color: #746c6b;
+}
+
+.dashboard-container { display: flex; height: auto !important; }
+form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+}
+form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+.modal-body {
+    position: relative;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1rem;
+    border-bottom: 1px solid #eee;
+}
+.regist-page .container {
+    max-width: 400px;
+    margin: auto;
+    margin-top: 0px !important;
+}
+.modal-dialog {
+    margin-top: 12rem;
+}
+.modal-dialog.modal-dialog-centered {
+    margin-top: 0rem;
+}
+.btn-success {
+    color: #fff;
+    background-color: red;
+    border-color: red;
+}
+.btn-success:hover {
+    color: #fff;
+    background-color: red;
+    border-color: red;
+}
+.btn-success:not(:disabled):not(.disabled).active, .btn-success:not(:disabled):not(.disabled):active, .show>.btn-success.dropdown-toggle {
+    color: #fff;
+    background-color: red;
+    border-color: red;
+}

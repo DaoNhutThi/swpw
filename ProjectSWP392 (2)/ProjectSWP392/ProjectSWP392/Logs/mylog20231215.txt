@@ -1,0 +1,80 @@
+2023-12-15 02:24:27.443 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44307/AdminPage/CategoryManagement - -
+2023-12-15 02:24:27.472 +07:00 [INF] Executing endpoint '/AdminPage/CategoryManagement'
+2023-12-15 02:24:27.472 +07:00 [INF] Route matched with {page = "/AdminPage/CategoryManagement"}. Executing page /AdminPage/CategoryManagement
+2023-12-15 02:24:27.474 +07:00 [INF] Executing handler method ProjectSWP392.Pages.AdminPage.CategoryManagement.OnGet - ModelState is "Valid"
+2023-12-15 02:24:27.485 +07:00 [INF] Entity Framework Core 5.0.17 initialized 'DBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-12-15 02:24:27.500 +07:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CategoryId], [c].[CategoryName], [c].[CategoryStatus]
+FROM [Categorys] AS [c]
+WHERE [c].[CategoryStatus] = N'1'
+2023-12-15 02:24:27.502 +07:00 [INF] Executed handler method OnGet, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2023-12-15 02:24:27.504 +07:00 [INF] Accessing expired session, Key:3eb20449-3ba3-0fed-5809-590411c820c1
+2023-12-15 02:24:27.508 +07:00 [INF] Executed page /AdminPage/CategoryManagement in 35.066ms
+2023-12-15 02:24:27.508 +07:00 [INF] Executed endpoint '/AdminPage/CategoryManagement'
+2023-12-15 02:24:27.511 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44307/AdminPage/CategoryManagement - - - 200 - text/html;+charset=utf-8 68.9209ms
+2023-12-15 02:24:27.540 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44307/css/site.css - -
+2023-12-15 02:24:27.543 +07:00 [INF] The file /css/site.css was not modified
+2023-12-15 02:24:27.543 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44307/css/admin.css - -
+2023-12-15 02:24:27.543 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44307/css/site.css - - - 304 - text/css 3.3171ms
+2023-12-15 02:24:27.544 +07:00 [INF] The file /css/admin.css was not modified
+2023-12-15 02:24:27.544 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44307/css/admin.css - - - 304 - text/css 0.7331ms
+2023-12-15 02:24:27.558 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44307/_vs/browserLink - -
+2023-12-15 02:24:27.566 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44307/Index - -
+2023-12-15 02:24:27.567 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44307/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 9.2286ms
+2023-12-15 02:24:27.567 +07:00 [INF] Executing endpoint '/Index'
+2023-12-15 02:24:27.567 +07:00 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2023-12-15 02:24:27.568 +07:00 [INF] Executing handler method ProjectSWP392.Pages.IndexModel.OnGet - ModelState is "Valid"
+2023-12-15 02:24:27.569 +07:00 [INF] Entity Framework Core 5.0.17 initialized 'DBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-12-15 02:24:27.573 +07:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ProductID], [p].[CategoryID], [p].[ProductBatteryCapacity], [p].[ProductChipset], [p].[ProductDetailDescription], [p].[ProductImage], [p].[ProductMainCamera], [p].[ProductName], [p].[ProductPrice], [p].[ProductQuantity], [p].[ProductSelfieCamera], [p].[ProductStatus], [p].[ProductStorageExternal], [p].[ProductStorageInternal]
+FROM [Products] AS [p]
+WHERE [p].[ProductStatus] = N'1'
+2023-12-15 02:24:27.573 +07:00 [INF] Executed handler method OnGet, returned result .
+2023-12-15 02:24:27.573 +07:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2023-12-15 02:24:27.574 +07:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2023-12-15 02:24:27.574 +07:00 [INF] Accessing expired session, Key:3eb20449-3ba3-0fed-5809-590411c820c1
+2023-12-15 02:24:27.577 +07:00 [INF] Executed page /Index in 9.9007ms
+2023-12-15 02:24:27.577 +07:00 [INF] Executed endpoint '/Index'
+2023-12-15 02:24:27.581 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44307/Index - - - 200 - text/html;+charset=utf-8 14.6481ms
+2023-12-15 02:24:27.626 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44307/lib/bootstrap/dist/js/script.js - -
+2023-12-15 02:24:27.627 +07:00 [INF] The file /lib/bootstrap/dist/js/script.js was not modified
+2023-12-15 02:24:27.627 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44307/lib/bootstrap/dist/js/script.js - - - 304 - application/javascript 0.8629ms
+2023-12-15 02:24:27.632 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44307/_vs/browserLink - -
+2023-12-15 02:24:27.638 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44307/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 5.9134ms
+2023-12-15 02:24:27.656 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44307/image/samsungs23.svg - -
+2023-12-15 02:24:27.656 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44307/image/fold5.svg - -
+2023-12-15 02:24:27.657 +07:00 [INF] The file /image/samsungs23.svg was not modified
+2023-12-15 02:24:27.657 +07:00 [INF] The file /image/fold5.svg was not modified
+2023-12-15 02:24:27.657 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44307/image/fold5.svg - - - 304 - image/svg+xml 1.1404ms
+2023-12-15 02:24:27.657 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44307/image/samsungs23.svg - - - 304 - image/svg+xml 1.2061ms
+2023-12-15 02:24:27.658 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44307/image/Iphone15.svg - -
+2023-12-15 02:24:27.658 +07:00 [INF] The file /image/Iphone15.svg was not modified
+2023-12-15 02:24:27.658 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44307/image/Iphone15.svg - - - 304 - image/svg+xml 0.4141ms
+2023-12-15 02:24:27.659 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44307/image/realme.svg - -
+2023-12-15 02:24:27.661 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44307/image/vivo.svg - -
+2023-12-15 02:24:27.662 +07:00 [INF] The file /image/realme.svg was not modified
+2023-12-15 02:24:27.662 +07:00 [INF] The file /image/vivo.svg was not modified
+2023-12-15 02:24:27.662 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44307/image/vivo.svg - - - 304 - image/svg+xml 0.5981ms
+2023-12-15 02:24:27.662 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44307/image/realme.svg - - - 304 - image/svg+xml 3.0429ms
+2023-12-15 02:24:29.883 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44307/ProductPage - -
+2023-12-15 02:24:29.884 +07:00 [INF] Executing endpoint '/ProductPage/Index'
+2023-12-15 02:24:29.884 +07:00 [INF] Route matched with {page = "/ProductPage/Index"}. Executing page /ProductPage/Index
+2023-12-15 02:24:29.884 +07:00 [INF] Executing handler method ProjectSWP392.Pages.ProductPage.Index.OnGet - ModelState is "Valid"
+2023-12-15 02:24:29.885 +07:00 [INF] Entity Framework Core 5.0.17 initialized 'DBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2023-12-15 02:24:29.888 +07:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ProductID], [p].[CategoryID], [p].[ProductBatteryCapacity], [p].[ProductChipset], [p].[ProductDetailDescription], [p].[ProductImage], [p].[ProductMainCamera], [p].[ProductName], [p].[ProductPrice], [p].[ProductQuantity], [p].[ProductSelfieCamera], [p].[ProductStatus], [p].[ProductStorageExternal], [p].[ProductStorageInternal]
+FROM [Products] AS [p]
+WHERE [p].[ProductStatus] = N'1'
+2023-12-15 02:24:29.890 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CategoryId], [c].[CategoryName], [c].[CategoryStatus]
+FROM [Categorys] AS [c]
+WHERE [c].[CategoryStatus] = N'1'
+2023-12-15 02:24:29.890 +07:00 [INF] Executed handler method OnGet, returned result .
+2023-12-15 02:24:29.890 +07:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2023-12-15 02:24:29.890 +07:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2023-12-15 02:24:29.890 +07:00 [INF] Accessing expired session, Key:3eb20449-3ba3-0fed-5809-590411c820c1
+2023-12-15 02:24:29.893 +07:00 [INF] Executed page /ProductPage/Index in 9.2114ms
+2023-12-15 02:24:29.893 +07:00 [INF] Executed endpoint '/ProductPage/Index'
+2023-12-15 02:24:29.895 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44307/ProductPage - - - 200 - text/html;+charset=utf-8 11.7905ms
+2023-12-15 02:24:29.932 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44307/_vs/browserLink - -
+2023-12-15 02:24:29.942 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44307/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 8.9181ms

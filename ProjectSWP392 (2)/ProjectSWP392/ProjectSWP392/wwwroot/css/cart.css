@@ -1,0 +1,11 @@
+.row {
+
+     margin-right: -15px!important; 
+     margin-left: -15px!important; 
+}
+.pt-5, .py-5 {
+    padding-top: 0rem!important;
+}
+.col {
+    padding: 2rem!important;
+}

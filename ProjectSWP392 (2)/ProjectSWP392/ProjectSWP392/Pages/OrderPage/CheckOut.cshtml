@@ -1,0 +1,242 @@
+@page
+@model ProjectSWP392.Pages.OrderPage.CheckOut
+@{
+    ViewData["Title"] = "Checkout";
+    Layout = "~/Pages/Shared/_Layout_Product.cshtml";
+}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<style>
+    body {
+        background: #eee;
+    }
+</style>
+
+<style>
+    nav.navbar.navbar-expand-sm.navbar-toggleable-sm.border-bottom.box-shadow.mb-3 {
+
+        padding-left: 10rem !important;
+        padding-right: 0rem !important;
+    }
+
+    .all-orders {
+        overflow: hidden;
+        height: 360px;
+
+    }
+
+    .all-orders::-webkit-scrollbar-thumb {
+        background-color: #746c6b;
+        border-radius: 6px;
+    }
+
+    .all-orders:hover {
+        overflow-y: scroll;
+    }
+
+    .scrollable-container {
+        overflow-x: auto;
+    }
+
+    .scrollable-rows {
+        display: block;
+        max-height: 420px;
+        overflow-y: auto;
+    }
+
+    .sticky-column {
+        position: -webkit-sticky;
+        position: sticky;
+        left: 0;
+        background-color: white;
+        z-index: 1;
+    }
+
+    .d-flex {
+        gap: 2rem;
+    }
+
+    p.mb-2 {
+        width: 6rem;
+    }
+
+    p.mb {
+        width: 26rem;
+        height: auto;
+    }
+
+    .row {
+        margin-right: 0rem !important;
+        margin-left: 0rem !important;
+    }
+    .pt-5, .py-5 {
+    padding-top: 1rem!important;
+}
+</style>
+<h5 style="    margin-bottom: 1rem;
+    text-align: center;
+    font-weight: 800;
+    font-size: 33px;
+    margin-top: 2rem;">Order</h5>
+<section class="h-100 h-custom">
+    <div class="container py-5 h-100">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col">
+                <div class="card shadow">
+                    <div class="card-body p-4">
+                        <div class="row" style="margin-right: -15px;margin-left: -15px;">
+                            <div class="col-lg-7">
+                                <h5 class="mb-3"><a href="#!" class="text-body">Order Summary</a></h5>
+                                <hr>
+                                <div class="all-orders">
+                                    <table class="table table-bordered "
+                                        style="   position: sticky; top: 0;z-index: 1; ">
+                                        <thead>
+                                            <tr style="background: #c49a68;
+    text-align: center;">
+                                                <th style="word-break: break-all;width: 8.8rem;">Product Name</th>
+                                                <th style=" width: 15.4rem;">Product Image</th>
+                                                <th style=" 
+    width: 17.2rem;border: 0px;">Product Quantity</th>
+                                                <th>Price</th>
+                                            </tr>
+                                        </thead>
+                                    </table>
+                                    @if (Model.CartItems != null && Model.CartItems.Any())
+                                    {
+                                        @foreach (var item in Model.CartItems)
+                                        {
+                                            <table class="table table-bordered ">
+
+                                                <div class="flat-card mb-3 ">
+                                                    <div class="ms-3 me-5">
+                                                        <td class="justify-content-center text-center"
+                                                            style="word-break: break-all;width: 8.8rem;">
+                                                            @item.ProductName</td>
+                                                    </div>
+                                                    <td class="justify-content-center text-center"
+                                                        style="width: 15rem;   height: 8rem;">
+                                                        <img src="~/image/@item.ProductImage" alt="@item.ProductName"
+                                                            class="img-fluid rounded-1" alt="Shopping item"
+                                                            style="width: 158px;" />
+                                                    </td>
+                                                    <div class="d-flex flex-row align-items-center justify-content-center">
+                                                        <div style="width: 50px;">
+                                                            <td class="fw-normal mb-0 justify-content-center text-center"
+                                                                style=" width: 17rem;padding-top: 3rem;border: 0px;">
+                                                                <p>
+
+                                                                    @item.CartQuantity
+
+                                                                </p>
+                                                            </td>
+                                                        </div>
+                                                        <div style="width: 80px;">
+                                                            <td class="mb-0 justify-content-center text-center"
+                                                                style="width: 8rem;">$@item.Price
+                                                            </td>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </table>
+                                        }
+
+                                    }
+                                    else
+                                    {
+                                        <p>Your cart is empty.</p>
+                                    }
+                                </div>
+                            </div>
+                            <div class="col-lg-5">
+                                <div class="card shadow text-light rounded-3 bg-secondary">
+                                    <div class="card-body text-light">
+                                        <div class="d-flex justify-content-between align-items-center mb-4 ">
+                                            <h5 class="mb-0">CheckOut</h5>
+                                        </div>
+                                        @if (Model.CartItems != null && Model.CartItems.Any())
+                                        {
+                                            <hr class="my-4">
+
+                                            <div class="d-flex">
+                                                <p class="mb-2">Full Name: </p>
+                                                <p class="mb">@Model.user.FullName</p>
+                                            </div>
+
+                                            <div class="d-flex">
+                                                <p class="mb-2">Address: </p>
+                                                <p class="mb">@Model.user.Address</p>
+                                            </div>
+                                            <div class="d-flex">
+                                                <p class="mb-2">Phone: </p>
+                                                <p class="mb">@Model.user.Phone</p>
+                                            </div>
+                                        }
+                                        else
+                                        {
+                                            <p>Your cart is empty.</p>
+                                        }
+                                        <hr>
+                                         @if (Model.CartItems != null && Model.CartItems.Any())
+                                        {
+                                        <div class="card-body bg-secondary shadow">
+                                            <div class="d-flex">
+                                                <p class="mb-2">Total Items: </p>
+                                                <p class="mb-2">@Model.CartItems.Count</p>
+                                            </div>
+
+                                            <div class="d-flex">
+                                                <p class="mb-2">Total Price: </p>
+                                                <p class="mb-2">$@Model.CartItems.Sum(item => item.Price)</p>
+                                            </div>
+                                            <a class="btn btn-md text-light" style="background-color: #009D63;"
+                                                asp-page-handler="CheckoutConfirm" asp-page="CheckOut">
+                                                Purcharse Comfirm
+                                            </a>
+                                        </div>
+                                        }
+                                        else
+                                        {
+                                            <p>Your cart is empty.</p>
+                                        }
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+</section>
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+@if (@TempData["Purcharse"] != null)
+{
+    <text>
+        <script>
+            // Check for TempData value and show SweetAlert
+            document.addEventListener('DOMContentLoaded', function () {
+                Swal.fire({
+                    title: 'Success!',
+                    text: 'Purcharse successfully! Thanks',
+                    icon: 'success'
+                }).then((result) => {
+                    if (result.isConfirmed) {
+                        window.location.href = '/Index';
+                    }
+                });
+            });
+        </script>
+    </text>
+}

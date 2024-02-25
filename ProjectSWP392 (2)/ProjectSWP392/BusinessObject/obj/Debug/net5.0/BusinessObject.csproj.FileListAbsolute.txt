@@ -1,0 +1,120 @@
+D:\C#\ProjectSWP392\BusinessObject\bin\Debug\net5.0\BusinessObject.deps.json
+D:\C#\ProjectSWP392\BusinessObject\bin\Debug\net5.0\BusinessObject.dll
+D:\C#\ProjectSWP392\BusinessObject\bin\Debug\net5.0\ref\BusinessObject.dll
+D:\C#\ProjectSWP392\BusinessObject\bin\Debug\net5.0\BusinessObject.pdb
+D:\C#\ProjectSWP392\BusinessObject\obj\Debug\net5.0\BusinessObject.csproj.AssemblyReference.cache
+D:\C#\ProjectSWP392\BusinessObject\obj\Debug\net5.0\BusinessObject.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\ProjectSWP392\BusinessObject\obj\Debug\net5.0\BusinessObject.AssemblyInfoInputs.cache
+D:\C#\ProjectSWP392\BusinessObject\obj\Debug\net5.0\BusinessObject.AssemblyInfo.cs
+D:\C#\ProjectSWP392\BusinessObject\obj\Debug\net5.0\BusinessObject.csproj.CoreCompileInputs.cache
+D:\C#\ProjectSWP392\BusinessObject\obj\Debug\net5.0\BusinessObject.dll
+D:\C#\ProjectSWP392\BusinessObject\obj\Debug\net5.0\ref\BusinessObject.dll
+D:\C#\ProjectSWP392\BusinessObject\obj\Debug\net5.0\BusinessObject.pdb
+D:\C#\ProjectSWP392\BusinessObject\bin\Debug\net5.0\BusinessObject.runtimeconfig.json
+D:\C#\ProjectSWP392\BusinessObject\bin\Debug\net5.0\BusinessObject.runtimeconfig.dev.json
+D:\C#\ProjectSWP392\BusinessObject\obj\Debug\net5.0\BusinessObject.genruntimeconfig.cache
+C:\Users\Public\SWP391\ProjectSWP392\BusinessObject\bin\Debug\net5.0\BusinessObject.deps.json
+C:\Users\Public\SWP391\ProjectSWP392\BusinessObject\bin\Debug\net5.0\BusinessObject.runtimeconfig.json
+C:\Users\Public\SWP391\ProjectSWP392\BusinessObject\bin\Debug\net5.0\BusinessObject.runtimeconfig.dev.json
+C:\Users\Public\SWP391\ProjectSWP392\BusinessObject\bin\Debug\net5.0\BusinessObject.dll
+C:\Users\Public\SWP391\ProjectSWP392\BusinessObject\bin\Debug\net5.0\ref\BusinessObject.dll
+C:\Users\Public\SWP391\ProjectSWP392\BusinessObject\bin\Debug\net5.0\BusinessObject.pdb
+C:\Users\Public\SWP391\ProjectSWP392\BusinessObject\obj\Debug\net5.0\BusinessObject.csproj.AssemblyReference.cache
+C:\Users\Public\SWP391\ProjectSWP392\BusinessObject\obj\Debug\net5.0\BusinessObject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Public\SWP391\ProjectSWP392\BusinessObject\obj\Debug\net5.0\BusinessObject.AssemblyInfoInputs.cache
+C:\Users\Public\SWP391\ProjectSWP392\BusinessObject\obj\Debug\net5.0\BusinessObject.AssemblyInfo.cs
+C:\Users\Public\SWP391\ProjectSWP392\BusinessObject\obj\Debug\net5.0\BusinessObject.csproj.CoreCompileInputs.cache
+C:\Users\Public\SWP391\ProjectSWP392\BusinessObject\obj\Debug\net5.0\BusinessObject.dll
+C:\Users\Public\SWP391\ProjectSWP392\BusinessObject\obj\Debug\net5.0\ref\BusinessObject.dll
+C:\Users\Public\SWP391\ProjectSWP392\BusinessObject\obj\Debug\net5.0\BusinessObject.pdb
+C:\Users\Public\SWP391\ProjectSWP392\BusinessObject\obj\Debug\net5.0\BusinessObject.genruntimeconfig.cache
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\BusinessObject\bin\Debug\net5.0\BusinessObject.deps.json
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\BusinessObject\bin\Debug\net5.0\BusinessObject.runtimeconfig.json
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\BusinessObject\bin\Debug\net5.0\BusinessObject.runtimeconfig.dev.json
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\BusinessObject\bin\Debug\net5.0\BusinessObject.dll
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\BusinessObject\bin\Debug\net5.0\ref\BusinessObject.dll
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\BusinessObject\bin\Debug\net5.0\BusinessObject.pdb
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\BusinessObject\obj\Debug\net5.0\BusinessObject.csproj.AssemblyReference.cache
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\BusinessObject\obj\Debug\net5.0\BusinessObject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\BusinessObject\obj\Debug\net5.0\BusinessObject.AssemblyInfoInputs.cache
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\BusinessObject\obj\Debug\net5.0\BusinessObject.AssemblyInfo.cs
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\BusinessObject\obj\Debug\net5.0\BusinessObject.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\BusinessObject\obj\Debug\net5.0\BusinessObject.dll
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\BusinessObject\obj\Debug\net5.0\ref\BusinessObject.dll
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\BusinessObject\obj\Debug\net5.0\BusinessObject.pdb
+C:\Users\Administrator\Documents\Zalo Received Files\ProjectSWP392\BusinessObject\obj\Debug\net5.0\BusinessObject.genruntimeconfig.cache
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\BusinessObject\bin\Debug\net5.0\BusinessObject.deps.json
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\BusinessObject\bin\Debug\net5.0\BusinessObject.runtimeconfig.json
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\BusinessObject\bin\Debug\net5.0\BusinessObject.runtimeconfig.dev.json
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\BusinessObject\bin\Debug\net5.0\BusinessObject.dll
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\BusinessObject\bin\Debug\net5.0\ref\BusinessObject.dll
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\BusinessObject\bin\Debug\net5.0\BusinessObject.pdb
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\BusinessObject\obj\Debug\net5.0\BusinessObject.csproj.AssemblyReference.cache
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\BusinessObject\obj\Debug\net5.0\BusinessObject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\BusinessObject\obj\Debug\net5.0\BusinessObject.AssemblyInfoInputs.cache
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\BusinessObject\obj\Debug\net5.0\BusinessObject.AssemblyInfo.cs
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\BusinessObject\obj\Debug\net5.0\BusinessObject.csproj.CoreCompileInputs.cache
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\BusinessObject\obj\Debug\net5.0\BusinessObject.dll
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\BusinessObject\obj\Debug\net5.0\ref\BusinessObject.dll
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\BusinessObject\obj\Debug\net5.0\BusinessObject.pdb
+C:\Users\Joysing\Documents\GitHub\ProjectSWP392\BusinessObject\obj\Debug\net5.0\BusinessObject.genruntimeconfig.cache
+C:\Users\LT028\Downloads\ProjectSWP392\BusinessObject\bin\Debug\net5.0\BusinessObject.deps.json
+C:\Users\LT028\Downloads\ProjectSWP392\BusinessObject\bin\Debug\net5.0\BusinessObject.runtimeconfig.json
+C:\Users\LT028\Downloads\ProjectSWP392\BusinessObject\bin\Debug\net5.0\BusinessObject.runtimeconfig.dev.json
+C:\Users\LT028\Downloads\ProjectSWP392\BusinessObject\bin\Debug\net5.0\BusinessObject.dll
+C:\Users\LT028\Downloads\ProjectSWP392\BusinessObject\bin\Debug\net5.0\ref\BusinessObject.dll
+C:\Users\LT028\Downloads\ProjectSWP392\BusinessObject\bin\Debug\net5.0\BusinessObject.pdb
+C:\Users\LT028\Downloads\ProjectSWP392\BusinessObject\obj\Debug\net5.0\BusinessObject.csproj.AssemblyReference.cache
+C:\Users\LT028\Downloads\ProjectSWP392\BusinessObject\obj\Debug\net5.0\BusinessObject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LT028\Downloads\ProjectSWP392\BusinessObject\obj\Debug\net5.0\BusinessObject.AssemblyInfoInputs.cache
+C:\Users\LT028\Downloads\ProjectSWP392\BusinessObject\obj\Debug\net5.0\BusinessObject.AssemblyInfo.cs
+C:\Users\LT028\Downloads\ProjectSWP392\BusinessObject\obj\Debug\net5.0\BusinessObject.csproj.CoreCompileInputs.cache
+C:\Users\LT028\Downloads\ProjectSWP392\BusinessObject\obj\Debug\net5.0\BusinessObject.dll
+C:\Users\LT028\Downloads\ProjectSWP392\BusinessObject\obj\Debug\net5.0\ref\BusinessObject.dll
+C:\Users\LT028\Downloads\ProjectSWP392\BusinessObject\obj\Debug\net5.0\BusinessObject.pdb
+C:\Users\LT028\Downloads\ProjectSWP392\BusinessObject\obj\Debug\net5.0\BusinessObject.genruntimeconfig.cache
+C:\Users\Admin\Downloads\ProjectSWP392\BusinessObject\bin\Debug\net5.0\BusinessObject.deps.json
+C:\Users\Admin\Downloads\ProjectSWP392\BusinessObject\bin\Debug\net5.0\BusinessObject.runtimeconfig.json
+C:\Users\Admin\Downloads\ProjectSWP392\BusinessObject\bin\Debug\net5.0\BusinessObject.runtimeconfig.dev.json
+C:\Users\Admin\Downloads\ProjectSWP392\BusinessObject\bin\Debug\net5.0\BusinessObject.dll
+C:\Users\Admin\Downloads\ProjectSWP392\BusinessObject\bin\Debug\net5.0\BusinessObject.pdb
+C:\Users\Admin\Downloads\ProjectSWP392\BusinessObject\obj\Debug\net5.0\BusinessObject.csproj.AssemblyReference.cache
+C:\Users\Admin\Downloads\ProjectSWP392\BusinessObject\obj\Debug\net5.0\BusinessObject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Downloads\ProjectSWP392\BusinessObject\obj\Debug\net5.0\BusinessObject.AssemblyInfoInputs.cache
+C:\Users\Admin\Downloads\ProjectSWP392\BusinessObject\obj\Debug\net5.0\BusinessObject.AssemblyInfo.cs
+C:\Users\Admin\Downloads\ProjectSWP392\BusinessObject\obj\Debug\net5.0\BusinessObject.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Downloads\ProjectSWP392\BusinessObject\obj\Debug\net5.0\BusinessObject.dll
+C:\Users\Admin\Downloads\ProjectSWP392\BusinessObject\obj\Debug\net5.0\BusinessObject.pdb
+C:\Users\Admin\Downloads\ProjectSWP392\BusinessObject\obj\Debug\net5.0\BusinessObject.genruntimeconfig.cache
+C:\Users\Admin\Downloads\ProjectSWP392\BusinessObject\obj\Debug\net5.0\ref\BusinessObject.dll
+C:\Users\Admin\Downloads\ProjectSWP392\BusinessObject\bin\Debug\net5.0\ref\BusinessObject.dll
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\BusinessObject\bin\Debug\net5.0\BusinessObject.deps.json
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\BusinessObject\bin\Debug\net5.0\BusinessObject.runtimeconfig.json
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\BusinessObject\bin\Debug\net5.0\BusinessObject.runtimeconfig.dev.json
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\BusinessObject\bin\Debug\net5.0\BusinessObject.dll
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\BusinessObject\bin\Debug\net5.0\ref\BusinessObject.dll
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\BusinessObject\bin\Debug\net5.0\BusinessObject.pdb
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\BusinessObject\obj\Debug\net5.0\BusinessObject.csproj.AssemblyReference.cache
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\BusinessObject\obj\Debug\net5.0\BusinessObject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\BusinessObject\obj\Debug\net5.0\BusinessObject.AssemblyInfoInputs.cache
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\BusinessObject\obj\Debug\net5.0\BusinessObject.AssemblyInfo.cs
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\BusinessObject\obj\Debug\net5.0\BusinessObject.csproj.CoreCompileInputs.cache
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\BusinessObject\obj\Debug\net5.0\BusinessObject.dll
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\BusinessObject\obj\Debug\net5.0\ref\BusinessObject.dll
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\BusinessObject\obj\Debug\net5.0\BusinessObject.pdb
+C:\Users\LT028\Documents\ProjectSWP392 (2)\ProjectSWP392\BusinessObject\obj\Debug\net5.0\BusinessObject.genruntimeconfig.cache
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\BusinessObject\bin\Debug\net5.0\BusinessObject.deps.json
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\BusinessObject\bin\Debug\net5.0\BusinessObject.runtimeconfig.json
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\BusinessObject\bin\Debug\net5.0\BusinessObject.runtimeconfig.dev.json
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\BusinessObject\bin\Debug\net5.0\BusinessObject.dll
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\BusinessObject\bin\Debug\net5.0\ref\BusinessObject.dll
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\BusinessObject\bin\Debug\net5.0\BusinessObject.pdb
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\BusinessObject\obj\Debug\net5.0\BusinessObject.csproj.AssemblyReference.cache
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\BusinessObject\obj\Debug\net5.0\BusinessObject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\BusinessObject\obj\Debug\net5.0\BusinessObject.AssemblyInfoInputs.cache
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\BusinessObject\obj\Debug\net5.0\BusinessObject.AssemblyInfo.cs
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\BusinessObject\obj\Debug\net5.0\BusinessObject.csproj.CoreCompileInputs.cache
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\BusinessObject\obj\Debug\net5.0\BusinessObject.dll
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\BusinessObject\obj\Debug\net5.0\ref\BusinessObject.dll
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\BusinessObject\obj\Debug\net5.0\BusinessObject.pdb
+C:\Users\Public\SWP391\ProjectSWP392 (2)\ProjectSWP392\BusinessObject\obj\Debug\net5.0\BusinessObject.genruntimeconfig.cache

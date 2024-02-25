@@ -1,0 +1,95 @@
+
+.nav-item h1{
+    font-family: 'Grand Cru', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+ul.navbar-nav.flex-grow-1 {
+    font-size: 23px;
+}
+li.nav-item {
+    margin-left: 25rem;
+}
+.card {
+    border: none;
+    width: 35rem;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.larger-card {
+    width: 560px !important;
+    margin: auto;
+    margin-top: 50px !important;
+}
+.mt-2, .my-2 {
+    margin-top: 0rem!important; 
+}
+.justify-content-center {
+    -ms-flex-pack: center!important;
+    justify-content: center!important;
+    margin-top: 3rem;
+}
+.card-title {
+    margin-bottom: 0.75rem;
+    text-align: center;
+    font-weight: 800;
+}
+.row{
+     margin-right: 0px!important; 
+    margin-left: 0px!important;
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 20px;
+}
+
+.ele-profile{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+.ele-profile h1 {
+    margin-bottom: 0rem !important;
+    font-size: 17px;
+    font-weight: 700;
+    width: 6rem;
+    margin-top: 0.1rem;
+}
+
+.ele-profile p {
+    margin-bottom: 0rem !important;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.btn-outline-secondary {
+    color: white;
+    border-color: #6c757d;
+    background: #6c757d;
+    font-weight: 700;
+}
+.btn-outline-primary {
+    color: white;
+    border-color: #007bff;
+    background: #007bff;
+    font-weight: 700;
+}
+.btn-outline-warning {
+    color: white;
+    border-color: #ffc107;
+    background: #ffc107;
+    font-weight: 700;
+}
+.btn-outline-warning:not(:disabled):not(.disabled).active, .btn-outline-warning:not(:disabled):not(.disabled):active, .show>.btn-outline-warning.dropdown-toggle {
+    color: white;
+    background-color: #ffc107;
+    border-color: #ffc107;
+}
+.btn-outline-warning:hover {
+    color: white;
+    background-color: #ffc107;
+    border-color: #ffc107;
+}

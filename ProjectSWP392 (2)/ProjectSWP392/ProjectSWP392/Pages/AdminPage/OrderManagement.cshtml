@@ -1,0 +1,273 @@
+@page
+@model ProjectSWP392.Pages.AdminPage.OrderManagement
+@{
+    ViewData["Title"] = "OrderManagement";
+    Layout = "~/Pages/Shared/_Layout_Admin.cshtml";
+}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<style>
+    .table-container {
+        overflow: auto;
+        /* Add overflow property for scrolling if needed */
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+    }
+
+    th,
+    td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+    }
+
+    th {
+        background-color: #f2f2f2;
+    }
+
+    body {
+        margin: 0;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .dashboard-container {
+        display: flex;
+        height: 100vh;
+    }
+
+    .sidebar {
+        flex: 1;
+        width: 20%;
+        background-color: #333;
+        color: #fff;
+        margin-top: -20px;
+        margin-left: -20px;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    .sidebar ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .sidebar li {
+        margin-bottom: 10px;
+    }
+
+    .sidebar a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 16px;
+        transition: color 0.3s;
+        padding: 10px;
+        display: block;
+        border-radius: 5px;
+    }
+
+    .sidebar a:hover {
+        color: #ffd700;
+    }
+
+    .sidebar a.active {
+        background-color: #555;
+    }
+
+    .main-content {
+        flex: 4;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .section-title {
+        font-size: 28px;
+        font-weight: bold;
+        margin-bottom: 15px;
+        color: #333;
+    }
+
+    .card {
+        background-color: #fff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        margin: 10px;
+        text-align: center;
+        border-radius: 8px;
+        transition: box-shadow 0.3s;
+    }
+
+    .card:hover {
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+
+    .card h2 {
+        color: #333;
+        margin-bottom: 10px;
+    }
+
+    .card p {
+        font-size: 24px;
+        color: #007bff;
+        margin: 0;
+    }
+
+    .custom-modal .modal-dialog {
+        max-width: 80%;
+        /* Adjust the percentage as needed */
+    }
+
+    th.sorting.sorting_asc {
+        text-align: center;
+    }
+
+    th.sorting {
+        text-align: center !important;
+    }
+
+    td {
+        text-align: center;
+    }
+</style>
+
+<div class="dashboard-container">
+    <div class="sidebar">
+        <ul>
+            <li><a href="/AdminPage/Dashboard">Dashboard</a></li>
+            <li><a href="/AdminPage/AccountManagement">Account Management</a></li>
+            <li><a href="/AdminPage/ProductManagement">Product Management</a></li>
+            <li><a href="/AdminPage/CategoryManagement">Category Management</a></li>
+            <li><a href="/AdminPage/OrderManagement" class="active">Order Management</a></li>
+        </ul>
+    </div>
+    <div class="card shadow" style="width: 1200px">
+        <h5 style="    margin-bottom: 1rem;
+    text-align: center;
+    font-weight: 800;
+    font-size: 33px;
+    margin-top: 2rem;">Order Management</h5>
+        <div class="card-body p-4">
+            <div class="main-content">
+                <div class="table-container">
+                    <table id="OrderTable">
+                        <thead>
+                            <tr>
+                                <th>OrderID</th>
+                                <th>OrderDate</th>
+                                <th>OrderQuantity</th>
+                                <th>ShipperDate</th>
+                                <th>OrderNote</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model.order)
+                            {
+                                <tr>
+                                    <td>@item.OrderID</td>
+                                    <td>@item.OrderDate.ToString("yyyy-MM-dd")</td>
+                                    <td>@item.OrderQuantity</td>
+                                    <td>@item.ShipperDate.ToString("yyyy-MM-dd")</td>
+                                    <td>@item.OrderNote</td>
+                                    <td>
+                                        @if(@item.OrderNote!="Confirmed"){
+                                            <button class="btn btn-outline-success btn-sm" data-toggle="modal"
+                                                data-target="#confirmOrderModal" data-orderid="@item.OrderID">
+                                                Confirm
+                                            </button>
+                                        }
+                                        <button class="btn btn-outline-secondary btn-sm" data-toggle="modal"
+                                            data-target="#orderDetailModal" data-orderid="@item.OrderID">
+                                            Details
+                                        </button>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade custom-modal" id="orderDetailModal" tabindex="-1" role="dialog"
+    aria-labelledby="orderDetailModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="orderDetailModalLabel">Order Details</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <!-- This is where you can load the content of your OrderDetailAdmin page using AJAX or partial view -->
+                <div id="orderDetailContent" style="margin-left: 100px;"></div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('#orderDetailModal').on('show.bs.modal', function (event) {
+            var button = $(event.relatedTarget);
+            var orderId = button.data('orderid');
+            $.ajax({
+                url: '/AdminPage/OrderDetailAdmin',
+                data: { orderId: orderId },
+                success: function (data) {
+                    $('#orderDetailContent').html(data);
+                }
+            });
+        });
+    });
+</script>
+<!-- Confirm Order Modal -->
+<div class="modal fade" id="confirmOrderModal" tabindex="-1" role="dialog" aria-labelledby="confirmOrderModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="confirmOrderModalLabel">Confirm Order</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>Are you sure you want to confirm this order?</p>
+                <div id="orderConfirmContent"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function () {
+        // Show Confirm Order Modal
+        $('#confirmOrderModal').on('show.bs.modal', function (event) {
+            var button = $(event.relatedTarget);
+            var orderId = button.data('orderid');
+            console.log(orderId);
+            $.ajax({
+                url: '/AdminPage/ConfirmOrder?Id=' + orderId,
+                success: function (data) {
+                    console.log(data);
+                    $('#orderConfirmContent').html(data);
+                }
+            });
+            $('#confirmOrderBtn').on('click', function () {
+                $('#confirmOrderModal').modal('hide');
+            });
+        });
+    });
+</script>

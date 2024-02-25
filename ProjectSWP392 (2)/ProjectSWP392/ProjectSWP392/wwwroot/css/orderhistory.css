@@ -1,0 +1,60 @@
+.all-history {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+thead tr th {
+    background: #c49a68;
+}
+
+tr {
+    text-align: center;
+}
+
+.btn-outline-secondary {
+    color: white;
+    border-color: #6c757d;
+    background: #6c757d;
+    font-weight: 700;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    background: #eee;
+    border-radius: 1rem;
+}
+
+.ele-info {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    WIDTH: 18rem;
+    border: 0.5px solid BLACK;
+}
+p {
+    word-break: break-all;
+}
+label {
+    font-weight: 600;
+    width: 6rem;
+}
+.card-title {
+    margin-bottom: 0.75rem;
+    text-align: center;
+    font-weight: 800;
+}
+.table-bordered td, .table-bordered th {
+    border: 1px solid #dee2e6;
+    word-break: break-all;
+    width: 10rem;
+    text-align: center;
+}

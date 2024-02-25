@@ -1,0 +1,55 @@
+@page
+@model ProjectSWP392.Pages.AdminPage.AddCategory
+@{
+    ViewData["Title"] = "AddCategory";
+      Layout = "~/Pages/Shared/_Layout_CreateCate.cshtml";
+}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<div class="regist-page">
+    <div class="container">
+        <form method="post" class="form-container">
+            <div class="form-group">
+                <label>CategoryID:</label>
+                <input asp-for="regist.CategoryId" class="form-control" />
+                <span asp-validation-for="regist.CategoryId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label>CategoryName:</label>
+                <input asp-for="regist.CategoryName" type="text" class="form-control" />
+                <span asp-validation-for="regist.CategoryName" class="text-danger"></span>
+            </div>
+            @if(TempData["RegistFail"] != null){
+                <div class="alert alert-danger">
+                    CategoryId was exist!!
+                </div>
+            }
+            <button type="submit" class="btn btn-success">Add</button>
+        </form>
+    </div>
+</div>
+
+<style>
+    .regist-page .container {
+        max-width: 400px;
+        margin: auto;
+        margin-top: 50px;
+    }
+
+    .regist-page .form-container {
+        padding: 20px;
+        background-color: #f8f9fa;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        width: auto;
+    }
+    nav.navbar.navbar-expand-sm.navbar-toggleable-sm.border-bottom.box-shadow.mb-3 {
+    background: linear-gradient(to right, #746c6b, #ffffff);
+    background-size: 200% 100%;
+    animation: backgroundAnimation 10s infinite linear;
+    padding-left: 4rem;
+    padding-right: 7rem;
+}
+</style>

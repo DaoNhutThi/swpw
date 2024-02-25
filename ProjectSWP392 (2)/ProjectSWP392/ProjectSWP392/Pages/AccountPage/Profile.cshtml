@@ -1,0 +1,70 @@
+@page
+@model ProjectSWP392.Pages.AccountPage.Profile
+@{
+    ViewData["Title"] = "Profile";
+}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<style>
+    body {
+        background: #eee;
+    }
+
+    .scrollable-container {
+        overflow-x: auto;
+    }
+
+    .scrollable-rows {
+        display: block;
+        max-height: 420px;
+        overflow-y: auto;
+    }
+
+    .sticky-column {
+        position: -webkit-sticky;
+        position: sticky;
+        left: 0;
+        background-color: white;
+        z-index: 1;
+    }
+</style>
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-ms-5 larger-card">
+            <div class="card bg-light">
+                <div class="card-body">
+                    <h3 class="card-title">User Profile</h3>
+                        <div class="ele-profile">
+                            <h1>Email: </h1>
+                            <p>@Model.acc.Email</p>
+                        </div>
+                        <div class="ele-profile">
+                            <h1>Password: </h1>
+                            <p>********</p>
+                        </div>
+                        <div class="ele-profile">
+                            <h1>Full Name: </h1>
+                            <p>@Model.acc.FullName</p>
+                        </div>
+                        <div class="ele-profile">
+                            <h1>Address: </h1>
+                            <p>@Model.acc.Address</p>
+                        </div>
+                        <div class="ele-profile">
+                            <h1>Phone: </h1>
+                            <p>@Model.acc.Phone</p>
+                        </div>
+                        <p style="text-align: center;">
+                            <a class="btn btn-outline-secondary" asp-page="/AccountPage/EditProfile">Edit Profile</a>
+                            <a class="btn btn-outline-primary" asp-page="/AccountPage/ChangePass">Change Password</a>
+                            <a class="btn btn-outline-warning mt-2" asp-page="/Index">Back</a>
+                        </p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

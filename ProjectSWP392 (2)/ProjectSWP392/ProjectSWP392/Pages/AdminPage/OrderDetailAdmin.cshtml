@@ -1,0 +1,143 @@
+@page
+@model ProjectSWP392.Pages.AdminPage.OrderDetailAdmin
+@{
+    ViewData["Title"] = "OrderDetailAdmin";
+    Layout = null;
+}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<style>
+    .scrollable-container {
+        overflow-x: auto;
+    }
+
+    .scrollable-rows {
+        display: block;
+        max-height: 420px;
+        overflow-y: auto;
+    }
+
+    .sticky-column {
+        position: -webkit-sticky;
+        position: sticky;
+        left: 0;
+        background-color: white;
+        z-index: 1;
+    }
+
+    .modal-dialog {
+        margin-top: 3rem;
+    }
+
+    td {
+        text-align: center;
+    }
+
+    th {
+        background: #c49a68;
+        text-align: center;
+    }
+
+    .col-md-4 {
+        background: none;
+    }
+
+    element.style {
+        width: 398px;
+    }
+
+    .card {
+        background-color: #eee;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 0px !important;
+        margin: 10px;
+        text-align: center;
+        border-radius: 8px;
+        transition: box-shadow 0.3s;
+    }
+
+    .card-body {
+        display: flex;
+        flex-direction: column;
+        gap: 0.3rem;
+    }
+
+    .all-name {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+    p {
+        color: black !important;
+        font-size: 15px !important;
+    }
+</style>
+
+<div class="row mx-4" style="width:1100px">
+    <div class="col-md-8 scrollable-container">
+        <div class="scrollable-rows">
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Image</th>
+                        <th>Quantity</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model.order)
+                    {
+                        <tr>
+                            <td class="sticky-column">@item.ProductName</td>
+                            <td>
+                                <img src="~/image/@item.ProductImage" alt="@item.ProductName"
+                                    style="max-width: 100px; max-height: 100px;" />
+                            </td>
+                            <td>@item.ProductQuantity</td>
+                            <td>$@item.ProductPrice</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card" style="width:250px">
+            <div class="card-body">
+                <h5 class="card-title">UserInfo</h5>
+                <div class="all-name">
+                    <p>FullName:</p>
+                    <p> @Model.user.FullName</p>
+                </div>
+                <div class="all-name">
+                    <p>Address: </p>
+                    <p>@Model.user.Address</p>
+                </div>
+                <div class="all-name">
+                    <p>Phone:</p>
+                    <p> @Model.user.Phone</p>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="card" style="width:250px">
+            <div class="card-body">
+
+                <h5 class="card-title">Order Total</h5>
+                <div class="all-name">
+                    <p>Total Items:</p>
+                    <p> @Model.order.Count</p>
+                </div>
+                <div class="all-name">
+                    <p>Total Price:</p>
+                    <p>$@Model.order.Sum(item => item.ProductPrice)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
